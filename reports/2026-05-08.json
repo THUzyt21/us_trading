@@ -1,0 +1,2225 @@
+{
+  "date": "2026-05-08",
+  "generated_at": "2026-05-08 10:32",
+  "config": {
+    "pool_top": 3,
+    "watchlist_total": 237
+  },
+  "macro": {
+    "SPY": {
+      "close": 731.58,
+      "chg_1d": -0.31,
+      "ma50": 683.31,
+      "ma200": 672.91,
+      "status": "价>50MA / 价>200MA"
+    },
+    "QQQ": {
+      "close": 694.94,
+      "chg_1d": -0.12,
+      "ma50": 618.87,
+      "ma200": 606.57,
+      "status": "价>50MA / 价>200MA"
+    },
+    "DIA": {
+      "close": 495.91,
+      "chg_1d": -0.63,
+      "ma50": 478.86,
+      "ma200": 473.25,
+      "status": "价>50MA / 价>200MA"
+    },
+    "IWM": {
+      "close": 282.26,
+      "chg_1d": -1.58,
+      "ma50": 261.28,
+      "ma200": 249.28,
+      "status": "价>50MA / 价>200MA"
+    },
+    "VIX": {
+      "close": 17.08,
+      "chg_1d": -1.78,
+      "ma50": 22.1,
+      "ma200": 18.3,
+      "status": "价<50MA / 价<200MA"
+    },
+    "DXY": {
+      "close": 98.23,
+      "chg_1d": 0.22,
+      "ma50": 98.97,
+      "ma200": 98.54,
+      "status": "价<50MA / 价<200MA"
+    },
+    "TLT": {
+      "close": 85.65,
+      "chg_1d": -0.5,
+      "ma50": 87.0,
+      "ma200": 88.18,
+      "status": "价<50MA / 价<200MA"
+    },
+    "GLD": {
+      "close": 431.68,
+      "chg_1d": 0.17,
+      "ma50": 440.0,
+      "ma200": 393.78,
+      "status": "价<50MA / 价>200MA"
+    },
+    "USO": {
+      "close": 134.97,
+      "chg_1d": 0.76,
+      "ma50": 121.55,
+      "ma200": 85.2,
+      "status": "价>50MA / 价>200MA"
+    },
+    "XLK": {
+      "close": 169.69,
+      "chg_1d": -0.2,
+      "ma50": 145.26,
+      "ma200": 141.78,
+      "status": "价>50MA / 价>200MA"
+    },
+    "XLF": {
+      "close": 51.55,
+      "chg_1d": -0.56,
+      "ma50": 50.69,
+      "ma200": 52.66,
+      "status": "价>50MA / 价<200MA"
+    },
+    "XLE": {
+      "close": 55.95,
+      "chg_1d": -1.84,
+      "ma50": 57.91,
+      "ma200": 48.84,
+      "status": "价<50MA / 价>200MA"
+    },
+    "XLV": {
+      "close": 144.72,
+      "chg_1d": -0.47,
+      "ma50": 148.34,
+      "ma200": 147.23,
+      "status": "价<50MA / 价<200MA"
+    },
+    "XLI": {
+      "close": 174.0,
+      "chg_1d": -1.62,
+      "ma50": 169.43,
+      "ma200": 159.91,
+      "status": "价>50MA / 价>200MA"
+    },
+    "SMH": {
+      "close": 540.1,
+      "chg_1d": -1.76,
+      "ma50": 431.47,
+      "ma200": 367.51,
+      "status": "价>50MA / 价>200MA"
+    }
+  },
+  "holdings": [
+    {
+      "symbol": "MSFT",
+      "price": 420.7699890136719,
+      "change_pct": 1.6450859259747457,
+      "ma20": 413.9309997558594,
+      "ma50": 397.8789990234375,
+      "ma200": 466.11584976196286,
+      "kdj_j": 59.10098526420873,
+      "rs_6m": -0.2653436477461215,
+      "dist_52w_high_pct": -24.247010574042527,
+      "dist_52w_low_pct": 18.100929172373867,
+      "volume_ratio": 0.9537399162386176,
+      "fwd_pe": 21.388264,
+      "revenue_growth": 0.183,
+      "earnings_growth": 0.234,
+      "market_cap": 3075074949120,
+      "sector": "Technology",
+      "earnings_soon": false,
+      "s_ma50": 20.0,
+      "s_ma200": 0.0,
+      "s_rs": 0.0,
+      "s_pos52w": 7.5,
+      "s_kdj": 4.0,
+      "s_volprice": 5.0,
+      "s_fwdpe": 8.0,
+      "s_growth": 7.0,
+      "total_score": 51.5,
+      "grade": "C",
+      "verdict": "边缘（暂不参与）",
+      "notes": [],
+      "strategy_scores": {
+        "breakout": {
+          "name": "breakout",
+          "label": "🚀 突破",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "距52W高 -22.4% (需 ≥-5%)",
+            "近期无放量 (today=0.95x, 3d=0.84x)",
+            "MA50 < MA200（非多头排列）"
+          ],
+          "details": {
+            "price": 420.77,
+            "dist_52w_high_pct": -22.38,
+            "vol_ratio_today": 0.95,
+            "vol_ratio_3d": 0.84,
+            "rs_6m_pct": -26.5
+          }
+        },
+        "trend": {
+          "name": "trend",
+          "label": "🎯 趋势",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "未形成严格多头排列 价>MA50>MA150>MA200",
+            "MA200 方向非向上",
+            "距52W低仅 17.9% (需 ≥30%)"
+          ],
+          "details": {
+            "price": 420.77,
+            "ma50": 397.88,
+            "ma150": 450.61,
+            "ma200": 466.12,
+            "dist_52w_high_pct": -22.38,
+            "dist_52w_low_pct": 17.94,
+            "rs_6m_pct": -26.5
+          }
+        },
+        "pullback": {
+          "name": "pullback",
+          "label": "🔄 回踩",
+          "score": 33.0,
+          "grade": "D",
+          "passed_gates": true,
+          "reasons": [
+            "MA50 趋势完好",
+            "阳线收回 MA20 之上"
+          ],
+          "warnings": [],
+          "details": {
+            "price": 420.77,
+            "ma20": 413.93,
+            "ma50": 397.88,
+            "days_since_high": 11,
+            "dist_from_high_pct": -2.81,
+            "rsi_14": 48.9,
+            "vol_shrink_ratio": 0.98,
+            "rs_6m_pct": -26.5
+          }
+        },
+        "reversal": {
+          "name": "reversal",
+          "label": "🔥 反转",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "距52W高仅 -22.4% (未深跌)"
+          ],
+          "details": {
+            "price": 420.77,
+            "dist_52w_high_pct": -22.38,
+            "dist_52w_low_pct": 17.94,
+            "max_vol_ratio_20d": 1.99,
+            "rsi_14": 48.9,
+            "rsi_min_30d": 26.9,
+            "ma20_cross_ma50_recent": true
+          }
+        }
+      },
+      "best_strategy": "pullback",
+      "best_strategy_label": "🔄 回踩",
+      "best_strategy_score": 33.0
+    },
+    {
+      "symbol": "NVDA",
+      "price": 211.5,
+      "change_pct": 1.765865436467955,
+      "ma20": 201.85299987792968,
+      "ma50": 188.04479949951173,
+      "ma200": 184.50875022888184,
+      "kdj_j": 59.789322610615244,
+      "rs_6m": -0.018964760713302775,
+      "dist_52w_high_pct": -2.4581477590945244,
+      "dist_52w_low_pct": 88.36836685021245,
+      "volume_ratio": 1.0979879408823119,
+      "fwd_pe": 18.491564,
+      "revenue_growth": 0.732,
+      "earnings_growth": 0.956,
+      "market_cap": 5051308310528,
+      "sector": "Technology",
+      "earnings_soon": false,
+      "s_ma50": 20.0,
+      "s_ma200": 10.0,
+      "s_rs": 5.8,
+      "s_pos52w": 10.0,
+      "s_kdj": 4.0,
+      "s_volprice": 6.0,
+      "s_fwdpe": 8.0,
+      "s_growth": 10.0,
+      "total_score": 73.8,
+      "grade": "B",
+      "verdict": "观察（待回踩/待确认）",
+      "notes": [],
+      "strategy_scores": {
+        "breakout": {
+          "name": "breakout",
+          "label": "🚀 突破",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "近期无放量 (today=1.10x, 3d=1.03x)"
+          ],
+          "details": {
+            "price": 211.5,
+            "dist_52w_high_pct": -2.36,
+            "vol_ratio_today": 1.1,
+            "vol_ratio_3d": 1.03,
+            "rs_6m_pct": -1.9
+          }
+        },
+        "trend": {
+          "name": "trend",
+          "label": "🎯 趋势",
+          "score": 43.0,
+          "grade": "D",
+          "passed_gates": true,
+          "reasons": [
+            "营收/EPS增速 +84%"
+          ],
+          "warnings": [
+            "RS 仅 -1.9%"
+          ],
+          "details": {
+            "price": 211.5,
+            "ma50": 188.04,
+            "ma150": 186.86,
+            "ma200": 184.51,
+            "dist_52w_high_pct": -2.36,
+            "dist_52w_low_pct": 81.31,
+            "rs_6m_pct": -1.9
+          }
+        },
+        "pullback": {
+          "name": "pullback",
+          "label": "🔄 回踩",
+          "score": 25.0,
+          "grade": "D",
+          "passed_gates": true,
+          "reasons": [
+            "MA50 趋势完好",
+            "阳线收回 MA20 之上"
+          ],
+          "warnings": [],
+          "details": {
+            "price": 211.5,
+            "ma20": 201.85,
+            "ma50": 188.04,
+            "days_since_high": 8,
+            "dist_from_high_pct": -2.36,
+            "rsi_14": 58.2,
+            "vol_shrink_ratio": 1.05,
+            "rs_6m_pct": -1.9
+          }
+        },
+        "reversal": {
+          "name": "reversal",
+          "label": "🔥 反转",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "距52W高仅 -2.4% (未深跌)",
+            "近20日无放量突破 (1.48x)"
+          ],
+          "details": {
+            "price": 211.5,
+            "dist_52w_high_pct": -2.36,
+            "dist_52w_low_pct": 81.31,
+            "max_vol_ratio_20d": 1.48,
+            "rsi_14": 58.2,
+            "rsi_min_30d": 42.2,
+            "ma20_cross_ma50_recent": true
+          }
+        }
+      },
+      "best_strategy": "trend",
+      "best_strategy_label": "🎯 趋势",
+      "best_strategy_score": 43.0
+    },
+    {
+      "symbol": "KGS",
+      "price": 70.2699966430664,
+      "change_pct": -1.5826398580718941,
+      "ma20": 65.52800025939942,
+      "ma50": 60.509600143432614,
+      "ma200": 42.801750059127805,
+      "kdj_j": 79.53086606350521,
+      "rs_6m": 0.8539766824773909,
+      "dist_52w_high_pct": -2.294217975371652,
+      "dist_52w_low_pct": 133.75800777405865,
+      "volume_ratio": 1.6073884375154701,
+      "fwd_pe": 21.235636,
+      "revenue_growth": 0.075,
+      "earnings_growth": 0.326,
+      "market_cap": 6204544512,
+      "sector": "Energy",
+      "earnings_soon": false,
+      "s_ma50": 20.0,
+      "s_ma200": 10.0,
+      "s_rs": 20.0,
+      "s_pos52w": 10.0,
+      "s_kdj": 4.0,
+      "s_volprice": 7.0,
+      "s_fwdpe": 8.0,
+      "s_growth": 7.0,
+      "total_score": 86.0,
+      "grade": "A",
+      "verdict": "狙击（系统全绿）",
+      "notes": [],
+      "strategy_scores": {
+        "breakout": {
+          "name": "breakout",
+          "label": "🚀 突破",
+          "score": 91.0,
+          "grade": "A",
+          "passed_gates": true,
+          "reasons": [
+            "突破60日新高+放量 1.52x",
+            "箱体(前40日振幅18.1%)后爆发 +8.4%",
+            "RS 跑赢 SPY +85.4%",
+            "多头排列强 (4/4)"
+          ],
+          "warnings": [
+            "放量但长上影（警惕出货）"
+          ],
+          "details": {
+            "price": 70.27,
+            "dist_52w_high_pct": -1.58,
+            "vol_ratio_today": 1.61,
+            "vol_ratio_3d": 1.52,
+            "rs_6m_pct": 85.4
+          }
+        },
+        "trend": {
+          "name": "trend",
+          "label": "🎯 趋势",
+          "score": 83.0,
+          "grade": "A",
+          "passed_gates": true,
+          "reasons": [
+            "Minervini模板强度 5/5",
+            "RS +85.4% (强势)",
+            "营收/EPS增速 +20%"
+          ],
+          "warnings": [
+            "均线发散过大 41.4% (过热)"
+          ],
+          "details": {
+            "price": 70.27,
+            "ma50": 60.51,
+            "ma150": 45.68,
+            "ma200": 42.8,
+            "dist_52w_high_pct": -1.58,
+            "dist_52w_low_pct": 125.95,
+            "rs_6m_pct": 85.4
+          }
+        },
+        "pullback": {
+          "name": "pullback",
+          "label": "🔄 回踩",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "RSI 82 超出 35-60 区间",
+            "回踩未缩量 (量能比 1.61)"
+          ],
+          "details": {
+            "price": 70.27,
+            "ma20": 65.53,
+            "ma50": 60.51,
+            "days_since_high": 1,
+            "dist_from_high_pct": -1.58,
+            "rsi_14": 81.9,
+            "vol_shrink_ratio": 1.61,
+            "rs_6m_pct": 85.4
+          }
+        },
+        "reversal": {
+          "name": "reversal",
+          "label": "🔥 反转",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "距52W高仅 -1.6% (未深跌)"
+          ],
+          "details": {
+            "price": 70.27,
+            "dist_52w_high_pct": -1.58,
+            "dist_52w_low_pct": 125.95,
+            "max_vol_ratio_20d": 1.71,
+            "rsi_14": 81.9,
+            "rsi_min_30d": 65.0,
+            "ma20_cross_ma50_recent": false
+          }
+        }
+      },
+      "best_strategy": "breakout",
+      "best_strategy_label": "🚀 突破",
+      "best_strategy_score": 91.0
+    },
+    {
+      "symbol": "AMD",
+      "price": 408.4599914550781,
+      "change_pct": -3.068421828682105,
+      "ma20": 315.7190002441406,
+      "ma50": 249.48079986572264,
+      "ma200": 215.87024971008302,
+      "kdj_j": 84.228423501761,
+      "rs_6m": 0.550076202075162,
+      "dist_52w_high_pct": -5.14166612508479,
+      "dist_52w_low_pct": 321.6143714234751,
+      "volume_ratio": 0.9626663167762051,
+      "fwd_pe": 33.306118,
+      "revenue_growth": 0.378,
+      "earnings_growth": 0.912,
+      "market_cap": 687118811136,
+      "sector": "Technology",
+      "earnings_soon": false,
+      "s_ma50": 20.0,
+      "s_ma200": 10.0,
+      "s_rs": 20.0,
+      "s_pos52w": 10.0,
+      "s_kdj": 0.0,
+      "s_volprice": 7.0,
+      "s_fwdpe": 5.0,
+      "s_growth": 10.0,
+      "total_score": 82.0,
+      "grade": "A",
+      "verdict": "狙击（系统全绿）",
+      "notes": [],
+      "strategy_scores": {
+        "breakout": {
+          "name": "breakout",
+          "label": "🚀 突破",
+          "score": 60.0,
+          "grade": "C",
+          "passed_gates": true,
+          "reasons": [
+            "突破60日新高+放量 1.43x",
+            "RS 跑赢 SPY +55.0%",
+            "多头排列强 (4/4)"
+          ],
+          "warnings": [],
+          "details": {
+            "price": 408.46,
+            "dist_52w_high_pct": -3.07,
+            "vol_ratio_today": 0.96,
+            "vol_ratio_3d": 1.43,
+            "rs_6m_pct": 55.0
+          }
+        },
+        "trend": {
+          "name": "trend",
+          "label": "🎯 趋势",
+          "score": 90.0,
+          "grade": "A",
+          "passed_gates": true,
+          "reasons": [
+            "Minervini模板强度 5/5",
+            "RS +55.0% (强势)",
+            "均线发散健康 15.6%",
+            "营收/EPS增速 +64%"
+          ],
+          "warnings": [],
+          "details": {
+            "price": 408.46,
+            "ma50": 249.48,
+            "ma150": 232.58,
+            "ma200": 215.87,
+            "dist_52w_high_pct": -3.07,
+            "dist_52w_low_pct": 306.99,
+            "rs_6m_pct": 55.0
+          }
+        },
+        "pullback": {
+          "name": "pullback",
+          "label": "🔄 回踩",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "RSI 76 超出 35-60 区间"
+          ],
+          "details": {
+            "price": 408.46,
+            "ma20": 315.72,
+            "ma50": 249.48,
+            "days_since_high": 1,
+            "dist_from_high_pct": -3.07,
+            "rsi_14": 76.0,
+            "vol_shrink_ratio": 0.96,
+            "rs_6m_pct": 55.0
+          }
+        },
+        "reversal": {
+          "name": "reversal",
+          "label": "🔥 反转",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "距52W高仅 -3.1% (未深跌)"
+          ],
+          "details": {
+            "price": 408.46,
+            "dist_52w_high_pct": -3.07,
+            "dist_52w_low_pct": 306.99,
+            "max_vol_ratio_20d": 1.92,
+            "rsi_14": 76.0,
+            "rsi_min_30d": 58.0,
+            "ma20_cross_ma50_recent": true
+          }
+        }
+      },
+      "best_strategy": "trend",
+      "best_strategy_label": "🎯 趋势",
+      "best_strategy_score": 90.0
+    },
+    {
+      "symbol": "INTC",
+      "price": 109.62000274658203,
+      "change_pct": -2.9997339399762915,
+      "ma20": 81.23900032043457,
+      "ma50": 60.52460006713867,
+      "ma200": 41.82970005989075,
+      "kdj_j": 91.5555081753823,
+      "rs_6m": 1.8768655880696787,
+      "dist_52w_high_pct": -4.270368787375355,
+      "dist_52w_low_pct": 477.8598139927806,
+      "volume_ratio": 0.8426717630598053,
+      "fwd_pe": 72.29488,
+      "revenue_growth": 0.072,
+      "earnings_growth": null,
+      "market_cap": 550950141952,
+      "sector": "Technology",
+      "earnings_soon": false,
+      "s_ma50": 20.0,
+      "s_ma200": 10.0,
+      "s_rs": 20.0,
+      "s_pos52w": 10.0,
+      "s_kdj": 0.0,
+      "s_volprice": 6.0,
+      "s_fwdpe": 0.0,
+      "s_growth": 4.0,
+      "total_score": 70.0,
+      "grade": "B",
+      "verdict": "观察（待回踩/待确认）",
+      "notes": [],
+      "strategy_scores": {
+        "breakout": {
+          "name": "breakout",
+          "label": "🚀 突破",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "近期无放量 (today=0.84x, 3d=1.12x)"
+          ],
+          "details": {
+            "price": 109.62,
+            "dist_52w_high_pct": -3.0,
+            "vol_ratio_today": 0.84,
+            "vol_ratio_3d": 1.12,
+            "rs_6m_pct": 187.7
+          }
+        },
+        "trend": {
+          "name": "trend",
+          "label": "🎯 趋势",
+          "score": 71.0,
+          "grade": "B",
+          "passed_gates": true,
+          "reasons": [
+            "Minervini模板强度 5/5",
+            "RS +187.7% (强势)"
+          ],
+          "warnings": [
+            "均线发散过大 44.7% (过热)"
+          ],
+          "details": {
+            "price": 109.62,
+            "ma50": 60.52,
+            "ma150": 47.5,
+            "ma200": 41.83,
+            "dist_52w_high_pct": -3.0,
+            "dist_52w_low_pct": 467.69,
+            "rs_6m_pct": 187.7
+          }
+        },
+        "pullback": {
+          "name": "pullback",
+          "label": "🔄 回踩",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "RSI 82 超出 35-60 区间"
+          ],
+          "details": {
+            "price": 109.62,
+            "ma20": 81.24,
+            "ma50": 60.52,
+            "days_since_high": 1,
+            "dist_from_high_pct": -3.0,
+            "rsi_14": 81.8,
+            "vol_shrink_ratio": 0.84,
+            "rs_6m_pct": 187.7
+          }
+        },
+        "reversal": {
+          "name": "reversal",
+          "label": "🔥 反转",
+          "score": 0.0,
+          "grade": "",
+          "passed_gates": false,
+          "reasons": [],
+          "warnings": [
+            "距52W高仅 -3.0% (未深跌)"
+          ],
+          "details": {
+            "price": 109.62,
+            "dist_52w_high_pct": -3.0,
+            "dist_52w_low_pct": 467.69,
+            "max_vol_ratio_20d": 1.99,
+            "rsi_14": 81.8,
+            "rsi_min_30d": 56.1,
+            "ma20_cross_ma50_recent": false
+          }
+        }
+      },
+      "best_strategy": "trend",
+      "best_strategy_label": "🎯 趋势",
+      "best_strategy_score": 71.0
+    }
+  ],
+  "pool_stats": {
+    "breakout": {
+      "label": "🚀 突破池",
+      "desc": "放量创新高突破",
+      "winrate": "胜率 60-70% · 强势股动量",
+      "qualified": 11,
+      "a_grade": 6
+    },
+    "trend": {
+      "label": "🎯 趋势池",
+      "desc": "Minervini 强势趋势模板",
+      "winrate": "胜率 55-65% · 持有期较长",
+      "qualified": 141,
+      "a_grade": 80
+    },
+    "pullback": {
+      "label": "🔄 回踩池",
+      "desc": "强势股回踩 MA20/MA50 不破",
+      "winrate": "胜率 55-65% · 强势股最佳介入",
+      "qualified": 32,
+      "a_grade": 13
+    },
+    "reversal": {
+      "label": "🔥 反转池",
+      "desc": "底部放量确认反转",
+      "winrate": "胜率 40-50% · 赔率高但胜率低",
+      "qualified": 3,
+      "a_grade": 0
+    }
+  },
+  "pools": {
+    "breakout": [
+      {
+        "symbol": "STNG",
+        "price": 84.69000244140625,
+        "change_pct": 2.579947851016846,
+        "ma20": 78.70499992370605,
+        "ma50": 75.86160049438476,
+        "ma200": 61.37525011062622,
+        "kdj_j": 67.82083287742444,
+        "rs_6m": 0.3108665495767038,
+        "dist_52w_high_pct": -3.0895948816793433,
+        "dist_52w_low_pct": 123.10327840879285,
+        "volume_ratio": 1.6435227873786429,
+        "fwd_pe": 13.274857,
+        "revenue_growth": 0.462,
+        "earnings_growth": 2.541,
+        "market_cap": 4269898752,
+        "sector": "Energy",
+        "earnings_soon": false,
+        "s_ma50": 20.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 10.0,
+        "s_kdj": 4.0,
+        "s_volprice": 6.0,
+        "s_fwdpe": 10.0,
+        "s_growth": 10.0,
+        "total_score": 90.0,
+        "grade": "A",
+        "verdict": "狙击（系统全绿）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 98.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "突破60日新高+放量 1.51x",
+              "箱体(前40日振幅18.8%)后爆发 +9.7%",
+              "RS 跑赢 SPY +31.1%",
+              "多头排列强 (4/4)",
+              "放量 1.64x 实体强"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 84.69,
+              "dist_52w_high_pct": -2.23,
+              "vol_ratio_today": 1.64,
+              "vol_ratio_3d": 1.51,
+              "rs_6m_pct": 31.1
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 95.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "Minervini模板强度 5/5",
+              "RS +31.1% (强势)",
+              "均线发散健康 23.6%",
+              "营收/EPS增速 +150%"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 84.69,
+              "ma50": 75.86,
+              "ma150": 64.75,
+              "ma200": 61.38,
+              "dist_52w_high_pct": -2.23,
+              "dist_52w_low_pct": 116.43,
+              "rs_6m_pct": 31.1
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "RSI 71 超出 35-60 区间",
+              "回踩未缩量 (量能比 1.37)"
+            ],
+            "details": {
+              "price": 84.69,
+              "ma20": 78.7,
+              "ma50": 75.86,
+              "days_since_high": 2,
+              "dist_from_high_pct": -2.23,
+              "rsi_14": 71.3,
+              "vol_shrink_ratio": 1.37,
+              "rs_6m_pct": 31.1
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高仅 -2.2% (未深跌)"
+            ],
+            "details": {
+              "price": 84.69,
+              "dist_52w_high_pct": -2.23,
+              "dist_52w_low_pct": 116.43,
+              "max_vol_ratio_20d": 1.79,
+              "rsi_14": 71.3,
+              "rsi_min_30d": 50.3,
+              "ma20_cross_ma50_recent": false
+            }
+          }
+        },
+        "best_strategy": "breakout",
+        "best_strategy_label": "🚀 突破",
+        "best_strategy_score": 98.0
+      },
+      {
+        "symbol": "INSW",
+        "price": 90.18000030517578,
+        "change_pct": 5.141662393274533,
+        "ma20": 79.74599876403809,
+        "ma50": 75.18859985351563,
+        "ma200": 56.460949954986575,
+        "kdj_j": 88.45836151604567,
+        "rs_6m": 0.7494897658918835,
+        "dist_52w_high_pct": -1.5233379083319574,
+        "dist_52w_low_pct": 153.31461845632052,
+        "volume_ratio": 2.2192530334976457,
+        "fwd_pe": 15.989957,
+        "revenue_growth": 0.376,
+        "earnings_growth": 2.544,
+        "market_cap": 4464333312,
+        "sector": "Energy",
+        "earnings_soon": false,
+        "s_ma50": 20.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 10.0,
+        "s_kdj": 0.0,
+        "s_volprice": 5.0,
+        "s_fwdpe": 8.0,
+        "s_growth": 10.0,
+        "total_score": 83.0,
+        "grade": "A",
+        "verdict": "狙击（系统全绿）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 93.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "突破60日新高+放量 1.67x",
+              "箱体(前40日振幅16.5%)后爆发 +17.4%",
+              "RS 跑赢 SPY +74.9%",
+              "多头排列强 (4/4)"
+            ],
+            "warnings": [
+              "放量但长上影（警惕出货）"
+            ],
+            "details": {
+              "price": 90.18,
+              "dist_52w_high_pct": 0.0,
+              "vol_ratio_today": 2.22,
+              "vol_ratio_3d": 1.67,
+              "rs_6m_pct": 74.9
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 83.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "Minervini模板强度 5/5",
+              "RS +74.9% (强势)",
+              "营收/EPS增速 +146%"
+            ],
+            "warnings": [
+              "均线发散过大 33.2% (过热)"
+            ],
+            "details": {
+              "price": 90.18,
+              "ma50": 75.19,
+              "ma150": 60.43,
+              "ma200": 56.46,
+              "dist_52w_high_pct": 0.0,
+              "dist_52w_low_pct": 148.43,
+              "rs_6m_pct": 74.9
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "RSI 80 超出 35-60 区间",
+              "回踩未缩量 (量能比 1.34)"
+            ],
+            "details": {
+              "price": 90.18,
+              "ma20": 79.75,
+              "ma50": 75.19,
+              "days_since_high": 0,
+              "dist_from_high_pct": 0.0,
+              "rsi_14": 79.6,
+              "vol_shrink_ratio": 1.34,
+              "rs_6m_pct": 74.9
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高仅 0.0% (未深跌)"
+            ],
+            "details": {
+              "price": 90.18,
+              "dist_52w_high_pct": 0.0,
+              "dist_52w_low_pct": 148.43,
+              "max_vol_ratio_20d": 2.22,
+              "rsi_14": 79.6,
+              "rsi_min_30d": 53.7,
+              "ma20_cross_ma50_recent": false
+            }
+          }
+        },
+        "best_strategy": "breakout",
+        "best_strategy_label": "🚀 突破",
+        "best_strategy_score": 93.0
+      },
+      {
+        "symbol": "CGNX",
+        "price": 65.91999816894531,
+        "change_pct": 5.878573636495368,
+        "ma20": 55.85949974060058,
+        "ma50": 52.7823999786377,
+        "ma200": 44.756049957275394,
+        "kdj_j": 90.833324041553,
+        "rs_6m": 0.5645629130674756,
+        "dist_52w_high_pct": -8.3171115855696,
+        "dist_52w_low_pct": 136.95182923100256,
+        "volume_ratio": 3.432885404056637,
+        "fwd_pe": 40.48904,
+        "revenue_growth": 0.099,
+        "earnings_growth": 0.18,
+        "market_cap": 10398282752,
+        "sector": "Technology",
+        "earnings_soon": false,
+        "s_ma50": 20.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 10.0,
+        "s_kdj": 0.0,
+        "s_volprice": 8.0,
+        "s_fwdpe": 2.0,
+        "s_growth": 7.0,
+        "total_score": 77.0,
+        "grade": "B",
+        "verdict": "观察（待回踩/待确认）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 93.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "突破60日新高+放量 2.62x",
+              "箱体(前40日振幅19.5%)后爆发 +21.8%",
+              "RS 跑赢 SPY +56.5%",
+              "多头排列强 (4/4)"
+            ],
+            "warnings": [
+              "放量但长上影（警惕出货）"
+            ],
+            "details": {
+              "price": 65.92,
+              "dist_52w_high_pct": 0.0,
+              "vol_ratio_today": 3.43,
+              "vol_ratio_3d": 2.62,
+              "rs_6m_pct": 56.5
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 86.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "Minervini模板强度 4/5",
+              "RS +56.5% (强势)",
+              "均线发散健康 17.9%"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 65.92,
+              "ma50": 52.78,
+              "ma150": 45.45,
+              "ma200": 44.76,
+              "dist_52w_high_pct": 0.0,
+              "dist_52w_low_pct": 132.03,
+              "rs_6m_pct": 56.5
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "RSI 80 超出 35-60 区间",
+              "回踩未缩量 (量能比 1.92)"
+            ],
+            "details": {
+              "price": 65.92,
+              "ma20": 55.86,
+              "ma50": 52.78,
+              "days_since_high": 0,
+              "dist_from_high_pct": 0.0,
+              "rsi_14": 80.4,
+              "vol_shrink_ratio": 1.92,
+              "rs_6m_pct": 56.5
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高仅 0.0% (未深跌)"
+            ],
+            "details": {
+              "price": 65.92,
+              "dist_52w_high_pct": 0.0,
+              "dist_52w_low_pct": 132.03,
+              "max_vol_ratio_20d": 3.43,
+              "rsi_14": 80.4,
+              "rsi_min_30d": 51.8,
+              "ma20_cross_ma50_recent": true
+            }
+          }
+        },
+        "best_strategy": "breakout",
+        "best_strategy_label": "🚀 突破",
+        "best_strategy_score": 93.0
+      }
+    ],
+    "trend": [
+      {
+        "symbol": "TRGP",
+        "price": 252.44000244140625,
+        "change_pct": 1.1783576919463927,
+        "ma20": 244.66149826049804,
+        "ma50": 242.8319989013672,
+        "ma200": 192.4321501159668,
+        "kdj_j": 54.557725551108746,
+        "rs_6m": 0.5497388046073746,
+        "dist_52w_high_pct": -3.6304673878422262,
+        "dist_52w_low_pct": 75.13528757482115,
+        "volume_ratio": 1.3031714784671287,
+        "fwd_pe": 21.644869,
+        "revenue_growth": -0.079,
+        "earnings_growth": 0.745,
+        "market_cap": 54262431744,
+        "sector": "Energy",
+        "earnings_soon": false,
+        "s_ma50": 20.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 10.0,
+        "s_kdj": 4.0,
+        "s_volprice": 6.0,
+        "s_fwdpe": 8.0,
+        "s_growth": 10.0,
+        "total_score": 88.0,
+        "grade": "A",
+        "verdict": "狙击（系统全绿）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 64.0,
+            "grade": "C",
+            "passed_gates": true,
+            "reasons": [
+              "箱体(前40日振幅7.9%)后爆发 +5.2%",
+              "RS 跑赢 SPY +55.0%",
+              "多头排列强 (4/4)"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 252.44,
+              "dist_52w_high_pct": -2.94,
+              "vol_ratio_today": 1.3,
+              "vol_ratio_3d": 1.11,
+              "rs_6m_pct": 55.0
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 100.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "Minervini模板强度 5/5",
+              "RS +55.0% (强势)",
+              "均线发散健康 26.2%",
+              "距52W低 +73% (黄金位)",
+              "营收/EPS增速 +33%"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 252.44,
+              "ma50": 242.83,
+              "ma150": 201.39,
+              "ma200": 192.43,
+              "dist_52w_high_pct": -2.94,
+              "dist_52w_low_pct": 72.55,
+              "rs_6m_pct": 55.0
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "RSI 65 超出 35-60 区间"
+            ],
+            "details": {
+              "price": 252.44,
+              "ma20": 244.66,
+              "ma50": 242.83,
+              "days_since_high": 5,
+              "dist_from_high_pct": -2.94,
+              "rsi_14": 64.9,
+              "vol_shrink_ratio": 0.94,
+              "rs_6m_pct": 55.0
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高仅 -2.9% (未深跌)"
+            ],
+            "details": {
+              "price": 252.44,
+              "dist_52w_high_pct": -2.94,
+              "dist_52w_low_pct": 72.55,
+              "max_vol_ratio_20d": 1.77,
+              "rsi_14": 64.9,
+              "rsi_min_30d": 33.7,
+              "ma20_cross_ma50_recent": false
+            }
+          }
+        },
+        "best_strategy": "trend",
+        "best_strategy_label": "🎯 趋势",
+        "best_strategy_score": 100.0
+      },
+      {
+        "symbol": "DHT",
+        "price": 19.020000457763672,
+        "change_pct": 0.42238606890321917,
+        "ma20": 18.20250005722046,
+        "ma50": 18.164600105285643,
+        "ma200": 14.137850022315979,
+        "kdj_j": 64.62064408241181,
+        "rs_6m": 0.39556769955454674,
+        "dist_52w_high_pct": -7.445249810703762,
+        "dist_52w_low_pct": 79.26485460151468,
+        "volume_ratio": 1.0224120263920824,
+        "fwd_pe": 11.435512,
+        "revenue_growth": 0.781,
+        "earnings_growth": 2.778,
+        "market_cap": 3063011840,
+        "sector": "Energy",
+        "earnings_soon": false,
+        "s_ma50": 20.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 10.0,
+        "s_kdj": 4.0,
+        "s_volprice": 3.5,
+        "s_fwdpe": 10.0,
+        "s_growth": 10.0,
+        "total_score": 87.5,
+        "grade": "A",
+        "verdict": "狙击（系统全绿）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "近期无放量 (today=1.02x, 3d=1.20x)"
+            ],
+            "details": {
+              "price": 19.02,
+              "dist_52w_high_pct": -3.21,
+              "vol_ratio_today": 1.02,
+              "vol_ratio_3d": 1.2,
+              "rs_6m_pct": 39.6
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 100.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "Minervini模板强度 5/5",
+              "RS +39.6% (强势)",
+              "均线发散健康 28.5%",
+              "距52W低 +77% (黄金位)",
+              "营收/EPS增速 +178%"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 19.02,
+              "ma50": 18.16,
+              "ma150": 14.92,
+              "ma200": 14.14,
+              "dist_52w_high_pct": -3.21,
+              "dist_52w_low_pct": 77.43,
+              "rs_6m_pct": 39.6
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 85.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "温和回踩-3.2%",
+              "RS 仍强 +39.6%",
+              "显著缩量 0.46x",
+              "MA50 趋势完好",
+              "长下影见底信号"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 19.02,
+              "ma20": 18.2,
+              "ma50": 18.16,
+              "days_since_high": 47,
+              "dist_from_high_pct": -3.21,
+              "rsi_14": 59.8,
+              "vol_shrink_ratio": 0.46,
+              "rs_6m_pct": 39.6
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高仅 -3.2% (未深跌)"
+            ],
+            "details": {
+              "price": 19.02,
+              "dist_52w_high_pct": -3.21,
+              "dist_52w_low_pct": 77.43,
+              "max_vol_ratio_20d": 1.78,
+              "rsi_14": 59.8,
+              "rsi_min_30d": 42.3,
+              "ma20_cross_ma50_recent": true
+            }
+          }
+        },
+        "best_strategy": "trend",
+        "best_strategy_label": "🎯 趋势",
+        "best_strategy_score": 100.0
+      },
+      {
+        "symbol": "HAL",
+        "price": 39.119998931884766,
+        "change_pct": -3.168323132795461,
+        "ma20": 39.52150058746338,
+        "ma50": 37.797000122070315,
+        "ma200": 29.55115005493164,
+        "kdj_j": 6.408931961703331,
+        "rs_6m": 0.3757199790287995,
+        "dist_52w_high_pct": -7.8662275661925465,
+        "dist_52w_low_pct": 103.53798298371062,
+        "volume_ratio": 0.9825592996085588,
+        "fwd_pe": 13.710153,
+        "revenue_growth": -0.003,
+        "earnings_growth": 1.335,
+        "market_cap": 32680759296,
+        "sector": "Energy",
+        "earnings_soon": false,
+        "s_ma50": 20.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 10.0,
+        "s_kdj": 10.0,
+        "s_volprice": 5.0,
+        "s_fwdpe": 10.0,
+        "s_growth": 10.0,
+        "total_score": 95.0,
+        "grade": "A",
+        "verdict": "狙击（系统全绿）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高 -7.5% (需 ≥-5%)",
+              "近期无放量 (today=0.98x, 3d=0.81x)"
+            ],
+            "details": {
+              "price": 39.12,
+              "dist_52w_high_pct": -7.52,
+              "vol_ratio_today": 0.98,
+              "vol_ratio_3d": 0.81,
+              "rs_6m_pct": 37.6
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 95.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "Minervini模板强度 5/5",
+              "RS +37.6% (强势)",
+              "均线发散健康 27.9%",
+              "营收/EPS增速 +67%"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 39.12,
+              "ma50": 37.8,
+              "ma150": 31.96,
+              "ma200": 29.55,
+              "dist_52w_high_pct": -7.52,
+              "dist_52w_low_pct": 102.07,
+              "rs_6m_pct": 37.6
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 90.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "回踩-7.5% 至均线附近",
+              "RS 仍强 +37.6%",
+              "显著缩量 0.62x",
+              "MA50 趋势完好"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 39.12,
+              "ma20": 39.52,
+              "ma50": 37.8,
+              "days_since_high": 5,
+              "dist_from_high_pct": -7.52,
+              "rsi_14": 59.5,
+              "vol_shrink_ratio": 0.62,
+              "rs_6m_pct": 37.6
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高仅 -7.5% (未深跌)",
+              "价 < MA20"
+            ],
+            "details": {
+              "price": 39.12,
+              "dist_52w_high_pct": -7.52,
+              "dist_52w_low_pct": 102.07,
+              "max_vol_ratio_20d": 1.82,
+              "rsi_14": 59.5,
+              "rsi_min_30d": 46.6,
+              "ma20_cross_ma50_recent": false
+            }
+          }
+        },
+        "best_strategy": "trend",
+        "best_strategy_label": "🎯 趋势",
+        "best_strategy_score": 95.0
+      }
+    ],
+    "pullback": [
+      {
+        "symbol": "TTE",
+        "price": 88.7300033569336,
+        "change_pct": -1.367269608778112,
+        "ma20": 90.47449989318848,
+        "ma50": 87.52119979858398,
+        "ma200": 70.37899991989136,
+        "kdj_j": 16.257578276995616,
+        "rs_6m": 0.36521607487541186,
+        "dist_52w_high_pct": -5.273828235911602,
+        "dist_52w_low_pct": 55.149511256492204,
+        "volume_ratio": 0.5390229390185107,
+        "fwd_pe": 8.545798,
+        "revenue_growth": 0.034,
+        "earnings_growth": 0.571,
+        "market_cap": 196834934784,
+        "sector": "Energy",
+        "earnings_soon": false,
+        "s_ma50": 20.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 10.0,
+        "s_kdj": 10.0,
+        "s_volprice": 5.0,
+        "s_fwdpe": 10.0,
+        "s_growth": 10.0,
+        "total_score": 95.0,
+        "grade": "A",
+        "verdict": "狙击（系统全绿）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高 -5.2% (需 ≥-5%)",
+              "近期无放量 (today=0.54x, 3d=0.61x)"
+            ],
+            "details": {
+              "price": 88.73,
+              "dist_52w_high_pct": -5.2,
+              "vol_ratio_today": 0.54,
+              "vol_ratio_3d": 0.61,
+              "rs_6m_pct": 36.5
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 94.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "Minervini模板强度 4/5",
+              "RS +36.5% (强势)",
+              "均线发散健康 24.4%",
+              "距52W低 +55% (黄金位)",
+              "营收/EPS增速 +30%"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 88.73,
+              "ma50": 87.52,
+              "ma150": 73.35,
+              "ma200": 70.38,
+              "dist_52w_high_pct": -5.2,
+              "dist_52w_low_pct": 54.99,
+              "rs_6m_pct": 36.5
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 97.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "回踩-5.2% 至均线附近",
+              "RS 仍强 +36.5%",
+              "显著缩量 0.57x",
+              "MA50 趋势完好",
+              "长下影见底信号"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 88.73,
+              "ma20": 90.47,
+              "ma50": 87.52,
+              "days_since_high": 2,
+              "dist_from_high_pct": -5.2,
+              "rsi_14": 55.2,
+              "vol_shrink_ratio": 0.57,
+              "rs_6m_pct": 36.5
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高仅 -5.2% (未深跌)",
+              "价 < MA20"
+            ],
+            "details": {
+              "price": 88.73,
+              "dist_52w_high_pct": -5.2,
+              "dist_52w_low_pct": 54.99,
+              "max_vol_ratio_20d": 2.07,
+              "rsi_14": 55.2,
+              "rsi_min_30d": 46.0,
+              "ma20_cross_ma50_recent": false
+            }
+          }
+        },
+        "best_strategy": "pullback",
+        "best_strategy_label": "🔄 回踩",
+        "best_strategy_score": 97.0
+      },
+      {
+        "symbol": "EQNR",
+        "price": 36.90999984741211,
+        "change_pct": -2.9450406727188247,
+        "ma20": 38.480499839782716,
+        "ma50": 37.61839977264404,
+        "ma200": 27.88814995765686,
+        "kdj_j": 8.369834126479532,
+        "rs_6m": 0.4564044650907082,
+        "dist_52w_high_pct": -15.071328520576808,
+        "dist_52w_low_pct": 65.81311530950587,
+        "volume_ratio": 1.3757143371333393,
+        "fwd_pe": 9.355435,
+        "revenue_growth": -0.053,
+        "earnings_growth": 0.292,
+        "market_cap": 91985698816,
+        "sector": "Energy",
+        "earnings_soon": false,
+        "s_ma50": 5.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 10.0,
+        "s_kdj": 10.0,
+        "s_volprice": 5.0,
+        "s_fwdpe": 10.0,
+        "s_growth": 7.0,
+        "total_score": 77.0,
+        "grade": "B",
+        "verdict": "观察（待回踩/待确认）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高 -12.9% (需 ≥-5%)",
+              "价 < MA50"
+            ],
+            "details": {
+              "price": 36.91,
+              "dist_52w_high_pct": -12.95,
+              "vol_ratio_today": 1.38,
+              "vol_ratio_3d": 1.03,
+              "rs_6m_pct": 45.6
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "未形成严格多头排列 价>MA50>MA150>MA200"
+            ],
+            "details": {
+              "price": 36.91,
+              "ma50": 37.62,
+              "ma150": 28.91,
+              "ma200": 27.89,
+              "dist_52w_high_pct": -12.95,
+              "dist_52w_low_pct": 64.7,
+              "rs_6m_pct": 45.6
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 97.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "回踩-12.9% 至均线附近",
+              "RS 仍强 +45.6%",
+              "显著缩量 0.36x",
+              "MA50 趋势完好",
+              "长下影见底信号"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 36.91,
+              "ma20": 38.48,
+              "ma50": 37.62,
+              "days_since_high": 27,
+              "dist_from_high_pct": -12.95,
+              "rsi_14": 55.2,
+              "vol_shrink_ratio": 0.36,
+              "rs_6m_pct": 45.6
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高仅 -12.9% (未深跌)",
+              "价 < MA20"
+            ],
+            "details": {
+              "price": 36.91,
+              "dist_52w_high_pct": -12.95,
+              "dist_52w_low_pct": 64.7,
+              "max_vol_ratio_20d": 2.52,
+              "rsi_14": 55.2,
+              "rsi_min_30d": 39.0,
+              "ma20_cross_ma50_recent": false
+            }
+          }
+        },
+        "best_strategy": "pullback",
+        "best_strategy_label": "🔄 回踩",
+        "best_strategy_score": 97.0
+      },
+      {
+        "symbol": "IRDM",
+        "price": 40.189998626708984,
+        "change_pct": -0.9854681556422794,
+        "ma20": 39.16649990081787,
+        "ma50": 31.869799995422362,
+        "ma200": 22.95369998931885,
+        "kdj_j": 96.25884532729275,
+        "rs_6m": 1.171894009067266,
+        "dist_52w_high_pct": -9.400365027653974,
+        "dist_52w_low_pct": 156.80510930570438,
+        "volume_ratio": 0.5901130994114333,
+        "fwd_pe": 28.203508,
+        "revenue_growth": 0.019,
+        "earnings_growth": -0.259,
+        "market_cap": 4249197824,
+        "sector": "Communication Services",
+        "earnings_soon": false,
+        "s_ma50": 20.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 10.0,
+        "s_kdj": 0.0,
+        "s_volprice": 5.0,
+        "s_fwdpe": 5.0,
+        "s_growth": 0.0,
+        "total_score": 70.0,
+        "grade": "B",
+        "verdict": "观察（待回踩/待确认）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高 -7.4% (需 ≥-5%)",
+              "近期无放量 (today=0.59x, 3d=0.61x)"
+            ],
+            "details": {
+              "price": 40.19,
+              "dist_52w_high_pct": -7.42,
+              "vol_ratio_today": 0.59,
+              "vol_ratio_3d": 0.61,
+              "rs_6m_pct": 117.2
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 62.0,
+            "grade": "C",
+            "passed_gates": true,
+            "reasons": [
+              "Minervini模板强度 4/5",
+              "RS +117.2% (强势)"
+            ],
+            "warnings": [
+              "均线发散过大 38.8% (过热)"
+            ],
+            "details": {
+              "price": 40.19,
+              "ma50": 31.87,
+              "ma150": 23.11,
+              "ma200": 22.95,
+              "dist_52w_high_pct": -7.42,
+              "dist_52w_low_pct": 153.72,
+              "rs_6m_pct": 117.2
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 91.0,
+            "grade": "A",
+            "passed_gates": true,
+            "reasons": [
+              "回踩-7.4% 至均线附近",
+              "RS 仍强 +117.2%",
+              "缩量 0.74x",
+              "MA50 趋势完好",
+              "长下影见底信号"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 40.19,
+              "ma20": 39.17,
+              "ma50": 31.87,
+              "days_since_high": 15,
+              "dist_from_high_pct": -7.42,
+              "rsi_14": 44.4,
+              "vol_shrink_ratio": 0.74,
+              "rs_6m_pct": 117.2
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高仅 -7.4% (未深跌)"
+            ],
+            "details": {
+              "price": 40.19,
+              "dist_52w_high_pct": -7.42,
+              "dist_52w_low_pct": 153.72,
+              "max_vol_ratio_20d": 1.79,
+              "rsi_14": 44.4,
+              "rsi_min_30d": 44.4,
+              "ma20_cross_ma50_recent": false
+            }
+          }
+        },
+        "best_strategy": "pullback",
+        "best_strategy_label": "🔄 回踩",
+        "best_strategy_score": 91.0
+      }
+    ],
+    "reversal": [
+      {
+        "symbol": "USAR",
+        "price": 26.3799991607666,
+        "change_pct": -7.76224192689693,
+        "ma20": 22.5520001411438,
+        "ma50": 19.649100017547607,
+        "ma200": 18.410650057792665,
+        "kdj_j": 82.20968883545748,
+        "rs_6m": 0.5305121952450418,
+        "dist_52w_high_pct": -40.0181913703012,
+        "dist_52w_low_pct": 229.74998950958252,
+        "volume_ratio": 0.8847182238191355,
+        "fwd_pe": -19.686565,
+        "revenue_growth": null,
+        "earnings_growth": null,
+        "market_cap": 5750459904,
+        "sector": "Basic Materials",
+        "earnings_soon": false,
+        "s_ma50": 20.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 5.0,
+        "s_kdj": 0.0,
+        "s_volprice": 7.0,
+        "s_fwdpe": 5.0,
+        "s_growth": 5.0,
+        "total_score": 72.0,
+        "grade": "B",
+        "verdict": "观察（待回踩/待确认）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高 -31.8% (需 ≥-5%)",
+              "近期无放量 (today=0.88x, 3d=1.00x)"
+            ],
+            "details": {
+              "price": 26.38,
+              "dist_52w_high_pct": -31.8,
+              "vol_ratio_today": 0.88,
+              "vol_ratio_3d": 1.0,
+              "rs_6m_pct": 53.1
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高 -31.8% (需 ≥-25%，不在半山腰)"
+            ],
+            "details": {
+              "price": 26.38,
+              "ma50": 19.65,
+              "ma150": 19.53,
+              "ma200": 18.41,
+              "dist_52w_high_pct": -31.8,
+              "dist_52w_low_pct": 226.89,
+              "rs_6m_pct": 53.1
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "RSI 64 超出 35-60 区间"
+            ],
+            "details": {
+              "price": 26.38,
+              "ma20": 22.55,
+              "ma50": 19.65,
+              "days_since_high": 1,
+              "dist_from_high_pct": -7.76,
+              "rsi_14": 64.3,
+              "vol_shrink_ratio": 0.88,
+              "rs_6m_pct": 53.1
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 79.0,
+            "grade": "B",
+            "passed_gates": true,
+            "reasons": [
+              "MA20 上穿 MA50（金叉）",
+              "MA50 已上翘"
+            ],
+            "warnings": [
+              "距底 +227% 反弹过多"
+            ],
+            "details": {
+              "price": 26.38,
+              "dist_52w_high_pct": -31.8,
+              "dist_52w_low_pct": 226.89,
+              "max_vol_ratio_20d": 2.21,
+              "rsi_14": 64.3,
+              "rsi_min_30d": 24.2,
+              "ma20_cross_ma50_recent": true
+            }
+          }
+        },
+        "best_strategy": "reversal",
+        "best_strategy_label": "🔥 反转",
+        "best_strategy_score": 79.0
+      },
+      {
+        "symbol": "HYMC",
+        "price": 38.880001068115234,
+        "change_pct": -2.213272863599142,
+        "ma20": 38.85424995422363,
+        "ma50": 38.84219993591309,
+        "ma200": 21.473374935388566,
+        "kdj_j": 76.84450540274888,
+        "rs_6m": 3.992281215059035,
+        "dist_52w_high_pct": -33.79873766190948,
+        "dist_52w_low_pct": 1334.6863660821334,
+        "volume_ratio": 1.289008544608558,
+        "fwd_pe": -55.222218,
+        "revenue_growth": null,
+        "earnings_growth": null,
+        "market_cap": 3632497408,
+        "sector": "Basic Materials",
+        "earnings_soon": false,
+        "s_ma50": 10.0,
+        "s_ma200": 10.0,
+        "s_rs": 20.0,
+        "s_pos52w": 7.5,
+        "s_kdj": 4.0,
+        "s_volprice": 5.0,
+        "s_fwdpe": 5.0,
+        "s_growth": 5.0,
+        "total_score": 66.5,
+        "grade": "B",
+        "verdict": "观察（待回踩/待确认）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高 -30.2% (需 ≥-5%)",
+              "近期无放量 (today=1.29x, 3d=1.01x)"
+            ],
+            "details": {
+              "price": 38.88,
+              "dist_52w_high_pct": -30.25,
+              "vol_ratio_today": 1.29,
+              "vol_ratio_3d": 1.01,
+              "rs_6m_pct": 399.2
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高 -30.2% (需 ≥-25%，不在半山腰)"
+            ],
+            "details": {
+              "price": 38.88,
+              "ma50": 38.84,
+              "ma150": 27.05,
+              "ma200": 21.47,
+              "dist_52w_high_pct": -30.25,
+              "dist_52w_low_pct": 1308.7,
+              "rs_6m_pct": 399.2
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 45.0,
+            "grade": "D",
+            "passed_gates": true,
+            "reasons": [
+              "RS 仍强 +399.2%",
+              "显著缩量 0.36x"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 38.88,
+              "ma20": 38.85,
+              "ma50": 38.84,
+              "days_since_high": 47,
+              "dist_from_high_pct": -30.25,
+              "rsi_14": 39.8,
+              "vol_shrink_ratio": 0.36,
+              "rs_6m_pct": 399.2
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 58.0,
+            "grade": "C",
+            "passed_gates": true,
+            "reasons": [
+              "MA20 上穿 MA50（金叉）",
+              "MA50 走平"
+            ],
+            "warnings": [
+              "距底 +1309% 反弹过多"
+            ],
+            "details": {
+              "price": 38.88,
+              "dist_52w_high_pct": -30.25,
+              "dist_52w_low_pct": 1308.7,
+              "max_vol_ratio_20d": 1.81,
+              "rsi_14": 39.8,
+              "rsi_min_30d": 39.8,
+              "ma20_cross_ma50_recent": true
+            }
+          }
+        },
+        "best_strategy": "reversal",
+        "best_strategy_label": "🔥 反转",
+        "best_strategy_score": 58.0
+      },
+      {
+        "symbol": "EXK",
+        "price": 10.149999618530273,
+        "change_pct": 9.022547379736398,
+        "ma20": 9.522999954223632,
+        "ma50": 10.000600032806396,
+        "ma200": 8.884850003719329,
+        "kdj_j": 61.46362997262087,
+        "rs_6m": 0.26989624131454604,
+        "dist_52w_high_pct": -33.003301161040284,
+        "dist_52w_low_pct": 223.24838469519815,
+        "volume_ratio": 2.7217253681248055,
+        "fwd_pe": 7.7480917,
+        "revenue_growth": 3.092,
+        "earnings_growth": null,
+        "market_cap": 3005098240,
+        "sector": "Basic Materials",
+        "earnings_soon": false,
+        "s_ma50": 10.0,
+        "s_ma200": 10.0,
+        "s_rs": 18.7,
+        "s_pos52w": 7.5,
+        "s_kdj": 4.0,
+        "s_volprice": 6.0,
+        "s_fwdpe": 10.0,
+        "s_growth": 10.0,
+        "total_score": 76.2,
+        "grade": "B",
+        "verdict": "观察（待回踩/待确认）",
+        "notes": [],
+        "strategy_scores": {
+          "breakout": {
+            "name": "breakout",
+            "label": "🚀 突破",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高 -28.1% (需 ≥-5%)"
+            ],
+            "details": {
+              "price": 10.15,
+              "dist_52w_high_pct": -28.12,
+              "vol_ratio_today": 2.72,
+              "vol_ratio_3d": 1.81,
+              "rs_6m_pct": 27.0
+            }
+          },
+          "trend": {
+            "name": "trend",
+            "label": "🎯 趋势",
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
+            "warnings": [
+              "距52W高 -28.1% (需 ≥-25%，不在半山腰)"
+            ],
+            "details": {
+              "price": 10.15,
+              "ma50": 10.0,
+              "ma150": 9.82,
+              "ma200": 8.88,
+              "dist_52w_high_pct": -28.12,
+              "dist_52w_low_pct": 215.22,
+              "rs_6m_pct": 27.0
+            }
+          },
+          "pullback": {
+            "name": "pullback",
+            "label": "🔄 回踩",
+            "score": 46.0,
+            "grade": "D",
+            "passed_gates": true,
+            "reasons": [
+              "RS 仍强 +27.0%",
+              "缩量 0.71x",
+              "长下影见底信号"
+            ],
+            "warnings": [],
+            "details": {
+              "price": 10.15,
+              "ma20": 9.52,
+              "ma50": 10.0,
+              "days_since_high": 49,
+              "dist_from_high_pct": -27.66,
+              "rsi_14": 49.7,
+              "vol_shrink_ratio": 0.71,
+              "rs_6m_pct": 27.0
+            }
+          },
+          "reversal": {
+            "name": "reversal",
+            "label": "🔥 反转",
+            "score": 51.0,
+            "grade": "C",
+            "passed_gates": true,
+            "reasons": [
+              "强放量 2.72x",
+              "FwdPE 7.7 便宜"
+            ],
+            "warnings": [
+              "距底 +215% 反弹过多"
+            ],
+            "details": {
+              "price": 10.15,
+              "dist_52w_high_pct": -28.12,
+              "dist_52w_low_pct": 215.22,
+              "max_vol_ratio_20d": 2.72,
+              "rsi_14": 49.7,
+              "rsi_min_30d": 40.5,
+              "ma20_cross_ma50_recent": false
+            }
+          }
+        },
+        "best_strategy": "reversal",
+        "best_strategy_label": "🔥 反转",
+        "best_strategy_score": 51.0
+      }
+    ]
+  }
+}

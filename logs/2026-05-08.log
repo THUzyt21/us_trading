@@ -1,0 +1,108 @@
+2026-05-08 10:29:21,299 INFO [run_daily] ============================================================
+2026-05-08 10:29:21,299 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-08 10:29:21,299 INFO [run_daily] ============================================================
+2026-05-08 10:29:21,299 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5734, history.done=573
+2026-05-08 10:29:21,300 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-08 10:29:21,331 INFO [src.universe] [universe] full universe loaded: 5733 tickers (NASDAQ=5441, Other=7175)
+2026-05-08 10:29:21,332 INFO [run_daily] [scan] 全市场共 5733 只普通股，开始轻量 info 拉取预筛...
+2026-05-08 10:29:25,076 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5732, 本次需拉取 1, 跳过（冷却）0 (workers=6)
+2026-05-08 10:29:26,769 INFO [src.fetcher] [info-light] progress 1/1 (ok=1)
+2026-05-08 10:29:26,771 INFO [src.fetcher] [info-light] 本次拉取 1/1 成功, 耗时 1.7s, 累计有效 5733
+2026-05-08 10:29:26,774 INFO [run_daily] [scan] 📊 universe 建库进度: 5735/5733 (100.0%) done=5735, empty=0, failed=0
+2026-05-08 10:29:26,774 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 558 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-08 10:29:26,775 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 553
+2026-05-08 10:29:26,775 INFO [run_daily] 开始批量拉取 573 个标的历史数据...
+2026-05-08 10:29:26,776 INFO [src.fetcher] [batch-parallel] fetching 573 tickers (workers=6, days=400, bulk=True)...
+2026-05-08 10:29:26,781 INFO [src.fetcher] [bulk-hist] 缓存命中 0/573, 需要下载 573 只...
+2026-05-08 10:29:27,644 ERROR [yfinance] $CRWV: possibly delisted; no price data found  (1d 2024-09-15 10:29:26.781567 -> 2026-05-08 10:29:26.781567)
+2026-05-08 10:29:31,634 ERROR [yfinance] 
+1 Failed download:
+2026-05-08 10:29:31,635 ERROR [yfinance] ['CRWV']: possibly delisted; no price data found  (1d 2024-09-15 10:29:26.781567 -> 2026-05-08 10:29:26.781567)
+2026-05-08 10:29:31,754 INFO [src.fetcher] [bulk-hist] chunk 1/8 done, 79/80 got data
+2026-05-08 10:29:33,949 ERROR [yfinance] $HYMC: possibly delisted; no price data found  (1d 2024-09-15 10:29:26.781567 -> 2026-05-08 10:29:26.781567)
+2026-05-08 10:29:37,107 ERROR [yfinance] 
+1 Failed download:
+2026-05-08 10:29:37,107 ERROR [yfinance] ['HYMC']: possibly delisted; no price data found  (1d 2024-09-15 10:29:26.781567 -> 2026-05-08 10:29:26.781567)
+2026-05-08 10:29:37,208 INFO [src.fetcher] [bulk-hist] chunk 2/8 done, 79/80 got data
+2026-05-08 10:29:37,707 ERROR [yfinance] $TENB: possibly delisted; no price data found  (1d 2024-09-15 10:29:26.781567 -> 2026-05-08 10:29:26.781567)
+2026-05-08 10:29:42,515 ERROR [yfinance] 
+1 Failed download:
+2026-05-08 10:29:42,515 ERROR [yfinance] ['TENB']: possibly delisted; no price data found  (1d 2024-09-15 10:29:26.781567 -> 2026-05-08 10:29:26.781567)
+2026-05-08 10:29:42,644 INFO [src.fetcher] [bulk-hist] chunk 3/8 done, 79/80 got data
+2026-05-08 10:29:48,648 INFO [src.fetcher] [bulk-hist] chunk 4/8 done, 80/80 got data
+2026-05-08 10:29:54,451 INFO [src.fetcher] [bulk-hist] chunk 5/8 done, 80/80 got data
+2026-05-08 10:30:00,146 INFO [src.fetcher] [bulk-hist] chunk 6/8 done, 80/80 got data
+2026-05-08 10:30:05,527 INFO [src.fetcher] [bulk-hist] chunk 7/8 done, 80/80 got data
+2026-05-08 10:30:06,877 INFO [src.fetcher] [bulk-hist] chunk 8/8 done, 13/13 got data
+2026-05-08 10:30:09,871 INFO [src.fetcher] [info] progress 100/570
+2026-05-08 10:30:18,518 INFO [src.fetcher] [info] progress 200/570
+2026-05-08 10:30:29,351 INFO [src.fetcher] [info] progress 300/570
+2026-05-08 10:30:39,547 INFO [src.fetcher] [info] progress 400/570
+2026-05-08 10:30:49,690 INFO [src.fetcher] [info] progress 500/570
+2026-05-08 10:30:56,598 INFO [src.fetcher] [info] progress 570/570
+2026-05-08 10:30:57,658 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+2026-05-08 10:30:57,660 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ^VIX"}}}
+2026-05-08 10:30:57,664 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DX-Y.NYB"}}}
+2026-05-08 10:30:57,665 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IWM"}}}
+2026-05-08 10:30:57,666 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SPY"}}}
+2026-05-08 10:30:57,717 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DIA"}}}
+2026-05-08 10:30:58,653 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TLT"}}}
+2026-05-08 10:30:58,656 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLF"}}}
+2026-05-08 10:30:58,657 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+2026-05-08 10:30:58,661 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: USO"}}}
+2026-05-08 10:30:58,661 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLE"}}}
+2026-05-08 10:30:58,662 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GLD"}}}
+2026-05-08 10:30:59,297 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLV"}}}
+2026-05-08 10:30:59,303 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+2026-05-08 10:30:59,307 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLI"}}}
+2026-05-08 10:31:05,506 INFO [src.fetcher] [earnings] progress 200/570
+2026-05-08 10:31:12,656 INFO [src.fetcher] [earnings] progress 400/570
+2026-05-08 10:31:18,464 INFO [src.fetcher] [earnings] progress 570/570
+2026-05-08 10:31:18,468 INFO [src.fetcher] [batch-parallel] done in 111.7s, with-history=570/573
+2026-05-08 10:31:18,472 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-08 10:31:18,484 INFO [run_daily] 持仓 MSFT: 51.5 (C) - 边缘（暂不参与）
+2026-05-08 10:31:18,492 INFO [run_daily] 持仓 NVDA: 73.8 (B) - 观察（待回踩/待确认）
+2026-05-08 10:31:18,498 INFO [run_daily] 持仓 KGS: 86.0 (A) - 狙击（系统全绿）
+2026-05-08 10:31:18,504 INFO [run_daily] 持仓 AMD: 82.0 (A) - 狙击（系统全绿）
+2026-05-08 10:31:18,510 INFO [run_daily] 持仓 INTC: 70.0 (B) - 观察（待回踩/待确认）
+2026-05-08 10:32:02,368 INFO [run_daily] ============================================================
+2026-05-08 10:32:02,368 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-08 10:32:02,368 INFO [run_daily] ============================================================
+2026-05-08 10:32:02,368 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5735, history.done=573
+2026-05-08 10:32:02,368 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-08 10:32:02,392 INFO [src.universe] [universe] full universe loaded: 5733 tickers (NASDAQ=5441, Other=7175)
+2026-05-08 10:32:02,392 INFO [run_daily] [scan] 全市场共 5733 只普通股，开始轻量 info 拉取预筛...
+2026-05-08 10:32:05,728 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5733, 本次需拉取 0, 跳过（冷却）0 (workers=6)
+2026-05-08 10:32:05,729 INFO [run_daily] [scan] 📊 universe 建库进度: 5735/5733 (100.0%) done=5735, empty=0, failed=0
+2026-05-08 10:32:05,729 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 558 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-08 10:32:05,730 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 553
+2026-05-08 10:32:05,730 INFO [run_daily] 开始批量拉取 573 个标的历史数据...
+2026-05-08 10:32:05,730 INFO [src.fetcher] [batch-parallel] fetching 573 tickers (workers=6, days=400, bulk=True)...
+2026-05-08 10:32:06,056 INFO [src.fetcher] [bulk-hist] 缓存命中 570/573, 需要下载 3 只...
+2026-05-08 10:32:07,767 ERROR [yfinance] 
+3 Failed downloads:
+2026-05-08 10:32:07,768 ERROR [yfinance] ['CRWV', 'TENB', 'HYMC']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2026-05-08 10:32:18,572 ERROR [yfinance] 
+3 Failed downloads:
+2026-05-08 10:32:18,572 ERROR [yfinance] ['HYMC', 'TENB', 'CRWV']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2026-05-08 10:32:37,099 INFO [src.fetcher] [bulk-hist] chunk 1/1 done, 3/3 got data
+2026-05-08 10:32:37,608 INFO [src.fetcher] [info] progress 100/573
+2026-05-08 10:32:37,664 INFO [src.fetcher] [info] progress 200/573
+2026-05-08 10:32:37,728 INFO [src.fetcher] [info] progress 300/573
+2026-05-08 10:32:37,787 INFO [src.fetcher] [info] progress 400/573
+2026-05-08 10:32:37,844 INFO [src.fetcher] [info] progress 500/573
+2026-05-08 10:32:39,499 INFO [src.fetcher] [info] progress 573/573
+2026-05-08 10:32:39,589 INFO [src.fetcher] [earnings] progress 200/573
+2026-05-08 10:32:39,655 INFO [src.fetcher] [earnings] progress 400/573
+2026-05-08 10:32:40,230 INFO [src.fetcher] [earnings] progress 573/573
+2026-05-08 10:32:40,233 INFO [src.fetcher] [batch-parallel] done in 34.5s, with-history=573/573
+2026-05-08 10:32:40,237 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-08 10:32:40,249 INFO [run_daily] 持仓 MSFT: 51.5 (C) - 边缘（暂不参与）
+2026-05-08 10:32:40,256 INFO [run_daily] 持仓 NVDA: 73.8 (B) - 观察（待回踩/待确认）
+2026-05-08 10:32:40,263 INFO [run_daily] 持仓 KGS: 86.0 (A) - 狙击（系统全绿）
+2026-05-08 10:32:40,269 INFO [run_daily] 持仓 AMD: 82.0 (A) - 狙击（系统全绿）
+2026-05-08 10:32:40,275 INFO [run_daily] 持仓 INTC: 70.0 (B) - 观察（待回踩/待确认）
+2026-05-08 10:32:42,638 INFO [run_daily] 候选池打分完成: A级=119 / B级=118 / 总553
+2026-05-08 10:32:42,638 INFO [run_daily] 报告仅保留 Top 237（共打分 553 只）
+2026-05-08 10:32:42,650 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-08.md
+2026-05-08 10:32:42,650 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-08.json

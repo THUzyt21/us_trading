@@ -1,0 +1,31 @@
+# USv1.0 铁律打分参数
+# 打分范围 0-100，≥80=全绿狙击 / 60-79=观察 / <60=排除
+
+scoring_weights:
+  ma50_trend: 20        # 50日线之上且方向向上
+  ma200_trend: 10       # 200日线向上
+  rs_vs_spy_6m: 20      # 6个月相对强度 vs SPY
+  pos_52w: 10           # 距52周高/低位置（距低≥25%，距高≤25%得满分）
+  kdj_j: 10             # KDJ_J值（<30为超卖，得分高）
+  vol_price: 10         # 量价配合（放量上涨得分高）
+  fwd_pe: 10            # 前瞻PE vs 行业均值
+  growth_yoy: 10        # 营收/EPS同比增长
+
+# 风控参数
+risk:
+  stop_loss_pct: -12           # 硬止损 -12%（美股波动比A股大）
+  first_take_profit: 25        # 首次止盈 +25% 卖 1/3
+  trailing_ma: 20              # 剩余 2/3 用 MA20 追踪止损
+  max_position_pct: 20         # 单只最大仓位 20%
+  max_concurrent_bullets: 3    # 同时持有最多 3 只系统全绿
+
+# 排除名单（自动过滤）
+exclude_rules:
+  min_market_cap_usd: 2_000_000_000   # 市值 < 20亿美元直接排除
+  min_avg_volume: 500_000             # 日均成交量 < 50万股排除
+  earnings_blackout_days: 2           # 财报前2日不开仓
+
+# 数据参数
+data:
+  history_days: 400            # 拉取400个交易日历史（足够算200日线）
+  cache_hours: 4               # 缓存4小时内有效（盘后跑无所谓，但日内避免重复调用）

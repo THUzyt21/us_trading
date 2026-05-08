@@ -1,0 +1,706 @@
+2026-05-06 17:36:16,621 INFO [run_daily] ============================================================
+2026-05-06 17:36:16,622 INFO [run_daily] 美股鹰眼系统启动 | 大盘15 + 持仓5 + 候选27
+2026-05-06 17:36:16,622 INFO [run_daily] ============================================================
+2026-05-06 17:36:16,622 INFO [run_daily] 开始拉取 47 个标的数据...
+2026-05-06 17:36:16,622 INFO [src.fetcher] [1/47] fetching SPY...
+2026-05-06 17:36:18,636 INFO [src.fetcher] [fetched] SPY history: 400 rows
+2026-05-06 17:36:19,875 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SPY"}}}
+2026-05-06 17:36:20,034 INFO [src.fetcher] [2/47] fetching QQQ...
+2026-05-06 17:36:20,467 INFO [src.fetcher] [fetched] QQQ history: 400 rows
+2026-05-06 17:36:21,691 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: QQQ"}}}
+2026-05-06 17:36:21,847 INFO [src.fetcher] [3/47] fetching DIA...
+2026-05-06 17:36:22,300 INFO [src.fetcher] [fetched] DIA history: 400 rows
+2026-05-06 17:36:23,518 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DIA"}}}
+2026-05-06 17:36:23,674 INFO [src.fetcher] [4/47] fetching IWM...
+2026-05-06 17:36:24,101 INFO [src.fetcher] [fetched] IWM history: 400 rows
+2026-05-06 17:36:25,335 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: IWM"}}}
+2026-05-06 17:36:25,491 INFO [src.fetcher] [5/47] fetching VIX...
+2026-05-06 17:36:25,916 INFO [src.fetcher] [fetched] VIX history: 400 rows
+2026-05-06 17:36:27,138 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: ^VIX"}}}
+2026-05-06 17:36:27,294 INFO [src.fetcher] [6/47] fetching DXY...
+2026-05-06 17:36:27,709 INFO [src.fetcher] [fetched] DXY history: 400 rows
+2026-05-06 17:36:28,933 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: DX-Y.NYB"}}}
+2026-05-06 17:36:29,089 INFO [src.fetcher] [7/47] fetching TLT...
+2026-05-06 17:36:29,758 INFO [src.fetcher] [fetched] TLT history: 400 rows
+2026-05-06 17:36:30,971 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: TLT"}}}
+2026-05-06 17:36:31,122 INFO [src.fetcher] [8/47] fetching GLD...
+2026-05-06 17:36:31,539 INFO [src.fetcher] [fetched] GLD history: 400 rows
+2026-05-06 17:36:32,757 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: GLD"}}}
+2026-05-06 17:36:32,913 INFO [src.fetcher] [9/47] fetching USO...
+2026-05-06 17:36:33,326 INFO [src.fetcher] [fetched] USO history: 400 rows
+2026-05-06 17:36:34,555 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: USO"}}}
+2026-05-06 17:37:28,582 INFO [run_daily] ============================================================
+2026-05-06 17:37:28,582 INFO [run_daily] 美股鹰眼系统启动 | 大盘15 + 持仓5 + 候选27
+2026-05-06 17:37:28,582 INFO [run_daily] ============================================================
+2026-05-06 17:37:28,582 INFO [run_daily] 开始拉取 47 个标的数据...
+2026-05-06 17:37:28,582 INFO [src.fetcher] [1/47] fetching SPY...
+2026-05-06 17:37:30,080 INFO [src.fetcher] [fetched] SPY history: 400 rows
+2026-05-06 17:37:32,676 INFO [src.fetcher] [2/47] fetching QQQ...
+2026-05-06 17:37:33,109 INFO [src.fetcher] [fetched] QQQ history: 400 rows
+2026-05-06 17:37:33,269 INFO [src.fetcher] [3/47] fetching DIA...
+2026-05-06 17:37:33,545 INFO [src.fetcher] [fetched] DIA history: 400 rows
+2026-05-06 17:37:33,705 INFO [src.fetcher] [4/47] fetching IWM...
+2026-05-06 17:37:33,969 INFO [src.fetcher] [fetched] IWM history: 400 rows
+2026-05-06 17:37:34,122 INFO [src.fetcher] [5/47] fetching VIX...
+2026-05-06 17:37:34,352 INFO [src.fetcher] [fetched] VIX history: 400 rows
+2026-05-06 17:37:34,512 INFO [src.fetcher] [6/47] fetching DXY...
+2026-05-06 17:37:34,737 INFO [src.fetcher] [fetched] DXY history: 400 rows
+2026-05-06 17:37:34,898 INFO [src.fetcher] [7/47] fetching TLT...
+2026-05-06 17:37:35,331 INFO [src.fetcher] [fetched] TLT history: 400 rows
+2026-05-06 17:37:35,490 INFO [src.fetcher] [8/47] fetching GLD...
+2026-05-06 17:37:35,717 INFO [src.fetcher] [fetched] GLD history: 400 rows
+2026-05-06 17:37:35,877 INFO [src.fetcher] [9/47] fetching USO...
+2026-05-06 17:37:36,109 INFO [src.fetcher] [fetched] USO history: 400 rows
+2026-05-06 17:37:36,264 INFO [src.fetcher] [10/47] fetching XLK...
+2026-05-06 17:37:36,932 INFO [src.fetcher] [fetched] XLK history: 400 rows
+2026-05-06 17:37:38,184 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLK"}}}
+2026-05-06 17:37:38,339 INFO [src.fetcher] [11/47] fetching XLF...
+2026-05-06 17:37:39,004 INFO [src.fetcher] [fetched] XLF history: 400 rows
+2026-05-06 17:37:40,251 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLF"}}}
+2026-05-06 17:37:40,410 INFO [src.fetcher] [12/47] fetching XLE...
+2026-05-06 17:37:41,101 INFO [src.fetcher] [fetched] XLE history: 400 rows
+2026-05-06 17:37:42,343 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLE"}}}
+2026-05-06 17:37:42,502 INFO [src.fetcher] [13/47] fetching XLV...
+2026-05-06 17:37:43,186 INFO [src.fetcher] [fetched] XLV history: 400 rows
+2026-05-06 17:37:44,440 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLV"}}}
+2026-05-06 17:37:44,596 INFO [src.fetcher] [14/47] fetching XLI...
+2026-05-06 17:37:45,260 INFO [src.fetcher] [fetched] XLI history: 400 rows
+2026-05-06 17:37:46,497 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: XLI"}}}
+2026-05-06 17:37:46,654 INFO [src.fetcher] [15/47] fetching SMH...
+2026-05-06 17:37:47,299 INFO [src.fetcher] [fetched] SMH history: 400 rows
+2026-05-06 17:37:48,521 ERROR [yfinance] HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"No fundamentals data found for symbol: SMH"}}}
+2026-05-06 17:37:48,679 INFO [src.fetcher] [16/47] fetching ADBE...
+2026-05-06 17:37:48,929 INFO [src.fetcher] [fetched] ADBE history: 400 rows
+2026-05-06 17:37:49,913 INFO [src.fetcher] [17/47] fetching QCOM...
+2026-05-06 17:37:50,348 INFO [src.fetcher] [fetched] QCOM history: 400 rows
+2026-05-06 17:37:51,329 INFO [src.fetcher] [18/47] fetching ORCL...
+2026-05-06 17:37:51,753 INFO [src.fetcher] [fetched] ORCL history: 400 rows
+2026-05-06 17:37:52,735 INFO [src.fetcher] [19/47] fetching NVDA...
+2026-05-06 17:37:53,160 INFO [src.fetcher] [fetched] NVDA history: 400 rows
+2026-05-06 17:37:54,142 INFO [src.fetcher] [20/47] fetching AAPL...
+2026-05-06 17:37:54,587 INFO [src.fetcher] [fetched] AAPL history: 400 rows
+2026-05-06 17:37:55,580 INFO [src.fetcher] [21/47] fetching AMD...
+2026-05-06 17:37:55,823 INFO [src.fetcher] [fetched] AMD history: 400 rows
+2026-05-06 17:37:56,808 INFO [src.fetcher] [22/47] fetching AVGO...
+2026-05-06 17:37:57,229 INFO [src.fetcher] [fetched] AVGO history: 400 rows
+2026-05-06 17:37:58,216 INFO [src.fetcher] [23/47] fetching TSM...
+2026-05-06 17:37:58,642 INFO [src.fetcher] [fetched] TSM history: 400 rows
+2026-05-06 17:37:59,640 INFO [src.fetcher] [24/47] fetching ASML...
+2026-05-06 17:38:00,292 INFO [src.fetcher] [fetched] ASML history: 400 rows
+2026-05-06 17:38:01,293 INFO [src.fetcher] [25/47] fetching MU...
+2026-05-06 17:38:01,808 INFO [src.fetcher] [fetched] MU history: 400 rows
+2026-05-06 17:38:03,016 INFO [src.fetcher] [26/47] fetching AMAT...
+2026-05-06 17:38:03,448 INFO [src.fetcher] [fetched] AMAT history: 400 rows
+2026-05-06 17:38:04,433 INFO [src.fetcher] [27/47] fetching KLAC...
+2026-05-06 17:38:04,866 INFO [src.fetcher] [fetched] KLAC history: 400 rows
+2026-05-06 17:38:05,848 INFO [src.fetcher] [28/47] fetching MSFT...
+2026-05-06 17:38:06,272 INFO [src.fetcher] [fetched] MSFT history: 400 rows
+2026-05-06 17:38:07,264 INFO [src.fetcher] [29/47] fetching GOOGL...
+2026-05-06 17:38:07,705 INFO [src.fetcher] [fetched] GOOGL history: 400 rows
+2026-05-06 17:38:08,680 INFO [src.fetcher] [30/47] fetching META...
+2026-05-06 17:38:08,912 INFO [src.fetcher] [fetched] META history: 400 rows
+2026-05-06 17:38:09,897 INFO [src.fetcher] [31/47] fetching CRM...
+2026-05-06 17:38:10,310 INFO [src.fetcher] [fetched] CRM history: 400 rows
+2026-05-06 17:38:11,304 INFO [src.fetcher] [32/47] fetching NOW...
+2026-05-06 17:38:11,544 INFO [src.fetcher] [fetched] NOW history: 400 rows
+2026-05-06 17:38:12,520 INFO [src.fetcher] [33/47] fetching FCX...
+2026-05-06 17:38:12,955 INFO [src.fetcher] [fetched] FCX history: 400 rows
+2026-05-06 17:38:13,946 INFO [src.fetcher] [34/47] fetching SCCO...
+2026-05-06 17:38:14,544 INFO [src.fetcher] [fetched] SCCO history: 400 rows
+2026-05-06 17:38:15,555 INFO [src.fetcher] [35/47] fetching NEM...
+2026-05-06 17:38:16,006 INFO [src.fetcher] [fetched] NEM history: 400 rows
+2026-05-06 17:38:16,984 INFO [src.fetcher] [36/47] fetching GOLD...
+2026-05-06 17:38:17,404 INFO [src.fetcher] [fetched] GOLD history: 400 rows
+2026-05-06 17:38:18,383 INFO [src.fetcher] [37/47] fetching AEM...
+2026-05-06 17:38:18,825 INFO [src.fetcher] [fetched] AEM history: 400 rows
+2026-05-06 17:38:19,804 INFO [src.fetcher] [38/47] fetching WPM...
+2026-05-06 17:38:20,234 INFO [src.fetcher] [fetched] WPM history: 400 rows
+2026-05-06 17:38:21,230 INFO [src.fetcher] [39/47] fetching XOM...
+2026-05-06 17:38:21,729 INFO [src.fetcher] [fetched] XOM history: 400 rows
+2026-05-06 17:38:22,703 INFO [src.fetcher] [40/47] fetching CVX...
+2026-05-06 17:38:23,019 INFO [src.fetcher] [fetched] CVX history: 400 rows
+2026-05-06 17:38:24,027 INFO [src.fetcher] [41/47] fetching OXY...
+2026-05-06 17:38:24,494 INFO [src.fetcher] [fetched] OXY history: 400 rows
+2026-05-06 17:38:25,484 INFO [src.fetcher] [42/47] fetching JPM...
+2026-05-06 17:38:25,973 INFO [src.fetcher] [fetched] JPM history: 400 rows
+2026-05-06 17:38:27,057 INFO [src.fetcher] [43/47] fetching BAC...
+2026-05-06 17:38:27,511 INFO [src.fetcher] [fetched] BAC history: 400 rows
+2026-05-06 17:38:28,493 INFO [src.fetcher] [44/47] fetching GS...
+2026-05-06 17:38:28,932 INFO [src.fetcher] [fetched] GS history: 400 rows
+2026-05-06 17:38:29,917 INFO [src.fetcher] [45/47] fetching COST...
+2026-05-06 17:38:30,189 INFO [src.fetcher] [fetched] COST history: 400 rows
+2026-05-06 17:38:31,179 INFO [src.fetcher] [46/47] fetching TSLA...
+2026-05-06 17:38:31,415 INFO [src.fetcher] [fetched] TSLA history: 400 rows
+2026-05-06 17:38:32,411 INFO [src.fetcher] [47/47] fetching NFLX...
+2026-05-06 17:38:32,816 INFO [src.fetcher] [fetched] NFLX history: 400 rows
+2026-05-06 17:38:33,820 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-06 17:38:33,824 INFO [run_daily] 持仓 ADBE: 47.0 (D) - 排除
+2026-05-06 17:38:33,826 INFO [run_daily] 持仓 QCOM: 71.3 (B) - 观察（待回踩/待确认）
+2026-05-06 17:38:33,831 INFO [run_daily] 持仓 ORCL: 45.0 (D) - 排除
+2026-05-06 17:38:33,837 INFO [run_daily] 持仓 NVDA: 74.1 (B) - 观察（待回踩/待确认）
+2026-05-06 17:38:33,841 INFO [run_daily] 持仓 AAPL: 67.2 (B) - 观察（待回踩/待确认）
+2026-05-06 17:38:33,874 INFO [run_daily] 候选池打分完成: A级=6 / B级=8 / 总27
+2026-05-06 17:38:33,875 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-06.md
+2026-05-06 17:38:33,875 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-06.json
+2026-05-06 17:41:00,674 INFO [run_daily] ============================================================
+2026-05-06 17:41:00,674 INFO [run_daily] 美股鹰眼系统启动 | 大盘15 + 持仓5 + 候选27
+2026-05-06 17:41:00,674 INFO [run_daily] ============================================================
+2026-05-06 17:41:00,674 INFO [run_daily] 开始拉取 47 个标的数据...
+2026-05-06 17:41:00,674 INFO [src.fetcher] [1/47] fetching SPY...
+2026-05-06 17:41:02,412 INFO [src.fetcher] [2/47] fetching QQQ...
+2026-05-06 17:41:02,579 INFO [src.fetcher] [3/47] fetching DIA...
+2026-05-06 17:41:02,744 INFO [src.fetcher] [4/47] fetching IWM...
+2026-05-06 17:41:02,910 INFO [src.fetcher] [5/47] fetching VIX...
+2026-05-06 17:41:03,080 INFO [src.fetcher] [6/47] fetching DXY...
+2026-05-06 17:41:03,242 INFO [src.fetcher] [7/47] fetching TLT...
+2026-05-06 17:41:03,409 INFO [src.fetcher] [8/47] fetching GLD...
+2026-05-06 17:41:03,577 INFO [src.fetcher] [9/47] fetching USO...
+2026-05-06 17:41:03,743 INFO [src.fetcher] [10/47] fetching XLK...
+2026-05-06 17:41:03,910 INFO [src.fetcher] [11/47] fetching XLF...
+2026-05-06 17:41:04,077 INFO [src.fetcher] [12/47] fetching XLE...
+2026-05-06 17:41:04,242 INFO [src.fetcher] [13/47] fetching XLV...
+2026-05-06 17:41:04,406 INFO [src.fetcher] [14/47] fetching XLI...
+2026-05-06 17:41:04,569 INFO [src.fetcher] [15/47] fetching SMH...
+2026-05-06 17:41:04,736 INFO [src.fetcher] [16/47] fetching ADBE...
+2026-05-06 17:41:04,902 INFO [src.fetcher] [17/47] fetching QCOM...
+2026-05-06 17:41:05,067 INFO [src.fetcher] [18/47] fetching ORCL...
+2026-05-06 17:41:05,233 INFO [src.fetcher] [19/47] fetching NVDA...
+2026-05-06 17:41:05,401 INFO [src.fetcher] [20/47] fetching AAPL...
+2026-05-06 17:41:05,571 INFO [src.fetcher] [21/47] fetching AMD...
+2026-05-06 17:41:05,738 INFO [src.fetcher] [22/47] fetching AVGO...
+2026-05-06 17:41:05,900 INFO [src.fetcher] [23/47] fetching TSM...
+2026-05-06 17:41:06,070 INFO [src.fetcher] [24/47] fetching ASML...
+2026-05-06 17:41:06,236 INFO [src.fetcher] [25/47] fetching MU...
+2026-05-06 17:41:06,403 INFO [src.fetcher] [26/47] fetching AMAT...
+2026-05-06 17:41:06,569 INFO [src.fetcher] [27/47] fetching KLAC...
+2026-05-06 17:41:06,732 INFO [src.fetcher] [28/47] fetching MSFT...
+2026-05-06 17:41:06,894 INFO [src.fetcher] [29/47] fetching GOOGL...
+2026-05-06 17:41:07,059 INFO [src.fetcher] [30/47] fetching META...
+2026-05-06 17:41:07,223 INFO [src.fetcher] [31/47] fetching CRM...
+2026-05-06 17:41:07,388 INFO [src.fetcher] [32/47] fetching NOW...
+2026-05-06 17:41:07,552 INFO [src.fetcher] [33/47] fetching FCX...
+2026-05-06 17:41:07,718 INFO [src.fetcher] [34/47] fetching SCCO...
+2026-05-06 17:41:07,886 INFO [src.fetcher] [35/47] fetching NEM...
+2026-05-06 17:41:08,049 INFO [src.fetcher] [36/47] fetching GOLD...
+2026-05-06 17:41:08,219 INFO [src.fetcher] [37/47] fetching AEM...
+2026-05-06 17:41:08,385 INFO [src.fetcher] [38/47] fetching WPM...
+2026-05-06 17:41:08,552 INFO [src.fetcher] [39/47] fetching XOM...
+2026-05-06 17:41:08,717 INFO [src.fetcher] [40/47] fetching CVX...
+2026-05-06 17:41:08,883 INFO [src.fetcher] [41/47] fetching OXY...
+2026-05-06 17:41:09,051 INFO [src.fetcher] [42/47] fetching JPM...
+2026-05-06 17:41:09,218 INFO [src.fetcher] [43/47] fetching BAC...
+2026-05-06 17:41:09,386 INFO [src.fetcher] [44/47] fetching GS...
+2026-05-06 17:41:09,552 INFO [src.fetcher] [45/47] fetching COST...
+2026-05-06 17:41:09,717 INFO [src.fetcher] [46/47] fetching TSLA...
+2026-05-06 17:41:09,883 INFO [src.fetcher] [47/47] fetching NFLX...
+2026-05-06 17:41:10,053 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-06 17:41:10,058 INFO [run_daily] 持仓 ADBE: 47.0 (D) - 排除
+2026-05-06 17:41:10,059 INFO [run_daily] 持仓 QCOM: 71.3 (B) - 观察（待回踩/待确认）
+2026-05-06 17:41:10,060 INFO [run_daily] 持仓 ORCL: 45.0 (D) - 排除
+2026-05-06 17:41:10,061 INFO [run_daily] 持仓 NVDA: 74.1 (B) - 观察（待回踩/待确认）
+2026-05-06 17:41:10,062 INFO [run_daily] 持仓 AAPL: 67.2 (B) - 观察（待回踩/待确认）
+2026-05-06 17:41:10,083 INFO [run_daily] 候选池打分完成: A级=6 / B级=8 / 总27
+2026-05-06 17:41:10,084 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-06.md
+2026-05-06 17:41:10,084 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-06.json
+2026-05-06 17:50:36,340 INFO [run_daily] ============================================================
+2026-05-06 17:50:36,340 INFO [run_daily] 美股鹰眼系统启动 | 大盘15 + 持仓5 + 候选27
+2026-05-06 17:50:36,340 INFO [run_daily] ============================================================
+2026-05-06 17:50:36,340 INFO [run_daily] 开始拉取 47 个标的数据...
+2026-05-06 17:50:36,340 INFO [src.fetcher] [1/47] fetching SPY...
+2026-05-06 17:50:36,576 INFO [src.fetcher] [2/47] fetching QQQ...
+2026-05-06 17:50:36,737 INFO [src.fetcher] [3/47] fetching DIA...
+2026-05-06 17:50:36,900 INFO [src.fetcher] [4/47] fetching IWM...
+2026-05-06 17:50:37,062 INFO [src.fetcher] [5/47] fetching VIX...
+2026-05-06 17:50:37,224 INFO [src.fetcher] [6/47] fetching DXY...
+2026-05-06 17:50:37,387 INFO [src.fetcher] [7/47] fetching TLT...
+2026-05-06 17:50:37,551 INFO [src.fetcher] [8/47] fetching GLD...
+2026-05-06 17:52:06,834 INFO [run_daily] ============================================================
+2026-05-06 17:52:06,834 INFO [run_daily] 美股鹰眼系统启动 | 大盘15 + 持仓5 + 候选27
+2026-05-06 17:52:06,834 INFO [run_daily] ============================================================
+2026-05-06 17:52:06,834 INFO [run_daily] 开始拉取 47 个标的数据...
+2026-05-06 17:52:06,834 INFO [src.fetcher] [1/47] fetching SPY...
+2026-05-06 17:52:07,049 INFO [src.fetcher] [2/47] fetching QQQ...
+2026-05-06 17:52:07,212 INFO [src.fetcher] [3/47] fetching DIA...
+2026-05-06 17:52:07,381 INFO [src.fetcher] [4/47] fetching IWM...
+2026-05-06 17:52:07,548 INFO [src.fetcher] [5/47] fetching VIX...
+2026-05-06 17:52:07,717 INFO [src.fetcher] [6/47] fetching DXY...
+2026-05-06 17:52:07,884 INFO [src.fetcher] [7/47] fetching TLT...
+2026-05-06 17:52:08,050 INFO [src.fetcher] [8/47] fetching GLD...
+2026-05-06 17:52:08,219 INFO [src.fetcher] [9/47] fetching USO...
+2026-05-06 17:52:08,386 INFO [src.fetcher] [10/47] fetching XLK...
+2026-05-06 17:52:08,556 INFO [src.fetcher] [11/47] fetching XLF...
+2026-05-06 17:52:08,729 INFO [src.fetcher] [12/47] fetching XLE...
+2026-05-06 17:52:08,896 INFO [src.fetcher] [13/47] fetching XLV...
+2026-05-06 17:52:09,056 INFO [src.fetcher] [14/47] fetching XLI...
+2026-05-06 17:52:09,221 INFO [src.fetcher] [15/47] fetching SMH...
+2026-05-06 17:52:09,385 INFO [src.fetcher] [16/47] fetching ADBE...
+2026-05-06 17:52:09,555 INFO [src.fetcher] [17/47] fetching QCOM...
+2026-05-06 17:52:09,722 INFO [src.fetcher] [18/47] fetching ORCL...
+2026-05-06 17:52:09,892 INFO [src.fetcher] [19/47] fetching NVDA...
+2026-05-06 17:52:10,055 INFO [src.fetcher] [20/47] fetching AAPL...
+2026-05-06 17:52:10,220 INFO [src.fetcher] [21/47] fetching AMD...
+2026-05-06 17:52:10,389 INFO [src.fetcher] [22/47] fetching AVGO...
+2026-05-06 17:52:10,559 INFO [src.fetcher] [23/47] fetching TSM...
+2026-05-06 17:52:10,727 INFO [src.fetcher] [24/47] fetching ASML...
+2026-05-06 17:52:10,893 INFO [src.fetcher] [25/47] fetching MU...
+2026-05-06 17:52:11,061 INFO [src.fetcher] [26/47] fetching AMAT...
+2026-05-06 17:52:11,228 INFO [src.fetcher] [27/47] fetching KLAC...
+2026-05-06 17:52:11,393 INFO [src.fetcher] [28/47] fetching MSFT...
+2026-05-06 17:52:11,561 INFO [src.fetcher] [29/47] fetching GOOGL...
+2026-05-06 17:52:11,729 INFO [src.fetcher] [30/47] fetching META...
+2026-05-06 17:52:11,895 INFO [src.fetcher] [31/47] fetching CRM...
+2026-05-06 17:52:12,061 INFO [src.fetcher] [32/47] fetching NOW...
+2026-05-06 17:52:12,227 INFO [src.fetcher] [33/47] fetching FCX...
+2026-05-06 17:52:12,395 INFO [src.fetcher] [34/47] fetching SCCO...
+2026-05-06 17:52:12,561 INFO [src.fetcher] [35/47] fetching NEM...
+2026-05-06 17:52:12,730 INFO [src.fetcher] [36/47] fetching GOLD...
+2026-05-06 17:52:12,894 INFO [src.fetcher] [37/47] fetching AEM...
+2026-05-06 17:52:13,060 INFO [src.fetcher] [38/47] fetching WPM...
+2026-05-06 17:52:13,228 INFO [src.fetcher] [39/47] fetching XOM...
+2026-05-06 17:52:13,399 INFO [src.fetcher] [40/47] fetching CVX...
+2026-05-06 17:52:13,564 INFO [src.fetcher] [41/47] fetching OXY...
+2026-05-06 17:52:13,732 INFO [src.fetcher] [42/47] fetching JPM...
+2026-05-06 17:52:13,902 INFO [src.fetcher] [43/47] fetching BAC...
+2026-05-06 17:52:14,070 INFO [src.fetcher] [44/47] fetching GS...
+2026-05-06 17:52:14,239 INFO [src.fetcher] [45/47] fetching COST...
+2026-05-06 17:52:14,402 INFO [src.fetcher] [46/47] fetching TSLA...
+2026-05-06 17:52:14,571 INFO [src.fetcher] [47/47] fetching NFLX...
+2026-05-06 17:52:14,749 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-06 17:52:14,754 INFO [run_daily] 持仓 ADBE: 47.0 (D) - 排除
+2026-05-06 17:52:14,756 INFO [run_daily] 持仓 QCOM: 71.3 (B) - 观察（待回踩/待确认）
+2026-05-06 17:52:14,758 INFO [run_daily] 持仓 ORCL: 45.0 (D) - 排除
+2026-05-06 17:52:14,759 INFO [run_daily] 持仓 NVDA: 74.1 (B) - 观察（待回踩/待确认）
+2026-05-06 17:52:14,761 INFO [run_daily] 持仓 AAPL: 67.2 (B) - 观察（待回踩/待确认）
+2026-05-06 17:52:14,792 INFO [run_daily] 候选池打分完成: A级=6 / B级=8 / 总27
+2026-05-06 17:52:14,794 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-06.md
+2026-05-06 17:52:14,794 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-06.json
+2026-05-06 19:10:25,622 INFO [run_daily] ============================================================
+2026-05-06 19:10:25,623 INFO [run_daily] 美股鹰眼系统启动 | mode=watchlist scope=both workers=8 top=80
+2026-05-06 19:10:25,623 INFO [run_daily] ============================================================
+2026-05-06 19:10:25,623 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 27
+2026-05-06 19:10:25,623 INFO [run_daily] 开始并发拉取 47 个标的历史数据...
+2026-05-06 19:10:25,623 INFO [src.fetcher] [batch-parallel] fetching 47 tickers (workers=8, days=400)...
+2026-05-06 19:10:25,831 INFO [src.fetcher] [batch] progress 47/47
+2026-05-06 19:10:25,832 INFO [src.fetcher] [batch-parallel] done in 0.2s, with-history=47/47
+2026-05-06 19:10:25,835 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-06 19:10:25,839 INFO [run_daily] 持仓 ADBE: 47.0 (D) - 排除
+2026-05-06 19:10:25,840 INFO [run_daily] 持仓 QCOM: 71.3 (B) - 观察（待回踩/待确认）
+2026-05-06 19:10:25,841 INFO [run_daily] 持仓 ORCL: 45.0 (D) - 排除
+2026-05-06 19:10:25,842 INFO [run_daily] 持仓 NVDA: 74.1 (B) - 观察（待回踩/待确认）
+2026-05-06 19:10:25,843 INFO [run_daily] 持仓 AAPL: 67.2 (B) - 观察（待回踩/待确认）
+2026-05-06 19:10:25,863 INFO [run_daily] 候选池打分完成: A级=6 / B级=8 / 总27
+2026-05-06 19:10:25,864 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-06.md
+2026-05-06 19:10:25,864 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-06.json
+2026-05-06 19:11:20,390 INFO [run_daily] ============================================================
+2026-05-06 19:11:20,390 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=tech workers=16 top=60
+2026-05-06 19:11:20,390 INFO [run_daily] ============================================================
+2026-05-06 19:11:20,390 INFO [run_daily] [scan] 加载全美股上市清单 (scope=tech) ...
+2026-05-06 19:11:20,414 INFO [src.universe] [universe] full universe loaded: 5733 tickers (NASDAQ=5441, Other=7167)
+2026-05-06 19:11:20,414 INFO [run_daily] [scan] 全市场共 5733 只普通股，开始轻量 info 拉取预筛...
+2026-05-06 19:11:20,414 INFO [src.fetcher] [info-light] parallel fetching 5733 tickers (workers=32)...
+2026-05-06 19:11:27,246 INFO [src.fetcher] [info-light] progress 200/5733
+2026-05-06 19:11:31,185 INFO [src.fetcher] [info-light] progress 400/5733
+2026-05-06 19:11:34,965 INFO [src.fetcher] [info-light] progress 600/5733
+2026-05-06 19:11:38,779 INFO [src.fetcher] [info-light] progress 800/5733
+2026-05-06 19:11:40,144 ERROR [yfinance] HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-05-06 19:11:40,144 ERROR [yfinance] HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-05-06 19:11:40,144 ERROR [yfinance] HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-05-06 19:11:40,146 ERROR [yfinance] HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-05-06 19:11:40,150 ERROR [yfinance] HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-05-06 19:11:43,732 INFO [src.fetcher] [info-light] progress 1000/5733
+2026-05-06 19:11:48,477 INFO [src.fetcher] [info-light] progress 1200/5733
+2026-05-06 19:11:53,242 INFO [src.fetcher] [info-light] progress 1400/5733
+2026-05-06 19:11:58,041 INFO [src.fetcher] [info-light] progress 1600/5733
+2026-05-06 19:12:02,800 INFO [src.fetcher] [info-light] progress 1800/5733
+2026-05-06 19:12:07,599 INFO [src.fetcher] [info-light] progress 2000/5733
+2026-05-06 19:12:12,488 INFO [src.fetcher] [info-light] progress 2200/5733
+2026-05-06 19:12:17,283 INFO [src.fetcher] [info-light] progress 2400/5733
+2026-05-06 19:12:22,058 INFO [src.fetcher] [info-light] progress 2600/5733
+2026-05-06 19:12:26,812 INFO [src.fetcher] [info-light] progress 2800/5733
+2026-05-06 19:12:31,534 INFO [src.fetcher] [info-light] progress 3000/5733
+2026-05-06 19:12:36,251 INFO [src.fetcher] [info-light] progress 3200/5733
+2026-05-06 19:12:40,998 INFO [src.fetcher] [info-light] progress 3400/5733
+2026-05-06 19:12:45,755 INFO [src.fetcher] [info-light] progress 3600/5733
+2026-05-06 19:12:50,591 INFO [src.fetcher] [info-light] progress 3800/5733
+2026-05-06 19:12:55,521 INFO [src.fetcher] [info-light] progress 4000/5733
+2026-05-06 19:13:00,466 INFO [src.fetcher] [info-light] progress 4200/5733
+2026-05-06 19:13:04,978 INFO [src.fetcher] [info-light] progress 4400/5733
+2026-05-06 19:13:09,688 INFO [src.fetcher] [info-light] progress 4600/5733
+2026-05-06 19:13:14,653 INFO [src.fetcher] [info-light] progress 4800/5733
+2026-05-06 19:13:19,301 INFO [src.fetcher] [info-light] progress 5000/5733
+2026-05-06 19:13:24,098 INFO [src.fetcher] [info-light] progress 5200/5733
+2026-05-06 19:13:28,761 INFO [src.fetcher] [info-light] progress 5400/5733
+2026-05-06 19:13:33,546 INFO [src.fetcher] [info-light] progress 5600/5733
+2026-05-06 19:13:36,695 INFO [src.fetcher] [info-light] progress 5733/5733
+2026-05-06 19:13:36,699 INFO [src.fetcher] [info-light] done in 136.3s, valid=813/5733
+2026-05-06 19:13:36,700 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 52 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-06 19:13:36,701 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 50
+2026-05-06 19:13:36,701 INFO [run_daily] 开始并发拉取 70 个标的历史数据...
+2026-05-06 19:13:36,701 INFO [src.fetcher] [batch-parallel] fetching 70 tickers (workers=16, days=400)...
+2026-05-06 19:13:37,566 ERROR [src.fetcher] [fetch-failed] ALAB: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,754 ERROR [src.fetcher] [fetch-failed] ADEA: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,756 ERROR [src.fetcher] [fetch-failed] ADSK: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,760 ERROR [src.fetcher] [fetch-failed] ACIW: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,761 ERROR [src.fetcher] [fetch-failed] APLD: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,761 ERROR [src.fetcher] [fetch-failed] AKAM: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,764 ERROR [src.fetcher] [fetch-failed] ACLS: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,765 ERROR [src.fetcher] [fetch-failed] AMKR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,766 ERROR [src.fetcher] [fetch-failed] AMBA: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,766 ERROR [src.fetcher] [fetch-failed] AEHR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,767 ERROR [src.fetcher] [fetch-failed] ALGM: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,767 ERROR [src.fetcher] [fetch-failed] ADI: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,768 ERROR [src.fetcher] [fetch-failed] ACMR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,768 ERROR [src.fetcher] [fetch-failed] AAOI: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,770 ERROR [src.fetcher] [fetch-failed] ADP: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:37,826 ERROR [src.fetcher] [fetch-failed] AMZN: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,365 ERROR [src.fetcher] [info-failed] ALAB: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,560 ERROR [src.fetcher] [info-failed] ADSK: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,562 ERROR [src.fetcher] [info-failed] ADEA: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,567 ERROR [src.fetcher] [info-failed] APLD: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,568 ERROR [src.fetcher] [info-failed] ACIW: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,568 ERROR [src.fetcher] [info-failed] ACLS: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,751 ERROR [src.fetcher] [info-failed] AKAM: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,943 ERROR [src.fetcher] [info-failed] AMKR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,947 ERROR [src.fetcher] [info-failed] ACMR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,948 ERROR [src.fetcher] [info-failed] ADI: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,951 ERROR [src.fetcher] [info-failed] AMZN: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,952 ERROR [src.fetcher] [info-failed] AMBA: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,953 ERROR [src.fetcher] [info-failed] ADP: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,954 ERROR [src.fetcher] [info-failed] AAOI: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,953 ERROR [src.fetcher] [info-failed] ALGM: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:38,954 ERROR [src.fetcher] [info-failed] AEHR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:40,142 ERROR [src.fetcher] [fetch-failed] APP: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:40,144 ERROR [src.fetcher] [fetch-failed] ASTS: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:40,724 ERROR [src.fetcher] [fetch-failed] BTDR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:40,908 ERROR [src.fetcher] [fetch-failed] BSY: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:40,911 ERROR [src.fetcher] [fetch-failed] AVT: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:40,914 ERROR [src.fetcher] [fetch-failed] BRZE: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:40,915 ERROR [src.fetcher] [fetch-failed] AVPT: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:40,918 ERROR [src.fetcher] [fetch-failed] AXTI: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,101 ERROR [src.fetcher] [info-failed] APP: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,296 ERROR [src.fetcher] [fetch-failed] CART: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,298 ERROR [src.fetcher] [fetch-failed] CHKP: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,300 ERROR [src.fetcher] [info-failed] AVT: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,304 ERROR [src.fetcher] [fetch-failed] BULL: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,305 ERROR [src.fetcher] [info-failed] BSY: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,305 ERROR [src.fetcher] [fetch-failed] BZ: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,304 ERROR [src.fetcher] [fetch-failed] CCC: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,306 ERROR [src.fetcher] [fetch-failed] CDW: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,307 ERROR [src.fetcher] [fetch-failed] CDNS: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,307 ERROR [src.fetcher] [info-failed] ASTS: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,308 ERROR [src.fetcher] [fetch-failed] CGNX: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,309 ERROR [src.fetcher] [info-failed] BTDR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:41,899 ERROR [src.fetcher] [info-failed] BRZE: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:42,101 ERROR [src.fetcher] [info-failed] AXTI: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:42,103 ERROR [src.fetcher] [info-failed] CART: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:42,103 ERROR [src.fetcher] [info-failed] AVPT: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:42,467 ERROR [src.fetcher] [info-failed] BZ: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:42,473 ERROR [src.fetcher] [info-failed] BULL: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:42,475 ERROR [src.fetcher] [info-failed] CCC: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:42,475 ERROR [src.fetcher] [info-failed] CDW: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:42,476 ERROR [src.fetcher] [info-failed] CGNX: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:42,477 ERROR [src.fetcher] [info-failed] CHKP: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:42,476 ERROR [src.fetcher] [info-failed] CDNS: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:43,068 ERROR [src.fetcher] [fetch-failed] CIFR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:43,267 ERROR [src.fetcher] [fetch-failed] CHYM: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:43,270 ERROR [src.fetcher] [fetch-failed] CHTR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:43,275 INFO [src.fetcher] [batch] progress 50/70
+2026-05-06 19:13:43,456 ERROR [src.fetcher] [fetch-failed] COHU: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:43,646 ERROR [src.fetcher] [info-failed] CIFR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:43,653 ERROR [src.fetcher] [fetch-failed] CMCSA: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:43,654 ERROR [src.fetcher] [fetch-failed] CLBT: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,251 ERROR [src.fetcher] [fetch-failed] CRUS: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,438 ERROR [src.fetcher] [info-failed] COHU: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,438 ERROR [src.fetcher] [info-failed] CHYM: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,441 ERROR [src.fetcher] [fetch-failed] CRDO: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,444 ERROR [src.fetcher] [info-failed] CHTR: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,444 ERROR [src.fetcher] [fetch-failed] CRWD: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,449 ERROR [src.fetcher] [fetch-failed] CORZ: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,636 ERROR [src.fetcher] [fetch-failed] CSCO: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,826 ERROR [src.fetcher] [fetch-failed] CVLT: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,832 ERROR [src.fetcher] [fetch-failed] CRWV: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,833 ERROR [src.fetcher] [info-failed] CRUS: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,834 ERROR [src.fetcher] [fetch-failed] CTSH: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,837 ERROR [src.fetcher] [info-failed] CRWD: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,839 ERROR [src.fetcher] [info-failed] CRDO: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,838 ERROR [src.fetcher] [info-failed] CLBT: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:44,838 ERROR [src.fetcher] [info-failed] CMCSA: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:45,432 ERROR [src.fetcher] [info-failed] CSCO: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:45,620 ERROR [src.fetcher] [info-failed] CORZ: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:45,622 ERROR [src.fetcher] [info-failed] CVLT: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:45,630 ERROR [src.fetcher] [info-failed] CTSH: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:45,632 ERROR [src.fetcher] [info-failed] CRWV: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 19:13:46,808 INFO [src.fetcher] [batch] progress 70/70
+2026-05-06 19:13:46,831 INFO [src.fetcher] [batch-parallel] done in 10.1s, with-history=24/70
+2026-05-06 19:13:46,833 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-06 19:13:46,834 INFO [run_daily] 持仓 ADBE: 47.0 (D) - 排除
+2026-05-06 19:13:46,835 INFO [run_daily] 持仓 QCOM: 71.3 (B) - 观察（待回踩/待确认）
+2026-05-06 19:13:46,836 INFO [run_daily] 持仓 ORCL: 45.0 (D) - 排除
+2026-05-06 19:13:46,837 INFO [run_daily] 持仓 NVDA: 74.1 (B) - 观察（待回踩/待确认）
+2026-05-06 19:13:46,838 INFO [run_daily] 持仓 AAPL: 67.2 (B) - 观察（待回踩/待确认）
+2026-05-06 19:13:46,841 INFO [run_daily] 候选池打分完成: A级=1 / B级=2 / 总4
+2026-05-06 19:13:46,841 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-06.md
+2026-05-06 19:13:46,841 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-06.json
+2026-05-06 19:16:13,708 INFO [run_daily] ============================================================
+2026-05-06 19:16:13,708 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=resource workers=6 top=40
+2026-05-06 19:16:13,708 INFO [run_daily] ============================================================
+2026-05-06 19:16:13,708 INFO [run_daily] [scan] 加载全美股上市清单 (scope=resource) ...
+2026-05-06 19:16:13,732 INFO [src.universe] [universe] full universe loaded: 5733 tickers (NASDAQ=5441, Other=7167)
+2026-05-06 19:16:13,732 INFO [run_daily] [scan] 全市场共 5733 只普通股，开始轻量 info 拉取预筛...
+2026-05-06 19:16:13,732 INFO [src.fetcher] [info-light] parallel fetching 5733 tickers (workers=6)...
+2026-05-06 19:16:13,907 INFO [src.fetcher] [info-light] progress 200/5733
+2026-05-06 19:16:14,051 INFO [src.fetcher] [info-light] progress 400/5733
+2026-05-06 19:16:14,189 INFO [src.fetcher] [info-light] progress 600/5733
+2026-05-06 19:16:14,323 INFO [src.fetcher] [info-light] progress 800/5733
+2026-05-06 19:21:11,937 INFO [src.fetcher] [info-light] progress 1000/5733
+2026-05-06 19:22:31,772 ERROR [yfinance] HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-05-06 19:22:51,876 INFO [src.fetcher] [info-light] progress 1200/5733
+2026-05-06 19:23:12,449 INFO [src.fetcher] [info-light] progress 1400/5733
+2026-05-06 19:24:53,710 INFO [src.fetcher] [info-light] progress 1600/5733
+2026-05-06 19:26:32,467 INFO [src.fetcher] [info-light] progress 1800/5733
+2026-05-06 19:26:53,106 INFO [src.fetcher] [info-light] progress 2000/5733
+2026-05-06 19:27:30,715 INFO [run_daily] ============================================================
+2026-05-06 19:27:30,715 INFO [run_daily] 美股鹰眼系统启动 | mode=watchlist scope=both workers=6 top=80
+2026-05-06 19:27:30,715 INFO [run_daily] ============================================================
+2026-05-06 19:27:30,715 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 27
+2026-05-06 19:27:30,715 INFO [run_daily] 开始批量拉取 47 个标的历史数据...
+2026-05-06 19:27:30,715 INFO [src.fetcher] [batch-parallel] fetching 47 tickers (workers=6, days=400, bulk=True)...
+2026-05-06 19:27:30,823 INFO [src.fetcher] [info] progress 47/47
+2026-05-06 19:27:30,845 INFO [src.fetcher] [earnings] progress 47/47
+2026-05-06 19:27:30,845 INFO [src.fetcher] [batch-parallel] done in 0.1s, with-history=47/47
+2026-05-06 19:27:30,847 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-06 19:27:30,849 INFO [run_daily] 持仓 ADBE: 47.0 (D) - 排除
+2026-05-06 19:27:30,850 INFO [run_daily] 持仓 QCOM: 71.3 (B) - 观察（待回踩/待确认）
+2026-05-06 19:27:30,851 INFO [run_daily] 持仓 ORCL: 45.0 (D) - 排除
+2026-05-06 19:27:30,851 INFO [run_daily] 持仓 NVDA: 74.1 (B) - 观察（待回踩/待确认）
+2026-05-06 19:27:30,852 INFO [run_daily] 持仓 AAPL: 67.2 (B) - 观察（待回踩/待确认）
+2026-05-06 19:27:30,874 INFO [run_daily] 候选池打分完成: A级=6 / B级=8 / 总27
+2026-05-06 19:27:30,875 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-06.md
+2026-05-06 19:27:30,875 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-06.json
+2026-05-06 19:27:58,536 INFO [run_daily] ============================================================
+2026-05-06 19:27:58,536 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=tech workers=4 top=30
+2026-05-06 19:27:58,536 INFO [run_daily] ============================================================
+2026-05-06 19:27:58,536 INFO [run_daily] [scan] 加载全美股上市清单 (scope=tech) ...
+2026-05-06 19:27:58,560 INFO [src.universe] [universe] full universe loaded: 5733 tickers (NASDAQ=5441, Other=7167)
+2026-05-06 19:27:58,560 INFO [run_daily] [scan] 全市场共 5733 只普通股，开始轻量 info 拉取预筛...
+2026-05-06 19:27:58,562 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 0, 本次需拉取 5733, 跳过（冷却）0 (workers=4)
+2026-05-06 19:27:58,725 INFO [src.fetcher] [info-light] progress 200/5733 (ok=200)
+2026-05-06 19:27:58,837 INFO [src.fetcher] [info-light] progress 400/5733 (ok=400)
+2026-05-06 19:27:58,950 INFO [src.fetcher] [info-light] progress 600/5733 (ok=600)
+2026-05-06 19:27:59,060 INFO [src.fetcher] [info-light] progress 800/5733 (ok=800)
+2026-05-06 19:28:22,873 INFO [src.fetcher] [info-light] progress 1000/5733 (ok=1000)
+2026-05-06 19:28:24,972 INFO [src.fetcher] [info-light] progress 1200/5733 (ok=1200)
+2026-05-06 19:28:25,091 INFO [src.fetcher] [info-light] progress 1400/5733 (ok=1400)
+2026-05-06 19:28:27,079 INFO [src.fetcher] [info-light] progress 1600/5733 (ok=1600)
+2026-05-06 19:28:29,053 INFO [src.fetcher] [info-light] progress 1800/5733 (ok=1800)
+2026-05-06 19:28:29,165 INFO [src.fetcher] [info-light] progress 2000/5733 (ok=2000)
+2026-05-06 19:30:10,207 INFO [src.fetcher] [info-light] progress 2200/5733
+2026-05-06 19:30:10,552 INFO [src.fetcher] [info-light] progress 2200/5733 (ok=2192)
+2026-05-06 19:32:08,042 INFO [src.fetcher] [info-light] progress 2400/5733
+2026-05-06 19:32:08,433 INFO [src.fetcher] [info-light] progress 2400/5733 (ok=2384)
+2026-05-06 19:33:23,525 ERROR [yfinance] HTTP Error 401: {"finance":{"result":null,"error":{"code":"Unauthorized","description":"Invalid Crumb"}}}
+2026-05-06 19:34:06,634 INFO [src.fetcher] [info-light] progress 2600/5733
+2026-05-06 19:34:07,202 INFO [src.fetcher] [info-light] progress 2600/5733 (ok=2576)
+2026-05-06 19:45:01,557 INFO [run_daily] ============================================================
+2026-05-06 19:45:01,557 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-06 19:45:01,557 INFO [run_daily] ============================================================
+2026-05-06 19:45:01,557 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-06 19:45:01,582 INFO [src.universe] [universe] full universe loaded: 5733 tickers (NASDAQ=5441, Other=7167)
+2026-05-06 19:45:01,582 INFO [run_daily] [scan] 全市场共 5733 只普通股，开始轻量 info 拉取预筛...
+2026-05-06 19:45:01,584 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 0, 本次需拉取 5733, 跳过（冷却）0 (workers=6)
+2026-05-06 19:45:01,768 INFO [src.fetcher] [info-light] progress 200/5733 (ok=200)
+2026-05-06 19:45:01,887 INFO [src.fetcher] [info-light] progress 400/5733 (ok=400)
+2026-05-06 19:45:02,004 INFO [src.fetcher] [info-light] progress 600/5733 (ok=600)
+2026-05-06 19:45:02,119 INFO [src.fetcher] [info-light] progress 800/5733 (ok=800)
+2026-05-06 19:45:02,238 INFO [src.fetcher] [info-light] progress 1000/5733 (ok=1000)
+2026-05-06 19:45:02,360 INFO [src.fetcher] [info-light] progress 1200/5733 (ok=1200)
+2026-05-06 19:45:02,489 INFO [src.fetcher] [info-light] progress 1400/5733 (ok=1400)
+2026-05-06 19:45:02,608 INFO [src.fetcher] [info-light] progress 1600/5733 (ok=1600)
+2026-05-06 19:45:02,723 INFO [src.fetcher] [info-light] progress 1800/5733 (ok=1800)
+2026-05-06 19:45:02,841 INFO [src.fetcher] [info-light] progress 2000/5733 (ok=2000)
+2026-05-06 19:45:05,452 INFO [src.fetcher] [info-light] progress 2200/5733 (ok=2200)
+2026-05-06 19:45:06,216 INFO [src.fetcher] [info-light] progress 2400/5733 (ok=2400)
+2026-05-06 19:45:07,018 INFO [src.fetcher] [info-light] progress 2600/5733 (ok=2600)
+2026-05-06 19:45:24,538 INFO [src.fetcher] [info-light] progress 2800/5733 (ok=2800)
+2026-05-06 19:45:45,372 INFO [src.fetcher] [info-light] progress 3000/5733 (ok=3000)
+2026-05-06 19:46:06,486 INFO [src.fetcher] [info-light] progress 3200/5733 (ok=3200)
+2026-05-06 19:46:27,554 INFO [src.fetcher] [info-light] progress 3400/5733 (ok=3400)
+2026-05-06 19:48:07,891 INFO [src.fetcher] [info-light] progress 3600/5733 (ok=3588)
+2026-05-06 19:48:28,793 INFO [src.fetcher] [info-light] progress 3800/5733 (ok=3788)
+2026-05-06 19:50:08,962 INFO [src.fetcher] [info-light] progress 4000/5733 (ok=3976)
+2026-05-06 19:51:49,256 INFO [src.fetcher] [info-light] progress 4200/5733 (ok=4164)
+2026-05-06 19:52:10,315 INFO [src.fetcher] [info-light] progress 4400/5733 (ok=4364)
+2026-05-06 19:53:50,511 INFO [src.fetcher] [info-light] progress 4600/5733 (ok=4552)
+2026-05-06 19:55:30,921 INFO [src.fetcher] [info-light] progress 4800/5733 (ok=4740)
+2026-05-06 19:56:23,409 INFO [src.fetcher] [info-light] progress 5000/5733 (ok=4938)
+2026-05-06 19:57:30,715 INFO [src.fetcher] [info-light] progress 5200/5733 (ok=5128)
+2026-05-06 19:59:10,648 INFO [src.fetcher] [info-light] progress 5400/5733 (ok=5316)
+2026-05-06 20:00:51,337 INFO [src.fetcher] [info-light] progress 5600/5733 (ok=5504)
+2026-05-06 20:01:05,574 INFO [src.fetcher] [info-light] progress 5733/5733 (ok=5637)
+2026-05-06 20:01:05,580 INFO [src.fetcher] [info-light] 本次拉取 5637/5733 成功, 耗时 964.0s, 累计有效 5637
+2026-05-06 20:01:05,587 INFO [run_daily] [scan] 📊 universe 建库进度: 5637/5733 (98.3%) done=5637, empty=0, failed=96
+2026-05-06 20:01:05,587 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 548 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-06 20:01:05,588 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 543
+2026-05-06 20:01:05,589 INFO [run_daily] 开始批量拉取 563 个标的历史数据...
+2026-05-06 20:01:05,589 INFO [src.fetcher] [batch-parallel] fetching 563 tickers (workers=6, days=400, bulk=True)...
+2026-05-06 20:01:05,640 INFO [src.fetcher] [bulk-hist] 缓存命中 39/563, 需要下载 524 只...
+2026-05-06 20:01:11,078 INFO [src.fetcher] [bulk-hist] chunk 1/7 done, 80/80 got data
+2026-05-06 20:01:15,459 ERROR [yfinance] Failed to get ticker 'MANH' reason: Failed to perform, curl: (6) Could not resolve host: query2.finance.yahoo.com. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-05-06 20:01:17,532 INFO [src.fetcher] [bulk-hist] chunk 2/7 done, 80/80 got data
+2026-05-06 20:01:23,396 INFO [src.fetcher] [bulk-hist] chunk 3/7 done, 80/80 got data
+2026-05-06 20:01:29,390 ERROR [yfinance] 
+13 Failed downloads:
+2026-05-06 20:01:29,391 ERROR [yfinance] ['DD', 'DOCN', 'BTU', 'BTG', 'COP', 'CNX', 'APH', 'EFXT', 'CRGY', 'EGO', 'CNK', 'CCJ', 'CWAN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2026-05-06 20:01:29,496 INFO [src.fetcher] [bulk-hist] chunk 4/7 done, 67/80 got data
+2026-05-06 20:01:36,815 ERROR [yfinance] 
+80 Failed downloads:
+2026-05-06 20:01:36,816 ERROR [yfinance] ['FSM', 'IOT', 'INSW', 'HUN', 'ESTC', 'JBL', 'G', 'EQNR', 'MP', 'KNTK', 'EQT', 'ICL', 'LBRT', 'FIG', 'FNV', 'EOG', 'GIB', 'GRMN', 'FIS', 'HP', 'HAL', 'EPAM', 'JHX', 'INGM', 'KEYS', 'KN', 'EMN', 'ETSY', 'FTV', 'ENB', 'FUL', 'MSI', 'GLW', 'KLAR', 'HMY', 'KGS', 'HESM', 'KVYO', 'MGY', 'ESI', 'MPC', 'IT', 'GWRE', 'KT', 'HBM', 'IE', 'FRO', 'IBM', 'HCC', 'EXK', 'LYB', 'FLOC', 'HPQ', 'KNF', 'GGB', 'GRND', 'HL', 'EQX', 'KMI', 'IAG', 'ERO', 'KD', 'LNG', 'IONQ', 'IMO', 'LYV', 'GDDY', 'KGC', 'EPD', 'LDOS', 'FOUR', 'HUBS', 'MOS', 'HPE', 'FTI', 'INFQ', 'FN', 'LUMN', 'LEU', 'LPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2026-05-06 20:01:51,212 ERROR [yfinance] 
+80 Failed downloads:
+2026-05-06 20:01:51,213 ERROR [yfinance] ['JBL', 'FIG', 'EQNR', 'EQT', 'HUN', 'FSM', 'MP', 'INSW', 'ESTC', 'IOT', 'G', 'ICL', 'LBRT', 'KNTK', 'FNV', 'HP', 'HAL', 'JHX', 'FIS', 'EMN', 'EOG', 'GRMN', 'INGM', 'GIB', 'KN', 'KEYS', 'EPAM', 'ETSY', 'FTV', 'KVYO', 'HESM', 'ESI', 'GLW', 'MGY', 'MSI', 'MPC', 'ENB', 'IT', 'HMY', 'FUL', 'KGS', 'KLAR', 'GWRE', 'FRO', 'KT', 'HCC', 'FLOC', 'HBM', 'HPQ', 'GGB', 'IE', 'IBM', 'EXK', 'GRND', 'KNF', 'LYB', 'HL', 'IAG', 'IONQ', 'LNG', 'LDOS', 'KD', 'KGC', 'EPD', 'EQX', 'KMI', 'GDDY', 'LYV', 'IMO', 'ERO', 'FOUR', 'HPE', 'LPL', 'HUBS', 'MOS', 'INFQ', 'LUMN', 'LEU', 'FTI', 'FN']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2026-05-06 20:02:14,988 ERROR [yfinance] 
+80 Failed downloads:
+2026-05-06 20:02:14,988 ERROR [yfinance] ['INSW', 'MP', 'G', 'ESTC', 'KNTK', 'HUN', 'EQT', 'EQNR', 'JBL', 'LBRT', 'FSM', 'ICL', 'IOT', 'FIG', 'FNV', 'FIS', 'INGM', 'HAL', 'GRMN', 'ETSY', 'JHX', 'EPAM', 'HP', 'KEYS', 'KN', 'GIB', 'EOG', 'EMN', 'FTV', 'FUL', 'HMY', 'MGY', 'MPC', 'KLAR', 'KGS', 'MSI', 'KVYO', 'HESM', 'ENB', 'ESI', 'GLW', 'IT', 'GWRE', 'KT', 'HCC', 'FLOC', 'HPQ', 'EXK', 'GGB', 'IE', 'HBM', 'FRO', 'KNF', 'GRND', 'IBM', 'LYB', 'HL', 'EQX', 'KGC', 'ERO', 'LYV', 'IONQ', 'KD', 'IMO', 'LDOS', 'LNG', 'GDDY', 'EPD', 'KMI', 'IAG', 'FOUR', 'HUBS', 'LEU', 'FTI', 'INFQ', 'MOS', 'HPE', 'FN', 'LUMN', 'LPL']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2026-05-06 20:02:55,691 ERROR [yfinance] 
+80 Failed downloads:
+2026-05-06 20:02:55,693 ERROR [yfinance] ['FIG', 'HUN', 'G', 'FSM', 'JBL', 'ESTC', 'IOT', 'EQNR', 'INSW', 'KNTK', 'LBRT', 'EQT', 'ICL', 'MP', 'FNV', 'FIS', 'KEYS', 'KN', 'ETSY', 'GRMN', 'HAL', 'EMN', 'INGM', 'HP', 'EOG', 'EPAM', 'GIB', 'JHX', 'FTV', 'KVYO', 'MGY', 'ENB', 'GLW', 'KLAR', 'MPC', 'IT', 'ESI', 'KGS', 'MSI', 'HMY', 'HESM', 'FUL', 'GWRE', 'HCC', 'HBM', 'KT', 'IBM', 'GRND', 'HPQ', 'LYB', 'KNF', 'FLOC', 'IE', 'EXK', 'FRO', 'GGB', 'HL', 'KD', 'KMI', 'KGC', 'IMO', 'EQX', 'LDOS', 'ERO', 'IONQ', 'LNG', 'EPD', 'LYV', 'IAG', 'GDDY', 'FOUR', 'MOS', 'FTI', 'HPE', 'LPL', 'LUMN', 'INFQ', 'LEU', 'FN', 'HUBS']: YFRateLimitError('Too Many Requests. Rate limited. Try after a while.')
+2026-05-06 20:04:06,030 INFO [src.fetcher] [bulk-hist] chunk 5/7 done, 80/80 got data
+2026-05-06 20:04:10,931 ERROR [yfinance] $SPOT: possibly delisted; no price data found  (1d 2024-09-13 20:01:05.641079 -> 2026-05-06 20:01:05.641079)
+2026-05-06 20:04:11,961 ERROR [yfinance] 
+1 Failed download:
+2026-05-06 20:04:11,961 ERROR [yfinance] ['SPOT']: possibly delisted; no price data found  (1d 2024-09-13 20:01:05.641079 -> 2026-05-06 20:01:05.641079)
+2026-05-06 20:04:12,084 INFO [src.fetcher] [bulk-hist] chunk 6/7 done, 79/80 got data
+2026-05-06 20:04:16,384 INFO [src.fetcher] [bulk-hist] chunk 7/7 done, 44/44 got data
+2026-05-06 20:04:27,125 INFO [src.fetcher] [info] progress 100/549
+2026-05-06 20:04:36,597 INFO [src.fetcher] [info] progress 200/549
+2026-05-06 20:04:47,291 INFO [src.fetcher] [info] progress 300/549
+2026-05-06 20:05:22,072 ERROR [src.fetcher] [info-failed] CRH: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:22,270 ERROR [src.fetcher] [info-failed] CRC: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:22,650 ERROR [src.fetcher] [info-failed] CTRA: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:23,027 ERROR [src.fetcher] [info-failed] CTVA: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:23,035 ERROR [src.fetcher] [info-failed] CRK: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:23,225 ERROR [src.fetcher] [info-failed] CPNG: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:54,054 ERROR [src.fetcher] [info-failed] DELL: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:54,616 ERROR [src.fetcher] [info-failed] CVE: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:54,618 ERROR [src.fetcher] [info-failed] DINO: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:55,373 ERROR [src.fetcher] [info-failed] CVI: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:55,933 ERROR [src.fetcher] [info-failed] CX: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:05:57,322 ERROR [src.fetcher] [info-failed] DHT: Too Many Requests. Rate limited. Try after a while.
+2026-05-06 20:06:17,634 INFO [src.fetcher] [info] progress 400/549
+2026-05-06 20:06:27,875 INFO [src.fetcher] [info] progress 500/549
+2026-05-06 20:06:32,546 INFO [src.fetcher] [info] progress 549/549
+2026-05-06 20:06:37,464 INFO [src.fetcher] [earnings] progress 200/549
+2026-05-06 20:08:10,647 INFO [src.fetcher] [earnings] progress 400/549
+2026-05-06 20:08:16,491 INFO [src.fetcher] [earnings] progress 549/549
+2026-05-06 20:08:16,494 INFO [src.fetcher] [batch-parallel] done in 430.9s, with-history=549/563
+2026-05-06 20:08:16,499 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-06 20:08:16,502 INFO [run_daily] 持仓 ADBE: 47.0 (D) - 排除
+2026-05-06 20:08:16,504 INFO [run_daily] 持仓 QCOM: 71.3 (B) - 观察（待回踩/待确认）
+2026-05-06 20:08:16,507 INFO [run_daily] 持仓 ORCL: 45.0 (D) - 排除
+2026-05-06 20:08:16,509 INFO [run_daily] 持仓 NVDA: 74.1 (B) - 观察（待回踩/待确认）
+2026-05-06 20:08:16,510 INFO [run_daily] 持仓 AAPL: 67.2 (B) - 观察（待回踩/待确认）
+2026-05-06 20:08:16,926 INFO [run_daily] 候选池打分完成: A级=84 / B级=115 / 总529
+2026-05-06 20:08:16,926 INFO [run_daily] 报告仅保留 Top 199（共打分 529 只）
+2026-05-06 20:08:16,930 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-06.md
+2026-05-06 20:08:16,930 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-06.json
+2026-05-06 20:11:39,119 INFO [run_daily] ============================================================
+2026-05-06 20:11:39,119 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-06 20:11:39,119 INFO [run_daily] ============================================================
+2026-05-06 20:11:39,120 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5637, history.done=466
+2026-05-06 20:11:39,120 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-06 20:11:39,148 INFO [src.universe] [universe] full universe loaded: 5733 tickers (NASDAQ=5441, Other=7167)
+2026-05-06 20:11:39,148 INFO [run_daily] [scan] 全市场共 5733 只普通股，开始轻量 info 拉取预筛...
+2026-05-06 20:11:43,392 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5637, 本次需拉取 0, 跳过（冷却）96 (workers=6)
+2026-05-06 20:11:43,394 INFO [run_daily] [scan] 📊 universe 建库进度: 5637/5733 (98.3%) done=5637, empty=0, failed=96
+2026-05-06 20:11:43,394 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 548 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-06 20:11:43,395 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 543
+2026-05-06 20:11:43,395 INFO [run_daily] 开始批量拉取 563 个标的历史数据...
+2026-05-06 20:11:43,395 INFO [src.fetcher] [batch-parallel] fetching 563 tickers (workers=6, days=400, bulk=True)...
+2026-05-06 20:11:43,823 INFO [src.fetcher] [bulk-hist] 缓存命中 549/563, 需要下载 14 只...
+2026-05-06 20:11:45,550 INFO [src.fetcher] [bulk-hist] chunk 1/1 done, 14/14 got data
+2026-05-06 20:11:46,066 INFO [src.fetcher] [info] progress 100/563
+2026-05-06 20:11:46,135 INFO [src.fetcher] [info] progress 200/563
+2026-05-06 20:11:46,205 INFO [src.fetcher] [info] progress 300/563
+2026-05-06 20:11:49,578 INFO [src.fetcher] [info] progress 400/563
+2026-05-06 20:11:49,663 INFO [src.fetcher] [info] progress 500/563
+2026-05-06 20:11:50,299 INFO [src.fetcher] [info] progress 563/563
+2026-05-06 20:11:50,396 INFO [src.fetcher] [earnings] progress 200/563
+2026-05-06 20:11:51,313 INFO [src.fetcher] [earnings] progress 400/563
+2026-05-06 20:11:51,558 INFO [src.fetcher] [earnings] progress 563/563
+2026-05-06 20:11:51,573 INFO [src.fetcher] [batch-parallel] done in 8.2s, with-history=563/563
+2026-05-06 20:11:51,576 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-06 20:11:51,579 INFO [run_daily] 持仓 ADBE: 47.0 (D) - 排除
+2026-05-06 20:11:51,581 INFO [run_daily] 持仓 QCOM: 71.3 (B) - 观察（待回踩/待确认）
+2026-05-06 20:11:51,582 INFO [run_daily] 持仓 ORCL: 45.0 (D) - 排除
+2026-05-06 20:11:51,583 INFO [run_daily] 持仓 NVDA: 74.1 (B) - 观察（待回踩/待确认）
+2026-05-06 20:11:51,585 INFO [run_daily] 持仓 AAPL: 67.2 (B) - 观察（待回踩/待确认）
+2026-05-06 20:11:52,004 INFO [run_daily] 候选池打分完成: A级=90 / B级=114 / 总543
+2026-05-06 20:11:52,004 INFO [run_daily] 报告仅保留 Top 204（共打分 543 只）
+2026-05-06 20:11:52,007 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-06.md
+2026-05-06 20:11:52,007 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-06.json
+2026-05-06 20:15:03,794 INFO [run_daily] ============================================================
+2026-05-06 20:15:03,794 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-06 20:15:03,794 INFO [run_daily] ============================================================
+2026-05-06 20:15:03,794 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5637, history.done=480
+2026-05-06 20:15:03,794 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-06 20:15:03,819 INFO [src.universe] [universe] full universe loaded: 5733 tickers (NASDAQ=5441, Other=7167)
+2026-05-06 20:15:03,819 INFO [run_daily] [scan] 全市场共 5733 只普通股，开始轻量 info 拉取预筛...
+2026-05-06 20:15:07,959 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5637, 本次需拉取 0, 跳过（冷却）96 (workers=6)
+2026-05-06 20:15:07,960 INFO [run_daily] [scan] 📊 universe 建库进度: 5637/5733 (98.3%) done=5637, empty=0, failed=96
+2026-05-06 20:15:07,960 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 548 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-06 20:15:07,961 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 543
+2026-05-06 20:15:07,961 INFO [run_daily] 开始批量拉取 563 个标的历史数据...
+2026-05-06 20:15:07,961 INFO [src.fetcher] [batch-parallel] fetching 563 tickers (workers=6, days=400, bulk=True)...
+2026-05-06 20:15:08,421 INFO [src.fetcher] [info] progress 100/563
+2026-05-06 20:15:08,491 INFO [src.fetcher] [info] progress 200/563
+2026-05-06 20:15:08,562 INFO [src.fetcher] [info] progress 300/563
+2026-05-06 20:15:08,630 INFO [src.fetcher] [info] progress 400/563
+2026-05-06 20:15:08,702 INFO [src.fetcher] [info] progress 500/563
+2026-05-06 20:15:08,744 INFO [src.fetcher] [info] progress 563/563
+2026-05-06 20:15:08,820 INFO [src.fetcher] [earnings] progress 200/563
+2026-05-06 20:15:08,892 INFO [src.fetcher] [earnings] progress 400/563
+2026-05-06 20:15:08,949 INFO [src.fetcher] [earnings] progress 563/563
+2026-05-06 20:15:08,950 INFO [src.fetcher] [batch-parallel] done in 1.0s, with-history=563/563
+2026-05-06 20:15:08,952 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-06 20:15:08,953 INFO [run_daily] 持仓 ADBE: 47.0 (D) - 排除
+2026-05-06 20:15:08,954 INFO [run_daily] 持仓 QCOM: 71.3 (B) - 观察（待回踩/待确认）
+2026-05-06 20:15:08,955 INFO [run_daily] 持仓 ORCL: 45.0 (D) - 排除
+2026-05-06 20:15:08,956 INFO [run_daily] 持仓 NVDA: 74.1 (B) - 观察（待回踩/待确认）
+2026-05-06 20:15:08,957 INFO [run_daily] 持仓 AAPL: 67.2 (B) - 观察（待回踩/待确认）
+2026-05-06 20:15:09,379 INFO [run_daily] 候选池打分完成: A级=90 / B级=114 / 总543
+2026-05-06 20:15:09,379 INFO [run_daily] 报告仅保留 Top 204（共打分 543 只）
+2026-05-06 20:15:09,382 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-06.md
+2026-05-06 20:15:09,382 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-06.json
+2026-05-06 20:16:07,610 INFO [run_daily] ============================================================
+2026-05-06 20:16:07,610 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-06 20:16:07,610 INFO [run_daily] ============================================================
+2026-05-06 20:16:07,611 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5637, history.done=480
+2026-05-06 20:16:07,611 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-06 20:16:07,635 INFO [src.universe] [universe] full universe loaded: 5733 tickers (NASDAQ=5441, Other=7167)
+2026-05-06 20:16:07,635 INFO [run_daily] [scan] 全市场共 5733 只普通股，开始轻量 info 拉取预筛...
+2026-05-06 20:16:11,108 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5637, 本次需拉取 0, 跳过（冷却）96 (workers=6)
+2026-05-06 20:16:11,109 INFO [run_daily] [scan] 📊 universe 建库进度: 5637/5733 (98.3%) done=5637, empty=0, failed=96
+2026-05-06 20:16:11,109 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 548 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-06 20:16:11,110 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 543
+2026-05-06 20:16:11,110 INFO [run_daily] 开始批量拉取 563 个标的历史数据...
+2026-05-06 20:16:11,110 INFO [src.fetcher] [batch-parallel] fetching 563 tickers (workers=6, days=400, bulk=True)...
+2026-05-06 20:16:11,481 INFO [src.fetcher] [info] progress 100/563
+2026-05-06 20:16:11,535 INFO [src.fetcher] [info] progress 200/563
+2026-05-06 20:16:11,590 INFO [src.fetcher] [info] progress 300/563
+2026-05-06 20:16:11,644 INFO [src.fetcher] [info] progress 400/563
+2026-05-06 20:16:11,700 INFO [src.fetcher] [info] progress 500/563
+2026-05-06 20:16:11,737 INFO [src.fetcher] [info] progress 563/563
+2026-05-06 20:16:11,810 INFO [src.fetcher] [earnings] progress 200/563
+2026-05-06 20:16:11,880 INFO [src.fetcher] [earnings] progress 400/563
+2026-05-06 20:16:11,943 INFO [src.fetcher] [earnings] progress 563/563
+2026-05-06 20:16:11,944 INFO [src.fetcher] [batch-parallel] done in 0.8s, with-history=563/563
+2026-05-06 20:16:11,946 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-06 20:16:11,947 INFO [run_daily] 持仓 ADBE: 47.0 (D) - 排除
+2026-05-06 20:16:11,948 INFO [run_daily] 持仓 QCOM: 71.3 (B) - 观察（待回踩/待确认）
+2026-05-06 20:16:11,949 INFO [run_daily] 持仓 ORCL: 45.0 (D) - 排除
+2026-05-06 20:16:11,950 INFO [run_daily] 持仓 NVDA: 74.1 (B) - 观察（待回踩/待确认）
+2026-05-06 20:16:11,951 INFO [run_daily] 持仓 AAPL: 67.2 (B) - 观察（待回踩/待确认）
+2026-05-06 20:16:12,382 INFO [run_daily] 候选池打分完成: A级=90 / B级=114 / 总543
+2026-05-06 20:16:12,382 INFO [run_daily] 报告仅保留 Top 204（共打分 543 只）
+2026-05-06 20:16:12,384 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-06.md
+2026-05-06 20:16:12,384 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-06.json

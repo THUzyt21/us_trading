@@ -1,0 +1,65 @@
+# 美股鹰眼系统 - 监控清单
+# 老哥的持仓 + 候选池 + 大盘风向标
+
+# 大盘与风向标（每日必看，不参与打分）
+macro:
+  - SPY     # 标普500
+  - QQQ     # 纳指100
+  - DIA     # 道指
+  - IWM     # 罗素2000（小盘）
+  - VIX     # 恐慌指数（实际取 ^VIX）
+  - DXY     # 美元指数（实际取 DX-Y.NYB）
+  - TLT     # 20年期美债ETF
+  - GLD     # 黄金ETF
+  - USO     # 原油ETF
+  - XLK     # 科技ETF
+  - XLF     # 金融ETF
+  - XLE     # 能源ETF
+  - XLV     # 医疗ETF
+  - XLI     # 工业ETF
+  - SMH     # 半导体ETF
+
+# 老哥当前持仓（重点盯）
+holdings:
+  - MSFT    # 微软
+  - NVDA    # 英伟达
+  - KGS
+  - AMD 
+  - INTC
+ 
+
+# 候选池（按行业甜区筛选的观察名单）
+watchlist:
+  # 半导体/AI
+  - AMD
+  - AVGO
+  - TSM
+  - ASML
+  - MU
+  - AMAT
+  - KLAC
+  # 软件/云
+  - MSFT
+  - GOOGL
+  - META
+  - CRM
+  - NOW
+  # 资源/金属（你的能力圈）
+  - FCX     # 自由港麦克莫兰铜金
+  - SCCO    # 南方铜业
+  - NEM     # 纽蒙特金矿
+  - GOLD    # 巴里克
+  - AEM     # Agnico Eagle
+  - WPM     # 惠顿贵金属
+  # 能源
+  - XOM
+  - CVX
+  - OXY
+  # 金融
+  - JPM
+  - BAC
+  - GS
+  # 其他强势股（可动态增删）
+  - COST
+  - TSLA
+  - NFLX
