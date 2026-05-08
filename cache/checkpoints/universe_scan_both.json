@@ -1,7 +1,7 @@
 {
   "task": "universe_scan_both",
   "started_at": "2026-05-06T19:45:01",
-  "updated_at": "2026-05-08T10:32:37",
+  "updated_at": "2026-05-08T21:26:23",
   "stages": {
     "info_light": {
       "done": [
@@ -5739,10 +5739,184 @@
         "VEL",
         "VENU",
         "HAWK",
-        "QRED"
+        "QRED",
+        "AGNT",
+        "ODTX",
+        "MOBI",
+        "ENHA",
+        "SUJA"
       ],
       "empty": [],
-      "failed": {}
+      "failed": {
+        "ERAS": {
+          "at": "2026-05-08T21:11:19",
+          "reason": "empty_response"
+        },
+        "EPSN": {
+          "at": "2026-05-08T21:11:19",
+          "reason": "empty_response"
+        },
+        "EQIX": {
+          "at": "2026-05-08T21:11:20",
+          "reason": "empty_response"
+        },
+        "EQPT": {
+          "at": "2026-05-08T21:11:20",
+          "reason": "empty_response"
+        },
+        "EPRX": {
+          "at": "2026-05-08T21:11:21",
+          "reason": "empty_response"
+        },
+        "EQ": {
+          "at": "2026-05-08T21:11:22",
+          "reason": "empty_response"
+        },
+        "ERIE": {
+          "at": "2026-05-08T21:11:50",
+          "reason": "empty_response"
+        },
+        "ESCA": {
+          "at": "2026-05-08T21:11:51",
+          "reason": "empty_response"
+        },
+        "ESEA": {
+          "at": "2026-05-08T21:11:52",
+          "reason": "empty_response"
+        },
+        "ERNA": {
+          "at": "2026-05-08T21:11:53",
+          "reason": "empty_response"
+        },
+        "ESLA": {
+          "at": "2026-05-08T21:11:54",
+          "reason": "empty_response"
+        },
+        "ERII": {
+          "at": "2026-05-08T21:11:54",
+          "reason": "empty_response"
+        },
+        "GPRO": {
+          "at": "2026-05-08T21:13:07",
+          "reason": "empty_response"
+        },
+        "GRAL": {
+          "at": "2026-05-08T21:13:09",
+          "reason": "empty_response"
+        },
+        "GPRE": {
+          "at": "2026-05-08T21:13:09",
+          "reason": "empty_response"
+        },
+        "GRAN": {
+          "at": "2026-05-08T21:13:09",
+          "reason": "empty_response"
+        },
+        "GPAT": {
+          "at": "2026-05-08T21:13:10",
+          "reason": "empty_response"
+        },
+        "GRAB": {
+          "at": "2026-05-08T21:13:11",
+          "reason": "empty_response"
+        },
+        "GRCE": {
+          "at": "2026-05-08T21:13:39",
+          "reason": "empty_response"
+        },
+        "GREEL": {
+          "at": "2026-05-08T21:13:41",
+          "reason": "empty_response"
+        },
+        "GRDX": {
+          "at": "2026-05-08T21:13:41",
+          "reason": "empty_response"
+        },
+        "GREE": {
+          "at": "2026-05-08T21:13:41",
+          "reason": "empty_response"
+        },
+        "GRI": {
+          "at": "2026-05-08T21:13:42",
+          "reason": "empty_response"
+        },
+        "GRML": {
+          "at": "2026-05-08T21:13:43",
+          "reason": "empty_response"
+        },
+        "JAKK": {
+          "at": "2026-05-08T21:14:56",
+          "reason": "empty_response"
+        },
+        "IZM": {
+          "at": "2026-05-08T21:14:57",
+          "reason": "empty_response"
+        },
+        "JAGX": {
+          "at": "2026-05-08T21:14:57",
+          "reason": "empty_response"
+        },
+        "JACK": {
+          "at": "2026-05-08T21:14:57",
+          "reason": "empty_response"
+        },
+        "IXHL": {
+          "at": "2026-05-08T21:14:58",
+          "reason": "empty_response"
+        },
+        "IZEA": {
+          "at": "2026-05-08T21:14:59",
+          "reason": "empty_response"
+        },
+        "JATT": {
+          "at": "2026-05-08T21:15:28",
+          "reason": "empty_response"
+        },
+        "JBDI": {
+          "at": "2026-05-08T21:15:30",
+          "reason": "empty_response"
+        },
+        "JBHT": {
+          "at": "2026-05-08T21:15:30",
+          "reason": "empty_response"
+        },
+        "JANX": {
+          "at": "2026-05-08T21:15:31",
+          "reason": "empty_response"
+        },
+        "JBIO": {
+          "at": "2026-05-08T21:15:31",
+          "reason": "empty_response"
+        },
+        "JAZZ": {
+          "at": "2026-05-08T21:15:31",
+          "reason": "empty_response"
+        },
+        "MEDP": {
+          "at": "2026-05-08T21:16:47",
+          "reason": "empty_response"
+        },
+        "MEHA": {
+          "at": "2026-05-08T21:16:47",
+          "reason": "empty_response"
+        },
+        "MDXG": {
+          "at": "2026-05-08T21:16:47",
+          "reason": "empty_response"
+        },
+        "MEGL": {
+          "at": "2026-05-08T21:16:48",
+          "reason": "empty_response"
+        },
+        "MDXH": {
+          "at": "2026-05-08T21:16:48",
+          "reason": "empty_response"
+        },
+        "MELI": {
+          "at": "2026-05-08T21:16:49",
+          "reason": "empty_response"
+        }
+      }
     },
     "history": {
       "done": [
@@ -6318,7 +6492,11 @@
         "XYZ",
         "YOU",
         "YPF",
-        "ZETA"
+        "ZETA",
+        "FLYW",
+        "MGNI",
+        "WPM",
+        "XOM"
       ],
       "empty": [
         "APH",
@@ -6340,7 +6518,18 @@
         "DDOG",
         "CRWV",
         "HYMC",
-        "TENB"
+        "TENB",
+        "NFLX",
+        "CTVA",
+        "CVI",
+        "DXC",
+        "EQNR",
+        "ERO",
+        "ETSY",
+        "FCX",
+        "PAY",
+        "PINS",
+        "WK"
       ],
       "failed": {}
     },

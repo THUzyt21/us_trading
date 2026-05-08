@@ -1,0 +1,27 @@
+# 美股持仓记录
+# 更新方式: 手动维护，每次买入/卖出后更新
+#
+# pool 字段说明:
+#   A  — 右侧突破池 🚀 (RS强+距高近+放量+均线多头)
+#   B  — 左侧修复池 🔄 (超跌反弹+MA10拐头)
+#   C  — 筹码峰池 🧬
+#
+# status 字段说明:
+#   holding  — 持仓中
+#   partial  — 已卖出1/3，剩余持仓追踪中
+#   closed   — 已清仓
+
+positions:
+  # 示例 (删除后填入实际持仓):
+  # - ticker: NVDA
+  #   name: NVIDIA
+  #   pool: A
+  #   entry_date: 2026-05-09
+  #   entry_price: 950.00
+  #   shares: 10
+  #   cost: 950.00
+  #   stop: 902.50       # -5% 硬止损 (Pool A/C); Pool B 用 -7%
+  #   target_1: 1045.00  # +10% 卖1/3
+  #   target_2: 1140.00  # +20% 二目标
+  #   status: holding
+  #   note: ""

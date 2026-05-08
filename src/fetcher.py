@@ -286,7 +286,7 @@ def fetch_batch(symbols: list[str], days: int = 400, cache_hours: float = 4.0) -
 
 def fetch_info_light(
     symbol: str,
-    cache_hours: float = 48.0,
+    cache_hours: float = 168.0,  # 7天，sector/marketCap 变化极慢
     force: bool = False,
 ) -> dict:
     """
@@ -356,7 +356,7 @@ def _parallel_map(
 def fetch_info_light_batch(
     symbols: list[str],
     max_workers: int = 16,
-    cache_hours: float = 48.0,
+    cache_hours: float = 168.0,  # 7天
     checkpoint=None,  # Optional[Checkpoint]
     circuit_breaker=None,  # Optional[RateLimitCircuitBreaker]
     batch_flush: int = 100,

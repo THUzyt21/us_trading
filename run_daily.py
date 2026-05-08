@@ -95,7 +95,7 @@ def resolve_watchlist(
     info_map = fetch_info_light_batch(
         all_syms,
         max_workers=light_workers,
-        cache_hours=48.0,
+        cache_hours=168.0,  # 7天，sector/marketCap 变化极慢
         checkpoint=checkpoint,
         circuit_breaker=circuit_breaker,
         batch_flush=100,
@@ -171,7 +171,7 @@ def main():
     circuit_breaker = None
     if args.mode == "scan":
         task_name = f"universe_scan_{args.scope}"
-        checkpoint = Checkpoint(task_name, max_age_hours=48.0)
+        checkpoint = Checkpoint(task_name, max_age_hours=168.0)  # 7天内断点续传有效
         if args.fresh:
             log.info(f"[checkpoint] --fresh: 重置 {task_name}")
             checkpoint.reset()

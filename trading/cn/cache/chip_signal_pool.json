@@ -1,0 +1,62 @@
+[
+  {
+    "ts_code": "002380.SZ",
+    "name": "科远智慧",
+    "sector": "软件服务",
+    "signal_date": "20260508",
+    "signal_close": 36.21,
+    "score": 108,
+    "dyn_signal": "🔥 主力吸筹",
+    "chip_conc": "32.3%",
+    "winner": "81.4%",
+    "med_cost": 34.05,
+    "quiet_streak": 7,
+    "recovery_ratio": 0.964,
+    "baseline_vol": 86669.0
+  },
+  {
+    "ts_code": "300444.SZ",
+    "name": "双杰电气",
+    "sector": "电气设备",
+    "signal_date": "20260508",
+    "signal_close": 16.21,
+    "score": 109,
+    "dyn_signal": "🔥 主力吸筹",
+    "chip_conc": "47.9%",
+    "winner": "65.7%",
+    "med_cost": 15.43,
+    "quiet_streak": 9,
+    "recovery_ratio": 0.911,
+    "baseline_vol": 910408.0
+  },
+  {
+    "ts_code": "300788.SZ",
+    "name": "中信出版",
+    "sector": "出版业",
+    "signal_date": "20260508",
+    "signal_close": 33.85,
+    "score": 96,
+    "dyn_signal": "🔥 主力吸筹",
+    "chip_conc": "39.8%",
+    "winner": "42.1%",
+    "med_cost": 34.38,
+    "quiet_streak": 8,
+    "recovery_ratio": 0.981,
+    "baseline_vol": 77328.0
+  },
+  {
+    "ts_code": "601118.SH",
+    "name": "海南橡胶",
+    "sector": "橡胶",
+    "signal_date": "20260508",
+    "signal_close": 7.6,
+    "score": 83,
+    "dyn_signal": "🟡 底部洗盘",
+    "chip_conc": "30.8%",
+    "winner": "78.7%",
+    "med_cost": 6.9,
+    "quiet_streak": 7,
+    "recovery_ratio": 0.951,
+    "baseline_vol": 758846.0
+  }
+]

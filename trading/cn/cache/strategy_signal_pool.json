@@ -1,0 +1,257 @@
+[
+  {
+    "ts_code": "300863.SZ",
+    "name": "卡倍亿",
+    "sector": "汽车配件",
+    "signal_date": "20260508",
+    "signal_close": 63.95,
+    "pool": "breakout",
+    "pool_label": "🚀 突破",
+    "score": 100.0,
+    "grade": "A",
+    "rs_6m": 23.4,
+    "reasons": [
+      "突破60日新高+放量 1.55x",
+      "箱体(前40日振幅19.9%)后爆发 +9.2%",
+      "RS 跑赢沪深300 +23.4%"
+    ]
+  },
+  {
+    "ts_code": "300769.SZ",
+    "name": "德方纳米",
+    "sector": "化工原料",
+    "signal_date": "20260508",
+    "signal_close": 78.96,
+    "pool": "breakout",
+    "pool_label": "🚀 突破",
+    "score": 98.0,
+    "grade": "A",
+    "rs_6m": 55.1,
+    "reasons": [
+      "突破60日新高+放量 1.85x",
+      "箱体(前40日振幅19.0%)后爆发 +62.3%",
+      "RS 跑赢沪深300 +55.1%"
+    ]
+  },
+  {
+    "ts_code": "605099.SH",
+    "name": "共创草坪",
+    "sector": "文教休闲",
+    "signal_date": "20260508",
+    "signal_close": 50.31,
+    "pool": "breakout",
+    "pool_label": "🚀 突破",
+    "score": 94.0,
+    "grade": "A",
+    "rs_6m": 39.9,
+    "reasons": [
+      "突破60日新高+放量 1.75x",
+      "箱体(前40日振幅19.7%)后爆发 +26.2%",
+      "RS 跑赢沪深300 +39.9%"
+    ]
+  },
+  {
+    "ts_code": "688531.SH",
+    "name": "日联科技",
+    "sector": "专用机械",
+    "signal_date": "20260508",
+    "signal_close": 127.47,
+    "pool": "breakout",
+    "pool_label": "🚀 突破",
+    "score": 93.0,
+    "grade": "A",
+    "rs_6m": 80.9,
+    "reasons": [
+      "突破60日新高+放量 2.73x",
+      "箱体(前40日振幅18.6%)后爆发 +94.2%",
+      "RS 跑赢沪深300 +80.9%"
+    ]
+  },
+  {
+    "ts_code": "688697.SH",
+    "name": "纽威数控",
+    "sector": "机床制造",
+    "signal_date": "20260508",
+    "signal_close": 21.29,
+    "pool": "breakout",
+    "pool_label": "🚀 突破",
+    "score": 93.0,
+    "grade": "A",
+    "rs_6m": 18.8,
+    "reasons": [
+      "突破60日新高+放量 2.60x",
+      "箱体(前40日振幅16.1%)后爆发 +30.8%",
+      "多头排列强 (4/4)"
+    ]
+  },
+  {
+    "ts_code": "300895.SZ",
+    "name": "铜牛信息",
+    "sector": "软件服务",
+    "signal_date": "20260508",
+    "signal_close": 71.17,
+    "pool": "trend",
+    "pool_label": "🎯 趋势",
+    "score": 100.0,
+    "grade": "A",
+    "rs_6m": 44.7,
+    "reasons": [
+      "Minervini模板强度 5/5",
+      "RS +44.7% (强势)",
+      "均线发散健康 21.6%"
+    ]
+  },
+  {
+    "ts_code": "600158.SH",
+    "name": "中体产业",
+    "sector": "文教休闲",
+    "signal_date": "20260508",
+    "signal_close": 13.49,
+    "pool": "trend",
+    "pool_label": "🎯 趋势",
+    "score": 100.0,
+    "grade": "A",
+    "rs_6m": 41.4,
+    "reasons": [
+      "Minervini模板强度 5/5",
+      "RS +41.4% (强势)",
+      "均线发散健康 15.7%"
+    ]
+  },
+  {
+    "ts_code": "600251.SH",
+    "name": "冠农股份",
+    "sector": "农业综合",
+    "signal_date": "20260508",
+    "signal_close": 12.38,
+    "pool": "trend",
+    "pool_label": "🎯 趋势",
+    "score": 100.0,
+    "grade": "A",
+    "rs_6m": 35.0,
+    "reasons": [
+      "Minervini模板强度 5/5",
+      "RS +35.0% (强势)",
+      "均线发散健康 19.8%"
+    ]
+  },
+  {
+    "ts_code": "600433.SH",
+    "name": "冠豪高新",
+    "sector": "造纸",
+    "signal_date": "20260508",
+    "signal_close": 5.04,
+    "pool": "trend",
+    "pool_label": "🎯 趋势",
+    "score": 100.0,
+    "grade": "A",
+    "rs_6m": 47.1,
+    "reasons": [
+      "Minervini模板强度 5/5",
+      "RS +47.1% (强势)",
+      "均线发散健康 11.9%"
+    ]
+  },
+  {
+    "ts_code": "601016.SH",
+    "name": "节能风电",
+    "sector": "新型电力",
+    "signal_date": "20260508",
+    "signal_close": 4.9,
+    "pool": "trend",
+    "pool_label": "🎯 趋势",
+    "score": 100.0,
+    "grade": "A",
+    "rs_6m": 50.8,
+    "reasons": [
+      "Minervini模板强度 5/5",
+      "RS +50.8% (强势)",
+      "均线发散健康 24.0%"
+    ]
+  },
+  {
+    "ts_code": "603077.SH",
+    "name": "和邦生物",
+    "sector": "化工原料",
+    "signal_date": "20260508",
+    "signal_close": 2.89,
+    "pool": "pullback",
+    "pool_label": "🔄 回踩",
+    "score": 97.0,
+    "grade": "A",
+    "rs_6m": 24.6,
+    "reasons": [
+      "回踩-13.2% 至均线附近",
+      "RS 仍强 +24.6%",
+      "显著缩量 0.50x"
+    ]
+  },
+  {
+    "ts_code": "301179.SZ",
+    "name": "泽宇智能",
+    "sector": "软件服务",
+    "signal_date": "20260508",
+    "signal_close": 25.12,
+    "pool": "pullback",
+    "pool_label": "🔄 回踩",
+    "score": 94.0,
+    "grade": "A",
+    "rs_6m": 37.7,
+    "reasons": [
+      "回踩-11.8% 至均线附近",
+      "RS 仍强 +37.7%",
+      "显著缩量 0.52x"
+    ]
+  },
+  {
+    "ts_code": "600026.SH",
+    "name": "中远海能",
+    "sector": "水运",
+    "signal_date": "20260508",
+    "signal_close": 23.42,
+    "pool": "pullback",
+    "pool_label": "🔄 回踩",
+    "score": 94.0,
+    "grade": "A",
+    "rs_6m": 83.4,
+    "reasons": [
+      "回踩-10.2% 至均线附近",
+      "RS 仍强 +83.4%",
+      "缩量 0.69x"
+    ]
+  },
+  {
+    "ts_code": "688300.SH",
+    "name": "联瑞新材",
+    "sector": "矿物制品",
+    "signal_date": "20260508",
+    "signal_close": 94.29,
+    "pool": "pullback",
+    "pool_label": "🔄 回踩",
+    "score": 94.0,
+    "grade": "A",
+    "rs_6m": 50.0,
+    "reasons": [
+      "回踩-5.7% 至均线附近",
+      "RS 仍强 +50.0%",
+      "缩量 0.68x"
+    ]
+  },
+  {
+    "ts_code": "000592.SZ",
+    "name": "平潭发展",
+    "sector": "林业",
+    "signal_date": "20260508",
+    "signal_close": 11.44,
+    "pool": "pullback",
+    "pool_label": "🔄 回踩",
+    "score": 93.0,
+    "grade": "A",
+    "rs_6m": 43.1,
+    "reasons": [
+      "回踩-11.2% 至均线附近",
+      "RS 仍强 +43.1%",
+      "显著缩量 0.51x"
+    ]
+  }
+]

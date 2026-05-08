@@ -106,3 +106,292 @@
 2026-05-08 10:32:42,638 INFO [run_daily] 报告仅保留 Top 237（共打分 553 只）
 2026-05-08 10:32:42,650 INFO [run_daily] ✓ 报告已生成: /Users/yuting/us_trading/reports/2026-05-08.md
 2026-05-08 10:32:42,650 INFO [run_daily] ✓ JSON 数据: /Users/yuting/us_trading/reports/2026-05-08.json
+2026-05-08 21:08:59,552 INFO [run_daily] ============================================================
+2026-05-08 21:08:59,552 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-08 21:08:59,552 INFO [run_daily] ============================================================
+2026-05-08 21:08:59,553 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5735, history.done=573
+2026-05-08 21:08:59,553 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-08 21:08:59,553 INFO [src.universe] [universe] downloading https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt
+2026-05-08 21:09:00,991 INFO [src.universe] [universe] saved to /Users/yuting/github/us_trading/cache/universe/nasdaqlisted.txt (338248 bytes)
+2026-05-08 21:09:00,991 INFO [src.universe] [universe] downloading https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt
+2026-05-08 21:09:02,641 INFO [src.universe] [universe] saved to /Users/yuting/github/us_trading/cache/universe/otherlisted.txt (510487 bytes)
+2026-05-08 21:09:02,692 INFO [src.universe] [universe] full universe loaded: 5734 tickers (NASDAQ=5442, Other=7174)
+2026-05-08 21:09:02,692 INFO [run_daily] [scan] 全市场共 5734 只普通股，开始轻量 info 拉取预筛...
+2026-05-08 21:09:03,060 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 98, 本次需拉取 5636, 跳过（冷却）0 (workers=6)
+2026-05-08 21:09:25,951 INFO [src.fetcher] [info-light] progress 200/5636 (ok=200)
+2026-05-08 21:09:47,216 INFO [src.fetcher] [info-light] progress 400/5636 (ok=400)
+2026-05-08 21:10:08,016 INFO [src.fetcher] [info-light] progress 600/5636 (ok=600)
+2026-05-08 21:10:28,978 INFO [src.fetcher] [info-light] progress 800/5636 (ok=800)
+2026-05-08 21:12:07,621 INFO [src.fetcher] [info-light] progress 1000/5636 (ok=988)
+2026-05-08 21:12:29,707 INFO [src.fetcher] [info-light] progress 1200/5636 (ok=1188)
+2026-05-08 21:14:09,217 INFO [src.fetcher] [info-light] progress 1400/5636 (ok=1376)
+2026-05-08 21:15:49,648 INFO [src.fetcher] [info-light] progress 1600/5636 (ok=1564)
+2026-05-08 21:16:10,614 INFO [src.fetcher] [info-light] progress 1800/5636 (ok=1764)
+2026-05-08 21:19:17,464 INFO [run_daily] ============================================================
+2026-05-08 21:19:17,464 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-08 21:19:17,464 INFO [run_daily] ============================================================
+2026-05-08 21:19:17,465 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5736, history.done=573
+2026-05-08 21:19:17,465 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-08 21:19:17,491 INFO [src.universe] [universe] full universe loaded: 5734 tickers (NASDAQ=5442, Other=7174)
+2026-05-08 21:19:17,491 INFO [run_daily] [scan] 全市场共 5734 只普通股，开始轻量 info 拉取预筛...
+2026-05-08 21:19:21,788 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5730, 本次需拉取 4, 跳过（冷却）0 (workers=6)
+2026-05-08 21:19:29,206 INFO [src.fetcher] [info-light] progress 4/4 (ok=4)
+2026-05-08 21:19:29,208 INFO [src.fetcher] [info-light] 本次拉取 4/4 成功, 耗时 7.4s, 累计有效 5734
+2026-05-08 21:19:29,210 INFO [run_daily] [scan] 📊 universe 建库进度: 5740/5734 (100.1%) done=5740, empty=0, failed=42
+2026-05-08 21:19:29,210 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 560 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-08 21:19:29,212 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 555
+2026-05-08 21:19:29,212 INFO [run_daily] 开始批量拉取 575 个标的历史数据...
+2026-05-08 21:19:29,212 INFO [src.fetcher] [batch-parallel] fetching 575 tickers (workers=6, days=400, bulk=True)...
+2026-05-08 21:19:29,217 INFO [src.fetcher] [bulk-hist] 缓存命中 0/575, 需要下载 575 只...
+2026-05-08 21:19:34,560 INFO [src.fetcher] [bulk-hist] chunk 1/8 done, 80/80 got data
+2026-05-08 21:19:40,661 INFO [src.fetcher] [bulk-hist] chunk 2/8 done, 80/80 got data
+2026-05-08 21:19:51,453 ERROR [yfinance] $NFLX: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:19:51,460 ERROR [yfinance] 
+1 Failed download:
+2026-05-08 21:19:51,460 ERROR [yfinance] ['NFLX']: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:19:51,604 INFO [src.fetcher] [bulk-hist] chunk 3/8 done, 79/80 got data
+2026-05-08 21:19:57,446 INFO [src.fetcher] [bulk-hist] chunk 4/8 done, 80/80 got data
+2026-05-08 21:20:08,436 ERROR [yfinance] $EQNR: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:08,438 ERROR [yfinance] $CVI: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:08,440 ERROR [yfinance] $CTVA: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:08,441 ERROR [yfinance] $ERO: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:13,372 ERROR [yfinance] $ETSY: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:13,373 ERROR [yfinance] $EGO: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:13,372 ERROR [yfinance] $DXC: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:13,372 ERROR [yfinance] $FCX: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:13,374 ERROR [yfinance] 
+8 Failed downloads:
+2026-05-08 21:20:13,374 ERROR [yfinance] ['EQNR', 'CVI', 'CTVA', 'ERO', 'ETSY', 'FCX', 'DXC', 'EGO']: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:13,478 INFO [src.fetcher] [bulk-hist] chunk 5/8 done, 72/80 got data
+2026-05-08 21:20:24,318 ERROR [yfinance] $PAY: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:28,363 ERROR [yfinance] $PINS: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:28,370 ERROR [yfinance] 
+2 Failed downloads:
+2026-05-08 21:20:28,370 ERROR [yfinance] ['PAY', 'PINS']: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:28,503 INFO [src.fetcher] [bulk-hist] chunk 6/8 done, 78/80 got data
+2026-05-08 21:20:34,032 INFO [src.fetcher] [bulk-hist] chunk 7/8 done, 80/80 got data
+2026-05-08 21:20:44,593 ERROR [yfinance] $WK: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:44,598 ERROR [yfinance] 
+1 Failed download:
+2026-05-08 21:20:44,598 ERROR [yfinance] ['WK']: possibly delisted; no price data found  (1d 2024-09-15 21:19:29.217640 -> 2026-05-08 21:19:29.217640)
+2026-05-08 21:20:44,640 INFO [src.fetcher] [bulk-hist] chunk 8/8 done, 14/15 got data
+2026-05-08 21:20:55,718 INFO [src.fetcher] [info] progress 100/563
+2026-05-08 21:20:58,198 INFO [src.fetcher] [info] progress 200/563
+2026-05-08 21:20:58,291 INFO [src.fetcher] [info] progress 300/563
+2026-05-08 21:20:58,381 INFO [src.fetcher] [info] progress 400/563
+2026-05-08 21:20:58,985 INFO [src.fetcher] [info] progress 500/563
+2026-05-08 21:20:59,710 INFO [src.fetcher] [info] progress 563/563
+2026-05-08 21:20:59,810 INFO [src.fetcher] [earnings] progress 200/563
+2026-05-08 21:20:59,881 INFO [src.fetcher] [earnings] progress 400/563
+2026-05-08 21:21:00,385 INFO [src.fetcher] [earnings] progress 563/563
+2026-05-08 21:21:00,390 INFO [src.fetcher] [batch-parallel] done in 91.2s, with-history=563/575
+2026-05-08 21:21:00,396 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-08 21:21:00,408 INFO [run_daily] 持仓 MSFT: 51.5 (C) - 边缘（暂不参与）
+2026-05-08 21:21:00,416 INFO [run_daily] 持仓 NVDA: 73.8 (B) - 观察（待回踩/待确认）
+2026-05-08 21:21:00,423 INFO [run_daily] 持仓 KGS: 86.0 (A) - 狙击（系统全绿）
+2026-05-08 21:21:00,430 INFO [run_daily] 持仓 AMD: 82.0 (A) - 狙击（系统全绿）
+2026-05-08 21:21:00,436 INFO [run_daily] 持仓 INTC: 70.0 (B) - 观察（待回踩/待确认）
+2026-05-08 21:21:02,699 INFO [run_daily] 候选池打分完成: A级=120 / B级=115 / 总543
+2026-05-08 21:21:02,699 INFO [run_daily] 报告仅保留 Top 235（共打分 543 只）
+2026-05-08 21:21:02,712 INFO [run_daily] ✓ 报告已生成: /Users/yuting/github/us_trading/reports/2026-05-08.md
+2026-05-08 21:21:02,712 INFO [run_daily] ✓ JSON 数据: /Users/yuting/github/us_trading/reports/2026-05-08.json
+2026-05-08 21:26:16,740 INFO [run_daily] ============================================================
+2026-05-08 21:26:16,740 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-08 21:26:16,740 INFO [run_daily] ============================================================
+2026-05-08 21:26:16,741 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5740, history.done=577
+2026-05-08 21:26:16,741 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-08 21:26:16,766 INFO [src.universe] [universe] full universe loaded: 5734 tickers (NASDAQ=5442, Other=7174)
+2026-05-08 21:26:16,767 INFO [run_daily] [scan] 全市场共 5734 只普通股，开始轻量 info 拉取预筛...
+2026-05-08 21:26:21,057 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5734, 本次需拉取 0, 跳过（冷却）0 (workers=6)
+2026-05-08 21:26:21,058 INFO [run_daily] [scan] 📊 universe 建库进度: 5740/5734 (100.1%) done=5740, empty=0, failed=42
+2026-05-08 21:26:21,058 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 560 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-08 21:26:21,059 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 555
+2026-05-08 21:26:21,059 INFO [run_daily] 开始批量拉取 575 个标的历史数据...
+2026-05-08 21:26:21,059 INFO [src.fetcher] [batch-parallel] fetching 575 tickers (workers=6, days=400, bulk=True)...
+2026-05-08 21:26:21,425 INFO [src.fetcher] [bulk-hist] 缓存命中 563/575, 需要下载 12 只...
+2026-05-08 21:26:23,900 INFO [src.fetcher] [bulk-hist] chunk 1/1 done, 12/12 got data
+2026-05-08 21:26:24,840 INFO [src.fetcher] [info] progress 100/575
+2026-05-08 21:26:24,911 INFO [src.fetcher] [info] progress 200/575
+2026-05-08 21:26:24,982 INFO [src.fetcher] [info] progress 300/575
+2026-05-08 21:26:25,063 INFO [src.fetcher] [info] progress 400/575
+2026-05-08 21:26:25,137 INFO [src.fetcher] [info] progress 500/575
+2026-05-08 21:26:26,450 INFO [src.fetcher] [info] progress 575/575
+2026-05-08 21:26:26,545 INFO [src.fetcher] [earnings] progress 200/575
+2026-05-08 21:26:26,619 INFO [src.fetcher] [earnings] progress 400/575
+2026-05-08 21:26:26,684 INFO [src.fetcher] [earnings] progress 575/575
+2026-05-08 21:26:26,684 INFO [src.fetcher] [batch-parallel] done in 5.6s, with-history=575/575
+2026-05-08 21:26:26,686 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-08 21:26:26,693 INFO [run_daily] 持仓 MSFT: 51.5 (C) - 边缘（暂不参与）
+2026-05-08 21:26:26,698 INFO [run_daily] 持仓 NVDA: 73.8 (B) - 观察（待回踩/待确认）
+2026-05-08 21:26:26,703 INFO [run_daily] 持仓 KGS: 86.0 (A) - 狙击（系统全绿）
+2026-05-08 21:26:26,708 INFO [run_daily] 持仓 AMD: 82.0 (A) - 狙击（系统全绿）
+2026-05-08 21:26:26,712 INFO [run_daily] 持仓 INTC: 70.0 (B) - 观察（待回踩/待确认）
+2026-05-08 21:26:29,047 INFO [run_daily] 候选池打分完成: A级=120 / B级=119 / 总555
+2026-05-08 21:26:29,047 INFO [run_daily] 报告仅保留 Top 239（共打分 555 只）
+2026-05-08 21:26:29,058 INFO [run_daily] ✓ 报告已生成: /Users/yuting/github/us_trading/reports/2026-05-08.md
+2026-05-08 21:26:29,058 INFO [run_daily] ✓ JSON 数据: /Users/yuting/github/us_trading/reports/2026-05-08.json
+2026-05-08 21:28:27,302 INFO [run_daily] ============================================================
+2026-05-08 21:28:27,303 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-08 21:28:27,303 INFO [run_daily] ============================================================
+2026-05-08 21:28:27,303 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5740, history.done=577
+2026-05-08 21:28:27,303 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-08 21:28:27,328 INFO [src.universe] [universe] full universe loaded: 5734 tickers (NASDAQ=5442, Other=7174)
+2026-05-08 21:28:27,329 INFO [run_daily] [scan] 全市场共 5734 只普通股，开始轻量 info 拉取预筛...
+2026-05-08 21:28:31,622 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5734, 本次需拉取 0, 跳过（冷却）0 (workers=6)
+2026-05-08 21:28:31,623 INFO [run_daily] [scan] 📊 universe 建库进度: 5740/5734 (100.1%) done=5740, empty=0, failed=42
+2026-05-08 21:28:31,623 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 560 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-08 21:28:31,624 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 555
+2026-05-08 21:28:31,624 INFO [run_daily] 开始批量拉取 575 个标的历史数据...
+2026-05-08 21:28:31,624 INFO [src.fetcher] [batch-parallel] fetching 575 tickers (workers=6, days=400, bulk=True)...
+2026-05-08 21:28:32,118 INFO [src.fetcher] [info] progress 100/575
+2026-05-08 21:28:32,197 INFO [src.fetcher] [info] progress 200/575
+2026-05-08 21:28:32,271 INFO [src.fetcher] [info] progress 300/575
+2026-05-08 21:28:32,352 INFO [src.fetcher] [info] progress 400/575
+2026-05-08 21:28:32,430 INFO [src.fetcher] [info] progress 500/575
+2026-05-08 21:28:32,482 INFO [src.fetcher] [info] progress 575/575
+2026-05-08 21:28:32,566 INFO [src.fetcher] [earnings] progress 200/575
+2026-05-08 21:28:32,645 INFO [src.fetcher] [earnings] progress 400/575
+2026-05-08 21:28:32,712 INFO [src.fetcher] [earnings] progress 575/575
+2026-05-08 21:28:32,713 INFO [src.fetcher] [batch-parallel] done in 1.1s, with-history=575/575
+2026-05-08 21:28:32,715 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-08 21:28:32,722 INFO [run_daily] 持仓 MSFT: 51.5 (C) - 边缘（暂不参与）
+2026-05-08 21:28:32,726 INFO [run_daily] 持仓 NVDA: 73.8 (B) - 观察（待回踩/待确认）
+2026-05-08 21:28:32,731 INFO [run_daily] 持仓 KGS: 86.0 (A) - 狙击（系统全绿）
+2026-05-08 21:28:32,736 INFO [run_daily] 持仓 AMD: 82.0 (A) - 狙击（系统全绿）
+2026-05-08 21:28:32,740 INFO [run_daily] 持仓 INTC: 70.0 (B) - 观察（待回踩/待确认）
+2026-05-08 21:28:35,190 INFO [run_daily] 候选池打分完成: A级=120 / B级=119 / 总555
+2026-05-08 21:28:35,191 INFO [run_daily] 报告仅保留 Top 239（共打分 555 只）
+2026-05-08 21:28:35,201 INFO [run_daily] ✓ 报告已生成: /Users/yuting/github/us_trading/reports/2026-05-08.md
+2026-05-08 21:28:35,201 INFO [run_daily] ✓ JSON 数据: /Users/yuting/github/us_trading/reports/2026-05-08.json
+2026-05-08 21:37:22,956 INFO [run_daily] ============================================================
+2026-05-08 21:37:22,957 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-08 21:37:22,957 INFO [run_daily] ============================================================
+2026-05-08 21:37:22,957 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5740, history.done=577
+2026-05-08 21:37:22,957 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-08 21:37:22,984 INFO [src.universe] [universe] full universe loaded: 5734 tickers (NASDAQ=5442, Other=7174)
+2026-05-08 21:37:22,984 INFO [run_daily] [scan] 全市场共 5734 只普通股，开始轻量 info 拉取预筛...
+2026-05-08 21:37:27,358 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5734, 本次需拉取 0, 跳过（冷却）0 (workers=6)
+2026-05-08 21:37:27,360 INFO [run_daily] [scan] 📊 universe 建库进度: 5740/5734 (100.1%) done=5740, empty=0, failed=42
+2026-05-08 21:37:27,360 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 560 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-08 21:37:27,361 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 555
+2026-05-08 21:37:27,361 INFO [run_daily] 开始批量拉取 575 个标的历史数据...
+2026-05-08 21:37:27,361 INFO [src.fetcher] [batch-parallel] fetching 575 tickers (workers=6, days=400, bulk=True)...
+2026-05-08 21:37:27,826 INFO [src.fetcher] [info] progress 100/575
+2026-05-08 21:37:27,899 INFO [src.fetcher] [info] progress 200/575
+2026-05-08 21:37:27,971 INFO [src.fetcher] [info] progress 300/575
+2026-05-08 21:37:28,041 INFO [src.fetcher] [info] progress 400/575
+2026-05-08 21:37:28,114 INFO [src.fetcher] [info] progress 500/575
+2026-05-08 21:37:28,163 INFO [src.fetcher] [info] progress 575/575
+2026-05-08 21:37:28,241 INFO [src.fetcher] [earnings] progress 200/575
+2026-05-08 21:37:28,318 INFO [src.fetcher] [earnings] progress 400/575
+2026-05-08 21:37:28,382 INFO [src.fetcher] [earnings] progress 575/575
+2026-05-08 21:37:28,383 INFO [src.fetcher] [batch-parallel] done in 1.0s, with-history=575/575
+2026-05-08 21:37:28,385 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-08 21:37:28,392 INFO [run_daily] 持仓 MSFT: 51.5 (C) - 边缘（暂不参与）
+2026-05-08 21:37:28,396 INFO [run_daily] 持仓 NVDA: 73.8 (B) - 观察（待回踩/待确认）
+2026-05-08 21:37:28,401 INFO [run_daily] 持仓 KGS: 86.0 (A) - 狙击（系统全绿）
+2026-05-08 21:37:28,406 INFO [run_daily] 持仓 AMD: 82.0 (A) - 狙击（系统全绿）
+2026-05-08 21:37:28,411 INFO [run_daily] 持仓 INTC: 70.0 (B) - 观察（待回踩/待确认）
+2026-05-08 21:37:30,719 INFO [run_daily] 候选池打分完成: A级=120 / B级=119 / 总555
+2026-05-08 21:37:30,719 INFO [run_daily] 报告仅保留 Top 239（共打分 555 只）
+2026-05-08 21:37:30,731 INFO [run_daily] ✓ 报告已生成: /Users/yuting/github/us_trading/reports/2026-05-08.md
+2026-05-08 21:37:30,731 INFO [run_daily] ✓ JSON 数据: /Users/yuting/github/us_trading/reports/2026-05-08.json
+2026-05-08 21:40:34,606 INFO [run_daily] ============================================================
+2026-05-08 21:40:34,606 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-08 21:40:34,606 INFO [run_daily] ============================================================
+2026-05-08 21:40:34,607 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5740, history.done=577
+2026-05-08 21:40:34,607 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-08 21:40:34,632 INFO [src.universe] [universe] full universe loaded: 5734 tickers (NASDAQ=5442, Other=7174)
+2026-05-08 21:40:34,632 INFO [run_daily] [scan] 全市场共 5734 只普通股，开始轻量 info 拉取预筛...
+2026-05-08 21:40:38,910 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5734, 本次需拉取 0, 跳过（冷却）0 (workers=6)
+2026-05-08 21:40:38,911 INFO [run_daily] [scan] 📊 universe 建库进度: 5740/5734 (100.1%) done=5740, empty=0, failed=42
+2026-05-08 21:40:38,911 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 560 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-08 21:40:38,912 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 555
+2026-05-08 21:40:38,912 INFO [run_daily] 开始批量拉取 575 个标的历史数据...
+2026-05-08 21:40:38,912 INFO [src.fetcher] [batch-parallel] fetching 575 tickers (workers=6, days=400, bulk=True)...
+2026-05-08 21:40:39,365 INFO [src.fetcher] [info] progress 100/575
+2026-05-08 21:40:39,434 INFO [src.fetcher] [info] progress 200/575
+2026-05-08 21:40:39,506 INFO [src.fetcher] [info] progress 300/575
+2026-05-08 21:40:39,573 INFO [src.fetcher] [info] progress 400/575
+2026-05-08 21:40:39,643 INFO [src.fetcher] [info] progress 500/575
+2026-05-08 21:40:39,695 INFO [src.fetcher] [info] progress 575/575
+2026-05-08 21:40:39,771 INFO [src.fetcher] [earnings] progress 200/575
+2026-05-08 21:40:39,848 INFO [src.fetcher] [earnings] progress 400/575
+2026-05-08 21:40:39,912 INFO [src.fetcher] [earnings] progress 575/575
+2026-05-08 21:40:39,913 INFO [src.fetcher] [batch-parallel] done in 1.0s, with-history=575/575
+2026-05-08 21:40:39,915 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-08 21:40:39,929 INFO [run_daily] 持仓 MSFT: 51.5 (C) - 边缘（暂不参与）
+2026-05-08 21:40:39,937 INFO [run_daily] 持仓 NVDA: 73.8 (B) - 观察（待回踩/待确认）
+2026-05-08 21:40:39,944 INFO [run_daily] 持仓 KGS: 86.0 (A) - 狙击（系统全绿）
+2026-05-08 21:40:39,952 INFO [run_daily] 持仓 AMD: 82.0 (A) - 狙击（系统全绿）
+2026-05-08 21:40:39,960 INFO [run_daily] 持仓 INTC: 70.0 (B) - 观察（待回踩/待确认）
+2026-05-08 21:40:42,274 INFO [run_daily] 候选池打分完成: A级=120 / B级=119 / 总555
+2026-05-08 21:40:42,274 INFO [run_daily] 报告仅保留 Top 239（共打分 555 只）
+2026-05-08 21:40:42,286 INFO [run_daily] ✓ 报告已生成: /Users/yuting/github/us_trading/reports/2026-05-08.md
+2026-05-08 21:40:42,286 INFO [run_daily] ✓ JSON 数据: /Users/yuting/github/us_trading/reports/2026-05-08.json
+2026-05-08 21:42:28,274 INFO [run_daily] ============================================================
+2026-05-08 21:42:28,274 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-08 21:42:28,274 INFO [run_daily] ============================================================
+2026-05-08 21:42:28,275 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5740, history.done=577
+2026-05-08 21:42:28,275 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-08 21:42:28,301 INFO [src.universe] [universe] full universe loaded: 5734 tickers (NASDAQ=5442, Other=7174)
+2026-05-08 21:42:28,302 INFO [run_daily] [scan] 全市场共 5734 只普通股，开始轻量 info 拉取预筛...
+2026-05-08 21:42:32,691 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5734, 本次需拉取 0, 跳过（冷却）0 (workers=6)
+2026-05-08 21:42:32,693 INFO [run_daily] [scan] 📊 universe 建库进度: 5740/5734 (100.1%) done=5740, empty=0, failed=42
+2026-05-08 21:42:32,693 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 560 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-08 21:42:32,694 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 555
+2026-05-08 21:42:32,694 INFO [run_daily] 开始批量拉取 575 个标的历史数据...
+2026-05-08 21:42:32,694 INFO [src.fetcher] [batch-parallel] fetching 575 tickers (workers=6, days=400, bulk=True)...
+2026-05-08 21:42:33,204 INFO [src.fetcher] [info] progress 100/575
+2026-05-08 21:42:33,288 INFO [src.fetcher] [info] progress 200/575
+2026-05-08 21:42:33,362 INFO [src.fetcher] [info] progress 300/575
+2026-05-08 21:42:33,432 INFO [src.fetcher] [info] progress 400/575
+2026-05-08 21:42:33,503 INFO [src.fetcher] [info] progress 500/575
+2026-05-08 21:42:33,554 INFO [src.fetcher] [info] progress 575/575
+2026-05-08 21:42:33,635 INFO [src.fetcher] [earnings] progress 200/575
+2026-05-08 21:42:33,708 INFO [src.fetcher] [earnings] progress 400/575
+2026-05-08 21:42:33,771 INFO [src.fetcher] [earnings] progress 575/575
+2026-05-08 21:42:33,771 INFO [src.fetcher] [batch-parallel] done in 1.1s, with-history=575/575
+2026-05-08 21:42:33,773 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-08 21:42:33,781 INFO [run_daily] 持仓 MSFT: 51.5 (C) - 边缘（暂不参与）
+2026-05-08 21:42:33,786 INFO [run_daily] 持仓 NVDA: 73.8 (B) - 观察（待回踩/待确认）
+2026-05-08 21:42:33,790 INFO [run_daily] 持仓 KGS: 86.0 (A) - 狙击（系统全绿）
+2026-05-08 21:42:33,795 INFO [run_daily] 持仓 AMD: 82.0 (A) - 狙击（系统全绿）
+2026-05-08 21:42:33,800 INFO [run_daily] 持仓 INTC: 70.0 (B) - 观察（待回踩/待确认）
+2026-05-08 21:42:36,189 INFO [run_daily] 候选池打分完成: A级=120 / B级=119 / 总555
+2026-05-08 21:42:36,189 INFO [run_daily] 报告仅保留 Top 239（共打分 555 只）
+2026-05-08 21:42:36,199 INFO [run_daily] ✓ 报告已生成: /Users/yuting/github/us_trading/reports/2026-05-08.md
+2026-05-08 21:42:36,200 INFO [run_daily] ✓ JSON 数据: /Users/yuting/github/us_trading/reports/2026-05-08.json
+2026-05-08 21:48:22,411 INFO [run_daily] ============================================================
+2026-05-08 21:48:22,411 INFO [run_daily] 美股鹰眼系统启动 | mode=scan scope=both workers=6 top=80
+2026-05-08 21:48:22,411 INFO [run_daily] ============================================================
+2026-05-08 21:48:22,412 INFO [src.checkpoint] [checkpoint] universe_scan_both 已加载，info_light.done=5740, history.done=577
+2026-05-08 21:48:22,412 INFO [run_daily] [scan] 加载全美股上市清单 (scope=both) ...
+2026-05-08 21:48:22,438 INFO [src.universe] [universe] full universe loaded: 5734 tickers (NASDAQ=5442, Other=7174)
+2026-05-08 21:48:22,439 INFO [run_daily] [scan] 全市场共 5734 只普通股，开始轻量 info 拉取预筛...
+2026-05-08 21:48:26,844 INFO [src.fetcher] [info-light] 缓存/checkpoint 命中 5734, 本次需拉取 0, 跳过（冷却）0 (workers=6)
+2026-05-08 21:48:26,845 INFO [run_daily] [scan] 📊 universe 建库进度: 5740/5734 (100.1%) done=5740, empty=0, failed=42
+2026-05-08 21:48:26,846 INFO [run_daily] [scan] 按行业/市值/成交量过滤后: 560 只 (min_cap=$2.0B, min_vol=50万股)
+2026-05-08 21:48:26,846 INFO [run_daily] 大盘 15 + 持仓 5 + 候选 555
+2026-05-08 21:48:26,846 INFO [run_daily] 开始批量拉取 575 个标的历史数据...
+2026-05-08 21:48:26,846 INFO [src.fetcher] [batch-parallel] fetching 575 tickers (workers=6, days=400, bulk=True)...
+2026-05-08 21:48:27,334 INFO [src.fetcher] [info] progress 100/575
+2026-05-08 21:48:27,407 INFO [src.fetcher] [info] progress 200/575
+2026-05-08 21:48:27,478 INFO [src.fetcher] [info] progress 300/575
+2026-05-08 21:48:27,546 INFO [src.fetcher] [info] progress 400/575
+2026-05-08 21:48:27,616 INFO [src.fetcher] [info] progress 500/575
+2026-05-08 21:48:27,668 INFO [src.fetcher] [info] progress 575/575
+2026-05-08 21:48:27,745 INFO [src.fetcher] [earnings] progress 200/575
+2026-05-08 21:48:27,819 INFO [src.fetcher] [earnings] progress 400/575
+2026-05-08 21:48:27,884 INFO [src.fetcher] [earnings] progress 575/575
+2026-05-08 21:48:27,884 INFO [src.fetcher] [batch-parallel] done in 1.0s, with-history=575/575
+2026-05-08 21:48:27,886 INFO [run_daily] 大盘快照完成: 15 个指标
+2026-05-08 21:48:27,895 INFO [run_daily] 持仓 MSFT: 51.5 (C) - 边缘（暂不参与）
+2026-05-08 21:48:27,899 INFO [run_daily] 持仓 NVDA: 73.8 (B) - 观察（待回踩/待确认）
+2026-05-08 21:48:27,904 INFO [run_daily] 持仓 KGS: 86.0 (A) - 狙击（系统全绿）
+2026-05-08 21:48:27,909 INFO [run_daily] 持仓 AMD: 82.0 (A) - 狙击（系统全绿）
+2026-05-08 21:48:27,914 INFO [run_daily] 持仓 INTC: 70.0 (B) - 观察（待回踩/待确认）
+2026-05-08 21:48:30,243 INFO [run_daily] 候选池打分完成: A级=120 / B级=119 / 总555
+2026-05-08 21:48:30,243 INFO [run_daily] 报告仅保留 Top 239（共打分 555 只）
+2026-05-08 21:48:30,254 INFO [run_daily] ✓ 报告已生成: /Users/yuting/github/us_trading/reports/2026-05-08.md
+2026-05-08 21:48:30,254 INFO [run_daily] ✓ JSON 数据: /Users/yuting/github/us_trading/reports/2026-05-08.json

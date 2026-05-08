@@ -1,0 +1,312 @@
+>>> Chip Screener v3.0 Signal Backtest
+    2026-04-21 10:02:21
+    Mode: 🏗️ Tiered (T1:¥50,000 T2:¥25,000)
+
+================================================================================
+  🔬 Chip Screener v3.0 — Signal Backtest (Independent Trades)
+  Strategy: 🏗️ 分层仓位 v1.0 (Tier1 重仓 + Tier2 轻仓底仓)
+  Tier 1: ≥7🟢 score≥60 → ¥50,000/笔 止损-13%
+  Tier 2: 5🟢 only score≥65 → ¥25,000/笔 止损-9%
+  Rules: 突破确认(+1%阳线+1.3x量比) | MA5/MA15追踪 | 25天横盘 | 60天上限
+================================================================================
+[1/5] Loading cached data...
+  Loaded 2664 stocks in 0.2s
+  Trade dates: 20230109 ~ 20260420 (792 days)
+  Preprocessing stock data (with fast index)...
+  Preprocessed 2664 stocks (indexed)
+
+[1.5/5] Loading CSI 300 for market stage filter...
+  Loaded CSI 300 cache: 1038 rows (20220104~20260420)
+
+[2/5] Signal window: 20230711 ~ 20260420 (672 days)
+  Data ends at: 20260420 (trades near end force-closed at last price)
+  Stocks need ≥90 rows of history to be screened
+
+[2.5/5] Pre-computing market profit ratios (vectorized dual-window 20d+10d)...
+  Building close matrix (2664 stocks × 792 dates)...
+  Matrix built in 0.2s
+  ✅ Profit ratios cached for 672 days in 0.3s
+
+[3/5] Running daily screening...
+  672 days × 2664 stocks
+  Tiered: T1(≥7🟢 score≥60) + T2(5🟢only score≥65)
+  YELLOW mode: score≥105 only
+  🚀 Chip distribution caching: ENABLED
+
+  Day  81/672: 20231108 🟢GREEN max3 PR:47%(20d:24%/10d:47%) | picks:14 L1avg:55 cache:1891 | 9s ETA 1.1min
+  Day  86/672: 20231115 🟢GREEN max3 PR:46%(20d:46%/10d:33%) | picks:18 L1avg:102 cache:2366 | 11s ETA 1.3min
+  Day  91/672: 20231122 🟢GREEN max3 PR:47%(20d:47%/10d:12%) | picks:24 L1avg:147 cache:3357 | 17s ETA 1.8min
+  Day 151/672: 20240223 🟢GREEN max3 PR:76%(20d:21%/10d:76%) | picks:28 L1avg:28 cache:4019 | 20s ETA 1.2min
+  Day 156/672: 20240301 🟢GREEN max3 PR:64%(20d:29%/10d:64%) | picks:29 L1avg:143 cache:5171 | 27s ETA 1.5min
+  Day 161/672: 20240308 🟢GREEN max3 PR:73%(20d:73%/10d:29%) | picks:29 L1avg:164 cache:5663 | 30s ETA 1.6min
+  Day 166/672: 20240315 🟢GREEN max3 PR:72%(20d:72%/10d:26%) | picks:29 L1avg:76 cache:5931 | 33s ETA 1.7min
+  Day 171/672: 20240322 🟢GREEN max3 PR:48%(20d:48%/10d:35%) | picks:29 L1avg:48 cache:6146 | 36s ETA 1.7min
+  Day 196/672: 20240430 🟢GREEN max3 PR:66%(20d:29%/10d:66%) | picks:29 L1avg:23 cache:6462 | 38s ETA 1.5min
+  Day 201/672: 20240510 🟢GREEN max3 PR:58%(20d:32%/10d:58%) | picks:43 L1avg:196 cache:8194 | 47s ETA 1.8min
+  Day 206/672: 20240517 🟢GREEN max3 PR:68%(20d:68%/10d:22%) | picks:53 L1avg:302 cache:9486 | 55s ETA 2.1min
+  Day 211/672: 20240524 🟢GREEN max3 PR:35%(20d:35%/10d:8%) | picks:58 L1avg:227 cache:10463 | 61s ETA 2.2min
+  Day 296/672: 20240925 🟢GREEN max3 PR:45%(20d:40%/10d:45%) | picks:64 L1avg:41 cache:11569 | 67s ETA 1.4min
+  Day 301/672: 20241009 🟢GREEN max3 PR:98%(20d:95%/10d:98%) | picks:66 L1avg:171 cache:12868 | 74s ETA 1.5min
+  Day 306/672: 20241016 🟢GREEN max3 PR:95%(20d:95%/10d:90%) | picks:66 L1avg:164 cache:13208 | 77s ETA 1.5min
+  Day 311/672: 20241023 🟢GREEN max3 PR:98%(20d:98%/10d:27%) | picks:66 L1avg:226 cache:15125 | 87s ETA 1.7min
+  Day 316/672: 20241030 🟢GREEN max3 PR:93%(20d:93%/10d:53%) | picks:66 L1avg:450 cache:17710 | 100s ETA 1.9min
+  Day 321/672: 20241106 🟢GREEN max3 PR:55%(20d:55%/10d:46%) | picks:67 L1avg:490 cache:20030 | 112s ETA 2.0min
+  Day 326/672: 20241113 🟢GREEN max3 PR:81%(20d:81%/10d:58%) | picks:69 L1avg:264 cache:20346 | 115s ETA 2.0min
+  Day 331/672: 20241120 🟢GREEN max3 PR:48%(20d:48%/10d:19%) | picks:69 L1avg:44 cache:20473 | 117s ETA 2.0min
+  Day 336/672: 20241127 🟡YELLOW max1 PR:32%(20d:32%/10d:9%) | picks:69 L1avg:22 cache:20561 | 118s ETA 2.0min
+  Day 346/672: 20241211 🟢GREEN max3 PR:46%(20d:26%/10d:46%) | picks:74 L1avg:64 cache:21196 | 123s ETA 1.9min
+  Day 381/672: 20250207 🟢GREEN max3 PR:40%(20d:40%/10d:37%) | picks:93 L1avg:201 cache:24891 | 183s ETA 2.3min
+  Day 386/672: 20250214 🟢GREEN max3 PR:54%(20d:54%/10d:41%) | picks:108 L1avg:431 cache:27895 | 599s ETA 7.4min
+  Day 391/672: 20250221 🟢GREEN max3 PR:52%(20d:52%/10d:34%) | picks:116 L1avg:514 cache:30029 | 611s ETA 7.3min
+  Day 396/672: 20250228 🟢GREEN max3 PR:45%(20d:45%/10d:22%) | picks:127 L1avg:400 cache:31892 | 622s ETA 7.2min
+  Day 401/672: 20250307 🟢GREEN max3 PR:40%(20d:40%/10d:22%) | picks:135 L1avg:361 cache:33643 | 632s ETA 7.1min
+  Day 406/672: 20250314 🟢GREEN max3 PR:41%(20d:41%/10d:38%) | picks:140 L1avg:286 cache:34748 | 639s ETA 7.0min
+  Day 431/672: 20250421 🟢GREEN max3 PR:63%(20d:13%/10d:63%) | picks:144 L1avg:0 cache:35224 | 643s ETA 6.0min
+  Day 441/672: 20250508 🟢GREEN max3 PR:76%(20d:76%/10d:35%) | picks:150 L1avg:227 cache:37494 | 655s ETA 5.7min
+  Day 446/672: 20250515 🟡YELLOW max1 PR:33%(20d:33%/10d:33%) | picks:165 L1avg:542 cache:41467 | 677s ETA 5.7min
+  Day 451/672: 20250522 🟡YELLOW max1 PR:31%(20d:31%/10d:11%) | picks:173 L1avg:636 cache:43859 | 690s ETA 5.6min
+  Day 456/672: 20250529 🟢GREEN max3 PR:37%(20d:37%/10d:15%) | picks:174 L1avg:276 cache:44226 | 693s ETA 5.5min
+  Day 481/672: 20250704 🟢GREEN max3 PR:40%(20d:26%/10d:40%) | picks:188 L1avg:206 cache:47024 | 711s ETA 4.7min
+  Day 486/672: 20250711 🟢GREEN max3 PR:43%(20d:43%/10d:23%) | picks:195 L1avg:261 cache:48394 | 719s ETA 4.6min
+  Day 491/672: 20250718 🟢GREEN max3 PR:63%(20d:63%/10d:27%) | picks:208 L1avg:268 cache:49702 | 728s ETA 4.5min
+  Day 496/672: 20250725 🟢GREEN max3 PR:50%(20d:50%/10d:30%) | picks:225 L1avg:273 cache:51123 | 737s ETA 4.4min
+  Day 501/672: 20250801 🟢GREEN max3 PR:38%(20d:38%/10d:20%) | picks:239 L1avg:266 cache:52360 | 745s ETA 4.2min
+  Day 506/672: 20250808 🟢GREEN max3 PR:40%(20d:40%/10d:18%) | picks:253 L1avg:210 cache:53228 | 751s ETA 4.1min
+  Day 511/672: 20250815 🟢GREEN max3 PR:45%(20d:45%/10d:39%) | picks:266 L1avg:181 cache:54170 | 758s ETA 4.0min
+  Day 516/672: 20250822 🟢GREEN max3 PR:49%(20d:49%/10d:46%) | picks:289 L1avg:217 cache:55400 | 765s ETA 3.9min
+  Day 521/672: 20250829 🟢GREEN max3 PR:56%(20d:56%/10d:33%) | picks:309 L1avg:237 cache:56536 | 773s ETA 3.7min
+  Day 526/672: 20250905 🟢GREEN max3 PR:39%(20d:39%/10d:18%) | picks:320 L1avg:198 cache:57377 | 778s ETA 3.6min
+  Day 531/672: 20250912 🟢GREEN max3 PR:38%(20d:38%/10d:19%) | picks:326 L1avg:173 cache:58264 | 785s ETA 3.5min
+  Day 546/672: 20251013 🟡YELLOW max1 PR:32%(20d:32%/10d:23%) | picks:335 L1avg:18 cache:59083 | 791s ETA 3.0min
+  Day 561/672: 20251103 🟡YELLOW max1 PR:33%(20d:30%/10d:33%) | picks:337 L1avg:100 cache:60251 | 798s ETA 2.6min
+  Day 571/672: 20251117 🟢GREEN max3 PR:36%(20d:36%/10d:18%) | picks:342 L1avg:199 cache:62241 | 810s ETA 2.4min
+  Day 596/672: 20251222 🟡YELLOW max1 PR:32%(20d:32%/10d:16%) | picks:345 L1avg:45 cache:63495 | 817s ETA 1.7min
+  Day 606/672: 20260107 🟢GREEN max3 PR:41%(20d:38%/10d:41%) | picks:354 L1avg:359 cache:67084 | 838s ETA 1.5min
+  Day 611/672: 20260114 🟢GREEN max3 PR:60%(20d:60%/10d:47%) | picks:365 L1avg:421 cache:69338 | 851s ETA 1.4min
+  Day 616/672: 20260121 🟢GREEN max3 PR:58%(20d:58%/10d:35%) | picks:380 L1avg:393 cache:71018 | 862s ETA 1.3min
+  Day 621/672: 20260128 🟢GREEN max3 PR:53%(20d:53%/10d:29%) | picks:391 L1avg:356 cache:72896 | 873s ETA 1.2min
+  Day 626/672: 20260204 🟡YELLOW max1 PR:34%(20d:34%/10d:18%) | picks:393 L1avg:308 cache:74099 | 881s ETA 1.1min
+  Day 666/672: 20260410 🟡YELLOW max1 PR:32%(20d:11%/10d:32%) | picks:397 L1avg:23 cache:75315 | 889s ETA 0.1min
+  Day 671/672: 20260417 🟢GREEN max3 PR:43%(20d:28%/10d:43%) | picks:398 L1avg:137 cache:76452 | 896s ETA 0.0min
+
+  ✅ Screening done in 901s (15.0min)
+  Total signals (score≥60): 1884
+  Total picks: 399 (T1:97 T2:302)
+  📦 Chip cache entries: 77315 (reused across 672 days)
+
+  📊 Market Stage Filter Summary:
+    🟢 GREEN: 225 days
+    🟡 YELLOW: 43 days
+    🟠 ORANGE: 0 days
+    🔴 RED: 404 days
+    Skipped (RED): 404 days
+    Reduced picks: 43 days
+
+[4/5] Simulating 399 trades...
+  Simulated 20/399 trades...
+  Simulated 40/399 trades...
+  Simulated 60/399 trades...
+  Simulated 80/399 trades...
+  Simulated 100/399 trades...
+  Simulated 120/399 trades...
+  Simulated 140/399 trades...
+  Simulated 160/399 trades...
+  Simulated 180/399 trades...
+  Simulated 200/399 trades...
+  Simulated 220/399 trades...
+  Simulated 240/399 trades...
+  Simulated 260/399 trades...
+  Simulated 280/399 trades...
+  Simulated 300/399 trades...
+  Simulated 320/399 trades...
+  Simulated 340/399 trades...
+  Simulated 360/399 trades...
+  Simulated 380/399 trades...
+  ✅ Simulation done in 0.1s — 151 valid trades
+     T1(重仓): 40 trades | T2(轻仓): 111 trades
+
+================================================================================
+  📊 BACKTEST RESULTS — Signal Mode (Independent Trades)
+================================================================================
+
+────────────────────────────────────────────────────────────
+  📡 Signal Statistics
+────────────────────────────────────────────────────────────
+  Signal period: 20230711 ~ 20260420 (672 days)
+  Total signals (score≥60): 1884
+  Strong signals (score≥75): 1712
+  Unique stocks signaled: 626
+  Average signal score: 94.2
+  Signals by month:
+    2023-09: 35 signals
+    2023-11: 55 signals
+    2024-02: 3 signals
+    2024-03: 2 signals
+    2024-04: 13 signals
+    2024-05: 95 signals
+    2024-08: 3 signals
+    2024-09: 13 signals
+    2024-11: 6 signals
+    2024-12: 86 signals
+    2025-01: 22 signals
+    2025-02: 120 signals
+    2025-03: 62 signals
+    2025-04: 7 signals
+    2025-05: 132 signals
+    2025-06: 46 signals
+    2025-07: 295 signals
+    2025-08: 335 signals
+    2025-09: 98 signals
+    2025-10: 63 signals
+    2025-11: 96 signals
+    2025-12: 59 signals
+    2026-01: 182 signals
+    2026-02: 20 signals
+    2026-03: 13 signals
+    2026-04: 23 signals
+
+────────────────────────────────────────────────────────────
+  💰 Trade Statistics
+────────────────────────────────────────────────────────────
+  Total trades: 151
+
+  ┌──────────────────────────────────────────────────┐
+  │  Trades:            151                          │
+  │  Win rate:         47.7% (72W / 79L)        │
+  │  Avg win:        ¥   2,313 (+6.85%)       │
+  │  Avg loss:       ¥  -1,060 (-3.82%)       │
+  │  Win/Loss ratio:     2.18:1                     │
+  │  Profit factor:      1.99                       │
+  │  Avg P&L/trade:  ¥     548 (+1.27%)       │
+  │  Total P&L:      ¥  82,822                       │
+  └──────────────────────────────────────────────────┘
+
+  Holding period: avg=8.8d median=7d max=60d min=3d
+
+────────────────────────────────────────────────────────────
+  🏗️ Tiered Performance Breakdown (分层仓位对比)
+────────────────────────────────────────────────────────────
+
+  🎯 Tier 1 重仓 (¥50,000/笔)
+     交易数: 40笔 (13笔/年) | 胜率: 57.5% | PF: 3.96
+     平均P&L: ¥+1,722 (+3.46%) | 总P&L: ¥+68,886
+     平均持仓: 11.9天 | 年均利润: ¥+22,962
+     总投入资金: ¥1,958,771
+
+  📦 Tier 2 轻仓 (¥25,000/笔)
+     交易数: 111笔 (37笔/年) | 胜率: 44.1% | PF: 1.23
+     平均P&L: ¥+126 (+0.48%) | 总P&L: ¥+13,936
+     平均持仓: 7.7天 | 年均利润: ¥+4,645
+     总投入资金: ¥2,684,354
+
+  📊 组合效果:
+     T1 贡献: ¥+68,886 (83%)
+     T2 贡献: ¥+13,936 (17%)
+     组合总P&L: ¥+82,822
+     年均交易: 50笔 | 年均占用天数: 443天 (~177%资金利用率)
+────────────────────────────────────────────────────────────
+
+────────────────────────────────────────────────────────────
+  🚪 Exit Reason Breakdown
+────────────────────────────────────────────────────────────
+  横盘出场                :  97笔 胜率  40% 平均¥    -153 合计¥   -14,803
+  MA追踪出场              :  32笔 胜率 100% 平均¥  +4,589 合计¥  +146,840
+  硬止损-9%              :  19笔 胜率   0% 平均¥  -2,191 合计¥   -41,633
+  成本止损(回成本)           :   1笔 胜率 100% 平均¥  +1,858 合计¥    +1,858
+  硬止损-13%             :   1笔 胜率   0% 平均¥  -6,529 合计¥    -6,529
+  持仓超时                :   1笔 胜率   0% 平均¥  -2,910 合计¥    -2,910
+
+────────────────────────────────────────────────────────────
+  📈 Partial Sell Analysis
+────────────────────────────────────────────────────────────
+  Reached partial sell: 33 (22%) avg P&L ¥4,506
+  Never partial sell:   118 (78%) avg P&L ¥-558
+
+────────────────────────────────────────────────────────────
+  📊 Performance by Score Band
+────────────────────────────────────────────────────────────
+  Score 70-75:   2笔 胜率  50% 平均¥     -79 (-0.33%)
+  Score 75-80:   6笔 胜率  33% 平均¥    -222 (-0.86%)
+  Score 80-100:  71笔 胜率  44% 平均¥    +194 (+0.75%)
+
+────────────────────────────────────────────────────────────
+  🟢 Performance by Green Dimension Count (全绿优先选股)
+────────────────────────────────────────────────────────────
+   7绿:  40笔 胜率  57% 平均¥  +1,722 (+3.46%) 合计¥   +68,886
+   5绿: 111笔 胜率  44% 平均¥    +126 (+0.48%) 合计¥   +13,936
+
+────────────────────────────────────────────────────────────
+  🏆 Top 10 Best Trades
+────────────────────────────────────────────────────────────
+   1. 600111.SH score=106 7🟢 20250708→20250731 ¥ +19,507(+39.1%) 17d MA5追踪出场
+   2. 600111.SH score=123 7🟢 20250630→20250731 ¥ +19,493(+39.0%) 23d MA5追踪出场
+   3. 000676.SZ score=111 7🟢 20250818→20250902 ¥ +10,525(+21.3%) 11d MA5追踪出场
+   4. 002250.SZ score=122 7🟢 20251031→20251118 ¥  +7,694(+15.4%) 12d MA5追踪出场
+   5. 002338.SZ score=116 7🟢 20250724→20250825 ¥  +7,460(+15.7%) 22d MA5追踪出场
+   6. 603888.SH score=87 5🟢 20260106→20260116 ¥  +5,373(+21.6%) 8d MA5追踪出场
+   7. 600206.SH score=122 7🟢 20250813→20250903 ¥  +5,221(+10.7%) 15d MA5追踪出场
+   8. 000338.SZ score=103 5🟢 20260109→20260129 ¥  +5,010(+20.9%) 14d MA5追踪出场
+   9. 688001.SH score=91 5🟢 20240926→20241010 ¥  +4,444(+19.5%) 5d MA5追踪出场
+  10. 600525.SH score=99 5🟢 20260106→20260128 ¥  +4,362(+17.6%) 16d MA5追踪出场
+
+────────────────────────────────────────────────────────────
+  💀 Top 10 Worst Trades
+────────────────────────────────────────────────────────────
+   1. 300123.SZ score=78 5🟢 20250825→20250904 ¥  -2,270( -9.3%) 8d 硬止损-9%
+   2. 301206.SZ score=103 5🟢 20250912→20250923 ¥  -2,283( -9.3%) 7d 硬止损-9%
+   3. 600997.SH score=85 5🟢 20240306→20240312 ¥  -2,288( -9.3%) 4d 硬止损-9%
+   4. 000958.SZ score=89 5🟢 20260114→20260206 ¥  -2,289( -9.3%) 17d 硬止损-9%
+   5. 300429.SZ score=98 5🟢 20251010→20251017 ¥  -2,303( -9.3%) 5d 硬止损-9%
+   6. 001338.SZ score=94 5🟢 20250826→20250922 ¥  -2,304( -9.3%) 19d 硬止损-9%
+   7. 600223.SH score=99 5🟢 20250821→20250903 ¥  -2,309( -9.3%) 9d 硬止损-9%
+   8. 002840.SZ score=96 5🟢 20251117→20251120 ¥  -2,312( -9.3%) 3d 硬止损-9%
+   9. 300737.SZ score=111 7🟢 20250825→20251125 ¥  -2,910( -5.8%) 60d 持仓60天强制出场
+  10. 002093.SZ score=114 7🟢 20250826→20250904 ¥  -6,529(-13.2%) 7d 硬止损-13%
+
+────────────────────────────────────────────────────────────
+  📅 Monthly P&L
+────────────────────────────────────────────────────────────
+  2023-09: ¥    -2,063 |   2笔 | 胜率50%
+  2023-11: ¥    -2,989 |   5笔 | 胜率20%
+  2023-12: ¥    +2,155 |   3笔 | 胜率33%
+  2024-03: ¥    -2,288 |   1笔 | 胜率0%
+  2024-05: ¥       -22 |   3笔 | 胜率33%
+  2024-06: ¥    -6,609 |   4笔 | 胜率0%
+  2024-10: ¥   +11,485 |   5笔 | 胜率80%
+  2024-11: ¥      -619 |   3笔 | 胜率67%
+  2024-12: ¥    -1,984 |   5笔 | 胜率40%
+  2025-01: ¥    -1,027 |   1笔 | 胜率0%
+  2025-02: ¥    -2,335 |   8笔 | 胜率25%
+  2025-03: ¥    +2,765 |  11笔 | 胜率73%
+  2025-04: ¥      +654 |   1笔 | 胜率100%
+  2025-05: ¥      -214 |   5笔 | 胜率40%
+  2025-06: ¥    -1,437 |   4笔 | 胜率25%
+  2025-07: ¥   +40,991 |  12笔 | 胜率58%
+  2025-08: ¥   +16,149 |  24笔 | 胜率62%
+  2025-09: ¥    +2,416 |  24笔 | 胜率42%
+  2025-10: ¥      -752 |   2笔 | 胜率50%
+  2025-11: ¥    +2,471 |   3笔 | 胜率33%
+  2026-01: ¥   +25,132 |  15笔 | 胜率67%
+  2026-02: ¥    +1,515 |   8笔 | 胜率25%
+  2026-03: ¥      -571 |   2笔 | 胜率0%
+
+────────────────────────────────────────────────────────────
+  📏 Sample Size Assessment
+────────────────────────────────────────────────────────────
+  ✅ 151 trades — statistically significant (≥100)
+
+================================================================================
+  🎯 VERDICT
+================================================================================
+  Trades:             151
+  Win rate:           47.7%
+  Win/Loss ratio:     2.18:1
+  Expectancy/trade:   ¥548 (+1.27%)
+  Profit factor:      1.99
+
+  ✅ POSITIVE EDGE DETECTED
+     🤏 Weak edge: 48% WR × 2.2:1 R/R
+================================================================================
+
+  💾 Trades: /Users/yuting/trading/results/bt_trades_20260421_101724.csv
+  💾 Signals: /Users/yuting/trading/results/bt_signals_20260421_101724.csv

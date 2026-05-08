@@ -1,0 +1,189 @@
+================================================================================
+  🤖 美股AI潜力股扫描结果 — 2026-04-25 16:38
+  全市场 2932 只 → AI相关 121 只 → 成长筛选 23 只
+================================================================================
+
+1. PTC Inc. (PTC)  评分:85/100
+   行业: Technology > Software - Application
+   AI信号: 行业:Software - Application
+   市值: $16.2B | 营收增长: 21.4% | 盈利增长: 104.4%
+   毛利率: 84.2% | 营业利润率: 33.8% | ROE: 23.1%
+   P/E: 20.0 | Forward P/E: 16.3 | PEG: 1.44
+   FCF: $0.79B
+
+2. Duolingo, Inc. (DUOL)  评分:83/100
+   行业: Technology > Software - Application
+   AI信号: 行业:Software - Application
+   市值: $4.8B | 营收增长: 35.0% | 盈利增长: 193.6%
+   毛利率: 72.2% | 营业利润率: 15.5% | ROE: 38.1%
+   P/E: 12.1 | Forward P/E: 12.8 | PEG: 0
+   FCF: $0.26B
+
+3. Teradyne, Inc. (TER)  评分:75/100
+   行业: Technology > Semiconductor Equipment & Materials
+   AI信号: 行业:Semiconductor Equipment & Materials
+   市值: $62.8B | 营收增长: 43.9% | 盈利增长: 81.4%
+   毛利率: 58.2% | 营业利润率: 30.3% | ROE: 19.7%
+   P/E: 114.9 | Forward P/E: 48.1 | PEG: 2.13
+   FCF: $0.27B
+
+4. UiPath, Inc. (PATH)  评分:73/100
+   行业: Technology > Software - Infrastructure
+   AI信号: 行业:Software - Infrastructure
+   市值: $5.4B | 营收增长: 13.6% | 盈利增长: 105.7%
+   毛利率: 83.2% | 营业利润率: 16.7% | ROE: 14.4%
+   P/E: 19.9 | Forward P/E: 11.6 | PEG: 0.37
+   FCF: $0.47B
+
+5. Roper Technologies, Inc. (ROP)  评分:72/100
+   行业: Technology > Software - Application
+   AI信号: 行业:Software - Application
+   市值: $37.4B | 营收增长: 11.3% | 盈利增长: 59.2%
+   毛利率: 69.4% | 营业利润率: 27.2% | ROE: 9.0%
+   P/E: 22.7 | Forward P/E: 15.6 | PEG: 1.61
+   FCF: $2.17B
+
+6. Adobe Inc. (ADBE)  评分:70/100
+   行业: Technology > Software - Application
+   AI信号: 行业:Software - Application
+   市值: $96.6B | 营收增长: 12.0% | 盈利增长: 11.1%
+   毛利率: 89.4% | 营业利润率: 38.8% | ROE: 58.8%
+   P/E: 13.9 | Forward P/E: 9.1 | PEG: 0.73
+   FCF: $9.32B
+
+7. Synopsys, Inc. (SNPS)  评分:70/100
+   行业: Technology > Software - Infrastructure
+   AI信号: 行业:Software - Infrastructure
+   市值: $87.5B | 营收增长: 65.5% | 盈利增长: -82.0%
+   毛利率: 82.0% | 营业利润率: 13.3% | ROE: 5.5%
+   P/E: 69.9 | Forward P/E: 26.8 | PEG: 3.15
+   FCF: $3.1B
+
+8. Keysight Technologies Inc. (KEYS)  评分:69/100
+   行业: Technology > Scientific & Technical Instruments
+   AI信号: 行业:Scientific & Technical Instruments
+   市值: $59.4B | 营收增长: 23.3% | 盈利增长: 68.0%
+   毛利率: 61.9% | 营业利润率: 16.3% | ROE: 17.2%
+   P/E: 61.0 | Forward P/E: 33.5 | PEG: 2.01
+   FCF: $1.08B
+
+9. Workday, Inc. (WDAY)  评分:68/100
+   行业: Technology > Software - Application
+   AI信号: 行业:Software - Application
+   市值: $29.5B | 营收增长: 14.5% | 盈利增长: 62.9%
+   毛利率: 75.7% | 营业利润率: 12.0% | ROE: 8.2%
+   P/E: 44.3 | Forward P/E: 9.2 | PEG: 0.49
+   FCF: $3.01B
+
+10. Ciena Corporation (CIEN)  评分:68/100
+   行业: Technology > Communication Equipment
+   AI信号: 行业:Communication Equipment
+   市值: $72.9B | 营收增长: 33.1% | 盈利增长: 232.3%
+   毛利率: 42.1% | 营业利润率: 13.4% | ROE: 8.2%
+   P/E: 332.8 | Forward P/E: 61.0 | PEG: 2.08
+   FCF: $0.7B
+
+11. DoorDash, Inc. (DASH)  评分:66/100
+   行业: Consumer Cyclical > Internet Retail
+   AI信号: 行业:Internet Retail
+   市值: $77.1B | 营收增长: 37.7% | 盈利增长: 47.7%
+   毛利率: 51.8% | 营业利润率: 5.3% | ROE: 10.4%
+   P/E: 83.5 | Forward P/E: 23.4 | PEG: 1.86
+   FCF: $2.38B
+
+12. Sea Limited (SE)  评分:64/100
+   行业: Consumer Cyclical > Internet Retail
+   AI信号: 行业:Internet Retail
+   市值: $52.3B | 营收增长: 38.4% | 盈利增长: 58.2%
+   毛利率: 44.7% | 营业利润率: 8.2% | ROE: 15.2%
+   P/E: 33.9 | Forward P/E: 17.1 | PEG: 0.6
+   FCF: $0.51B
+
+13. Autodesk, Inc. (ADSK)  评分:62/100
+   行业: Technology > Software - Application
+   AI信号: 行业:Software - Application
+   市值: $48.9B | 营收增长: 19.4% | 盈利增长: 6.3%
+   毛利率: 92.3% | 营业利润率: 27.2% | ROE: 39.7%
+   P/E: 44.4 | Forward P/E: 16.4 | PEG: 0.96
+   FCF: $2.79B
+
+14. ServiceNow, Inc. (NOW)  评分:61/100
+   行业: Technology > Software - Application
+   AI信号: 行业:Software - Application
+   市值: $87.8B | 营收增长: 22.1% | 盈利增长: 2.3%
+   毛利率: 76.6% | 营业利润率: 13.4% | ROE: 16.1%
+   P/E: 50.5 | Forward P/E: 16.9 | PEG: 0.99
+   FCF: $5.11B
+
+15. The Trade Desk, Inc. (TTD)  评分:60/100
+   行业: Communication Services > Advertising Agencies
+   AI信号: 已知AI标的
+   市值: $10.8B | 营收增长: 14.3% | 盈利增长: 7.5%
+   毛利率: 78.6% | 营业利润率: 30.3% | ROE: 16.3%
+   P/E: 25.1 | Forward P/E: 9.5 | PEG: 0.9
+   FCF: $0.6B
+
+16. Fortinet, Inc. (FTNT)  评分:53/100
+   行业: Technology > Software - Infrastructure
+   AI信号: 行业:Software - Infrastructure
+   市值: $61.2B | 营收增长: 14.8% | 盈利增长: -1.1%
+   毛利率: 80.5% | 营业利润率: 32.8% | ROE: 135.7%
+   P/E: 34.2 | Forward P/E: 25.0 | PEG: 2.11
+   FCF: $1.75B
+
+17. Garmin Ltd. (GRMN)  评分:50/100
+   行业: Technology > Scientific & Technical Instruments
+   AI信号: 行业:Scientific & Technical Instruments
+   市值: $50.3B | 营收增长: 16.6% | 盈利增长: 21.2%
+   毛利率: 58.7% | 营业利润率: 28.9% | ROE: 19.8%
+   P/E: 30.4 | Forward P/E: 25.6 | PEG: 3.46
+   FCF: $0.79B
+
+18. Paychex, Inc. (PAYX)  评分:45/100
+   行业: Technology > Software - Application
+   AI信号: 行业:Software - Application
+   市值: $32.6B | 营收增长: 19.9% | 盈利增长: 9.1%
+   毛利率: 67.2% | 营业利润率: 44.4% | ROE: 40.1%
+   P/E: 20.1 | Forward P/E: 15.4 | PEG: 1.79
+   FCF: $0B
+
+19. Monolithic Power Systems, Inc. (MPWR)  评分:45/100
+   行业: Technology > Semiconductors
+   AI信号: 行业:Semiconductors
+   市值: $78.2B | 营收增长: 20.8% | 盈利增长: -86.2%
+   毛利率: 55.2% | 营业利润率: 26.6% | ROE: 19.2%
+   P/E: 123.4 | Forward P/E: 61.3 | PEG: 2.5
+   FCF: $0.41B
+
+20. IREN LIMITED (IREN)  评分:45/100
+   行业: Financial Services > Capital Markets
+   AI信号: 已知AI标的
+   市值: $16.8B | 营收增长: 59.0% | 盈利增长: 0%
+   毛利率: 68.1% | 营业利润率: -45.8% | ROE: 20.5%
+   P/E: 35.2 | Forward P/E: 40.0 | PEG: 3.11
+   FCF: $-1.25B
+
+21. Zebra Technologies Corporation (ZBRA)  评分:43/100
+   行业: Technology > Communication Equipment
+   AI信号: 行业:Communication Equipment
+   市值: $11.2B | 营收增长: 10.6% | 盈利增长: -55.8%
+   毛利率: 48.1% | 营业利润率: 15.1% | ROE: 11.7%
+   P/E: 27.7 | Forward P/E: 11.3 | PEG: 0.49
+   FCF: $0.66B
+
+22. eBay Inc. (EBAY)  评分:41/100
+   行业: Consumer Cyclical > Internet Retail
+   AI信号: 行业:Internet Retail
+   市值: $46.3B | 营收增长: 15.0% | 盈利增长: -18.4%
+   毛利率: 71.4% | 营业利润率: 16.2% | ROE: 40.8%
+   P/E: 24.3 | Forward P/E: 15.5 | PEG: 1.68
+   FCF: $0.74B
+
+23. IonQ, Inc. (IONQ)  评分:40/100
+   行业: Technology > Computer Hardware
+   AI信号: 行业:Computer Hardware
+   市值: $15.7B | 营收增长: 428.5% | 盈利增长: 0%
+   毛利率: 42.1% | 营业利润率: -345.7% | ROE: -24.4%
+   P/E: 0 | Forward P/E: -47.6 | PEG: 0
+   FCF: $-0.02B
+

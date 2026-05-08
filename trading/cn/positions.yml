@@ -1,0 +1,28 @@
+# A股持仓记录
+# 更新方式: 手动维护，每次买入/卖出后更新
+#
+# pool 字段说明:
+#   chip   — 筹码池 (chip_screener_v3 信号)
+#   break  — 突破池 🚀
+#   trend  — 趋势池 🎯
+#   pullback — 回踩池 🔄
+#
+# status 字段说明:
+#   holding  — 持仓中
+#   partial  — 已卖出1/3，剩余持仓追踪中
+#   closed   — 已清仓
+
+positions:
+  # 示例 (删除后填入实际持仓):
+  # - code: 300444.SZ
+  #   name: 双杰电气
+  #   pool: chip
+  #   entry_date: 2026-05-09
+  #   entry_price: 16.50
+  #   shares: 1000
+  #   cost: 16.50
+  #   stop: 15.35        # -7% 硬止损
+  #   target_1: 18.15    # +10% 卖1/3
+  #   target_2: 20.63    # +25% 二目标
+  #   status: holding
+  #   note: ""

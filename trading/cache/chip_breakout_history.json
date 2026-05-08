@@ -1,0 +1,36 @@
+[
+  {
+    "ts_code": "300017.SZ",
+    "name": "网宿科技",
+    "sector": "软件服务",
+    "signal_date": "20260420",
+    "signal_close": 18.66,
+    "score": 113,
+    "dyn_signal": "🔥 主力吸筹",
+    "chip_conc": "49.6%",
+    "winner": "59.4%",
+    "med_cost": null,
+    "breakout_date": "20260422",
+    "breakout_close": 19.13,
+    "breakout_pct_chg": 6.4,
+    "breakout_vol_ratio": 1.4,
+    "wait_days": 2
+  },
+  {
+    "ts_code": "300109.SZ",
+    "name": "新开源",
+    "sector": "化工原料",
+    "signal_date": "20260422",
+    "signal_close": 18.98,
+    "score": 86,
+    "dyn_signal": "🟡 底部洗盘",
+    "chip_conc": "17.1%",
+    "winner": "69.6%",
+    "med_cost": 18.67,
+    "breakout_date": "20260423",
+    "breakout_close": 19.2,
+    "breakout_pct_chg": 1.16,
+    "breakout_vol_ratio": 1.65,
+    "wait_days": 1
+  }
+]

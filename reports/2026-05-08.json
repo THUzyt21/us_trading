@@ -1,9 +1,9 @@
 {
   "date": "2026-05-08",
-  "generated_at": "2026-05-08 10:32",
+  "generated_at": "2026-05-08 21:48",
   "config": {
     "pool_top": 3,
-    "watchlist_total": 237
+    "watchlist_total": 239
   },
   "macro": {
     "SPY": {
@@ -35,16 +35,16 @@
       "status": "价>50MA / 价>200MA"
     },
     "VIX": {
-      "close": 17.08,
-      "chg_1d": -1.78,
-      "ma50": 22.1,
-      "ma200": 18.3,
+      "close": 17.02,
+      "chg_1d": -0.35,
+      "ma50": 22.06,
+      "ma200": 18.31,
       "status": "价<50MA / 价<200MA"
     },
     "DXY": {
-      "close": 98.23,
-      "chg_1d": 0.22,
-      "ma50": 98.97,
+      "close": 97.97,
+      "chg_1d": -0.28,
+      "ma50": 98.98,
       "ma200": 98.54,
       "status": "价<50MA / 价<200MA"
     },
@@ -124,11 +124,11 @@
       "rs_6m": -0.2653436477461215,
       "dist_52w_high_pct": -24.247010574042527,
       "dist_52w_low_pct": 18.100929172373867,
-      "volume_ratio": 0.9537399162386176,
-      "fwd_pe": 21.388264,
+      "volume_ratio": 0.9791114888426069,
+      "fwd_pe": 21.740118,
       "revenue_growth": 0.183,
       "earnings_growth": 0.234,
-      "market_cap": 3075074949120,
+      "market_cap": 3125662449664,
       "sector": "Technology",
       "earnings_soon": false,
       "s_ma50": 20.0,
@@ -153,14 +153,14 @@
           "reasons": [],
           "warnings": [
             "距52W高 -22.4% (需 ≥-5%)",
-            "近期无放量 (today=0.95x, 3d=0.84x)",
+            "近期无放量 (today=0.98x, 3d=0.85x)",
             "MA50 < MA200（非多头排列）"
           ],
           "details": {
             "price": 420.77,
             "dist_52w_high_pct": -22.38,
-            "vol_ratio_today": 0.95,
-            "vol_ratio_3d": 0.84,
+            "vol_ratio_today": 0.98,
+            "vol_ratio_3d": 0.85,
             "rs_6m_pct": -26.5
           }
         },
@@ -244,11 +244,11 @@
       "rs_6m": -0.018964760713302775,
       "dist_52w_high_pct": -2.4581477590945244,
       "dist_52w_low_pct": 88.36836685021245,
-      "volume_ratio": 1.0979879408823119,
-      "fwd_pe": 18.491564,
+      "volume_ratio": 1.1038842454243893,
+      "fwd_pe": 18.740164,
       "revenue_growth": 0.732,
       "earnings_growth": 0.956,
-      "market_cap": 5051308310528,
+      "market_cap": 5140507525120,
       "sector": "Technology",
       "earnings_soon": false,
       "s_ma50": 20.0,
@@ -363,7 +363,7 @@
       "rs_6m": 0.8539766824773909,
       "dist_52w_high_pct": -2.294217975371652,
       "dist_52w_low_pct": 133.75800777405865,
-      "volume_ratio": 1.6073884375154701,
+      "volume_ratio": 1.8468187541957806,
       "fwd_pe": 21.235636,
       "revenue_growth": 0.075,
       "earnings_growth": 0.326,
@@ -390,7 +390,7 @@
           "grade": "A",
           "passed_gates": true,
           "reasons": [
-            "突破60日新高+放量 1.52x",
+            "突破60日新高+放量 1.59x",
             "箱体(前40日振幅18.1%)后爆发 +8.4%",
             "RS 跑赢 SPY +85.4%",
             "多头排列强 (4/4)"
@@ -401,8 +401,8 @@
           "details": {
             "price": 70.27,
             "dist_52w_high_pct": -1.58,
-            "vol_ratio_today": 1.61,
-            "vol_ratio_3d": 1.52,
+            "vol_ratio_today": 1.85,
+            "vol_ratio_3d": 1.59,
             "rs_6m_pct": 85.4
           }
         },
@@ -439,7 +439,7 @@
           "reasons": [],
           "warnings": [
             "RSI 82 超出 35-60 区间",
-            "回踩未缩量 (量能比 1.61)"
+            "回踩未缩量 (量能比 1.85)"
           ],
           "details": {
             "price": 70.27,
@@ -448,7 +448,7 @@
             "days_since_high": 1,
             "dist_from_high_pct": -1.58,
             "rsi_14": 81.9,
-            "vol_shrink_ratio": 1.61,
+            "vol_shrink_ratio": 1.85,
             "rs_6m_pct": 85.4
           }
         },
@@ -466,7 +466,7 @@
             "price": 70.27,
             "dist_52w_high_pct": -1.58,
             "dist_52w_low_pct": 125.95,
-            "max_vol_ratio_20d": 1.71,
+            "max_vol_ratio_20d": 1.85,
             "rsi_14": 81.9,
             "rsi_min_30d": 65.0,
             "ma20_cross_ma50_recent": false
@@ -488,11 +488,11 @@
       "rs_6m": 0.550076202075162,
       "dist_52w_high_pct": -5.14166612508479,
       "dist_52w_low_pct": 321.6143714234751,
-      "volume_ratio": 0.9626663167762051,
-      "fwd_pe": 33.306118,
+      "volume_ratio": 0.9801200252857647,
+      "fwd_pe": 31.866846,
       "revenue_growth": 0.378,
       "earnings_growth": 0.912,
-      "market_cap": 687118811136,
+      "market_cap": 666035093504,
       "sector": "Technology",
       "earnings_soon": false,
       "s_ma50": 20.0,
@@ -515,7 +515,7 @@
           "grade": "C",
           "passed_gates": true,
           "reasons": [
-            "突破60日新高+放量 1.43x",
+            "突破60日新高+放量 1.44x",
             "RS 跑赢 SPY +55.0%",
             "多头排列强 (4/4)"
           ],
@@ -523,8 +523,8 @@
           "details": {
             "price": 408.46,
             "dist_52w_high_pct": -3.07,
-            "vol_ratio_today": 0.96,
-            "vol_ratio_3d": 1.43,
+            "vol_ratio_today": 0.98,
+            "vol_ratio_3d": 1.44,
             "rs_6m_pct": 55.0
           }
         },
@@ -568,7 +568,7 @@
             "days_since_high": 1,
             "dist_from_high_pct": -3.07,
             "rsi_14": 76.0,
-            "vol_shrink_ratio": 0.96,
+            "vol_shrink_ratio": 0.98,
             "rs_6m_pct": 55.0
           }
         },
@@ -608,7 +608,7 @@
       "rs_6m": 1.8768655880696787,
       "dist_52w_high_pct": -4.270368787375355,
       "dist_52w_low_pct": 477.8598139927806,
-      "volume_ratio": 0.8426717630598053,
+      "volume_ratio": 0.8571889715305431,
       "fwd_pe": 72.29488,
       "revenue_growth": 0.072,
       "earnings_growth": null,
@@ -636,12 +636,12 @@
           "passed_gates": false,
           "reasons": [],
           "warnings": [
-            "近期无放量 (today=0.84x, 3d=1.12x)"
+            "近期无放量 (today=0.86x, 3d=1.12x)"
           ],
           "details": {
             "price": 109.62,
             "dist_52w_high_pct": -3.0,
-            "vol_ratio_today": 0.84,
+            "vol_ratio_today": 0.86,
             "vol_ratio_3d": 1.12,
             "rs_6m_pct": 187.7
           }
@@ -686,7 +686,7 @@
             "days_since_high": 1,
             "dist_from_high_pct": -3.0,
             "rsi_14": 81.8,
-            "vol_shrink_ratio": 0.84,
+            "vol_shrink_ratio": 0.86,
             "rs_6m_pct": 187.7
           }
         },
@@ -721,15 +721,15 @@
       "label": "🚀 突破池",
       "desc": "放量创新高突破",
       "winrate": "胜率 60-70% · 强势股动量",
-      "qualified": 11,
-      "a_grade": 6
+      "qualified": 10,
+      "a_grade": 5
     },
     "trend": {
       "label": "🎯 趋势池",
       "desc": "Minervini 强势趋势模板",
       "winrate": "胜率 55-65% · 持有期较长",
-      "qualified": 141,
-      "a_grade": 80
+      "qualified": 143,
+      "a_grade": 81
     },
     "pullback": {
       "label": "🔄 回踩池",
@@ -759,7 +759,7 @@
         "rs_6m": 0.3108665495767038,
         "dist_52w_high_pct": -3.0895948816793433,
         "dist_52w_low_pct": 123.10327840879285,
-        "volume_ratio": 1.6435227873786429,
+        "volume_ratio": 1.6510460329870105,
         "fwd_pe": 13.274857,
         "revenue_growth": 0.462,
         "earnings_growth": 2.541,
@@ -790,13 +790,13 @@
               "箱体(前40日振幅18.8%)后爆发 +9.7%",
               "RS 跑赢 SPY +31.1%",
               "多头排列强 (4/4)",
-              "放量 1.64x 实体强"
+              "放量 1.65x 实体强"
             ],
             "warnings": [],
             "details": {
               "price": 84.69,
               "dist_52w_high_pct": -2.23,
-              "vol_ratio_today": 1.64,
+              "vol_ratio_today": 1.65,
               "vol_ratio_3d": 1.51,
               "rs_6m_pct": 31.1
             }
@@ -833,7 +833,7 @@
             "reasons": [],
             "warnings": [
               "RSI 71 超出 35-60 区间",
-              "回踩未缩量 (量能比 1.37)"
+              "回踩未缩量 (量能比 1.38)"
             ],
             "details": {
               "price": 84.69,
@@ -842,7 +842,7 @@
               "days_since_high": 2,
               "dist_from_high_pct": -2.23,
               "rsi_14": 71.3,
-              "vol_shrink_ratio": 1.37,
+              "vol_shrink_ratio": 1.38,
               "rs_6m_pct": 31.1
             }
           },
@@ -882,7 +882,7 @@
         "rs_6m": 0.7494897658918835,
         "dist_52w_high_pct": -1.5233379083319574,
         "dist_52w_low_pct": 153.31461845632052,
-        "volume_ratio": 2.2192530334976457,
+        "volume_ratio": 2.219543147208122,
         "fwd_pe": 15.989957,
         "revenue_growth": 0.376,
         "earnings_growth": 2.544,
@@ -1007,11 +1007,11 @@
         "rs_6m": 0.5645629130674756,
         "dist_52w_high_pct": -8.3171115855696,
         "dist_52w_low_pct": 136.95182923100256,
-        "volume_ratio": 3.432885404056637,
-        "fwd_pe": 40.48904,
-        "revenue_growth": 0.099,
-        "earnings_growth": 0.18,
-        "market_cap": 10398282752,
+        "volume_ratio": 3.444877530706007,
+        "fwd_pe": 42.65341,
+        "revenue_growth": 0.243,
+        "earnings_growth": 1.223,
+        "market_cap": 10970370048,
         "sector": "Technology",
         "earnings_soon": false,
         "s_ma50": 20.0,
@@ -1021,10 +1021,10 @@
         "s_kdj": 0.0,
         "s_volprice": 8.0,
         "s_fwdpe": 2.0,
-        "s_growth": 7.0,
-        "total_score": 77.0,
-        "grade": "B",
-        "verdict": "观察（待回踩/待确认）",
+        "s_growth": 10.0,
+        "total_score": 80.0,
+        "grade": "A",
+        "verdict": "狙击（系统全绿）",
         "notes": [],
         "strategy_scores": {
           "breakout": {
@@ -1034,7 +1034,7 @@
             "grade": "A",
             "passed_gates": true,
             "reasons": [
-              "突破60日新高+放量 2.62x",
+              "突破60日新高+放量 2.63x",
               "箱体(前40日振幅19.5%)后爆发 +21.8%",
               "RS 跑赢 SPY +56.5%",
               "多头排列强 (4/4)"
@@ -1045,21 +1045,22 @@
             "details": {
               "price": 65.92,
               "dist_52w_high_pct": 0.0,
-              "vol_ratio_today": 3.43,
-              "vol_ratio_3d": 2.62,
+              "vol_ratio_today": 3.44,
+              "vol_ratio_3d": 2.63,
               "rs_6m_pct": 56.5
             }
           },
           "trend": {
             "name": "trend",
             "label": "🎯 趋势",
-            "score": 86.0,
+            "score": 89.0,
             "grade": "A",
             "passed_gates": true,
             "reasons": [
               "Minervini模板强度 4/5",
               "RS +56.5% (强势)",
-              "均线发散健康 17.9%"
+              "均线发散健康 17.9%",
+              "营收/EPS增速 +73%"
             ],
             "warnings": [],
             "details": {
@@ -1108,7 +1109,7 @@
               "price": 65.92,
               "dist_52w_high_pct": 0.0,
               "dist_52w_low_pct": 132.03,
-              "max_vol_ratio_20d": 3.43,
+              "max_vol_ratio_20d": 3.44,
               "rsi_14": 80.4,
               "rsi_min_30d": 51.8,
               "ma20_cross_ma50_recent": true
@@ -1132,7 +1133,7 @@
         "rs_6m": 0.5497388046073746,
         "dist_52w_high_pct": -3.6304673878422262,
         "dist_52w_low_pct": 75.13528757482115,
-        "volume_ratio": 1.3031714784671287,
+        "volume_ratio": 1.3669139843759786,
         "fwd_pe": 21.644869,
         "revenue_growth": -0.079,
         "earnings_growth": 0.745,
@@ -1167,8 +1168,8 @@
             "details": {
               "price": 252.44,
               "dist_52w_high_pct": -2.94,
-              "vol_ratio_today": 1.3,
-              "vol_ratio_3d": 1.11,
+              "vol_ratio_today": 1.37,
+              "vol_ratio_3d": 1.13,
               "rs_6m_pct": 55.0
             }
           },
@@ -1213,7 +1214,7 @@
               "days_since_high": 5,
               "dist_from_high_pct": -2.94,
               "rsi_14": 64.9,
-              "vol_shrink_ratio": 0.94,
+              "vol_shrink_ratio": 0.95,
               "rs_6m_pct": 55.0
             }
           },
@@ -1231,7 +1232,7 @@
               "price": 252.44,
               "dist_52w_high_pct": -2.94,
               "dist_52w_low_pct": 72.55,
-              "max_vol_ratio_20d": 1.77,
+              "max_vol_ratio_20d": 1.76,
               "rsi_14": 64.9,
               "rsi_min_30d": 33.7,
               "ma20_cross_ma50_recent": false
@@ -1253,7 +1254,7 @@
         "rs_6m": 0.39556769955454674,
         "dist_52w_high_pct": -7.445249810703762,
         "dist_52w_low_pct": 79.26485460151468,
-        "volume_ratio": 1.0224120263920824,
+        "volume_ratio": 1.1366484025779846,
         "fwd_pe": 11.435512,
         "revenue_growth": 0.781,
         "earnings_growth": 2.778,
@@ -1281,13 +1282,13 @@
             "passed_gates": false,
             "reasons": [],
             "warnings": [
-              "近期无放量 (today=1.02x, 3d=1.20x)"
+              "近期无放量 (today=1.14x, 3d=1.23x)"
             ],
             "details": {
               "price": 19.02,
               "dist_52w_high_pct": -3.21,
-              "vol_ratio_today": 1.02,
-              "vol_ratio_3d": 1.2,
+              "vol_ratio_today": 1.14,
+              "vol_ratio_3d": 1.23,
               "rs_6m_pct": 39.6
             }
           },
@@ -1324,7 +1325,7 @@
             "reasons": [
               "温和回踩-3.2%",
               "RS 仍强 +39.6%",
-              "显著缩量 0.46x",
+              "显著缩量 0.47x",
               "MA50 趋势完好",
               "长下影见底信号"
             ],
@@ -1336,7 +1337,7 @@
               "days_since_high": 47,
               "dist_from_high_pct": -3.21,
               "rsi_14": 59.8,
-              "vol_shrink_ratio": 0.46,
+              "vol_shrink_ratio": 0.47,
               "rs_6m_pct": 39.6
             }
           },
@@ -1354,7 +1355,7 @@
               "price": 19.02,
               "dist_52w_high_pct": -3.21,
               "dist_52w_low_pct": 77.43,
-              "max_vol_ratio_20d": 1.78,
+              "max_vol_ratio_20d": 1.77,
               "rsi_14": 59.8,
               "rsi_min_30d": 42.3,
               "ma20_cross_ma50_recent": true
@@ -1372,11 +1373,11 @@
         "ma20": 39.52150058746338,
         "ma50": 37.797000122070315,
         "ma200": 29.55115005493164,
-        "kdj_j": 6.408931961703331,
+        "kdj_j": 6.310473221211225,
         "rs_6m": 0.3757199790287995,
         "dist_52w_high_pct": -7.8662275661925465,
         "dist_52w_low_pct": 103.53798298371062,
-        "volume_ratio": 0.9825592996085588,
+        "volume_ratio": 0.9831915514660579,
         "fwd_pe": 13.710153,
         "revenue_growth": -0.003,
         "earnings_growth": 1.335,
@@ -1501,7 +1502,7 @@
         "rs_6m": 0.36521607487541186,
         "dist_52w_high_pct": -5.273828235911602,
         "dist_52w_low_pct": 55.149511256492204,
-        "volume_ratio": 0.5390229390185107,
+        "volume_ratio": 0.5390754732929959,
         "fwd_pe": 8.545798,
         "revenue_growth": 0.034,
         "earnings_growth": 0.571,
@@ -1626,7 +1627,7 @@
         "rs_6m": 0.4564044650907082,
         "dist_52w_high_pct": -15.071328520576808,
         "dist_52w_low_pct": 65.81311530950587,
-        "volume_ratio": 1.3757143371333393,
+        "volume_ratio": 1.376511029322427,
         "fwd_pe": 9.355435,
         "revenue_growth": -0.053,
         "earnings_growth": 0.292,
@@ -1737,32 +1738,32 @@
         "best_strategy_score": 97.0
       },
       {
-        "symbol": "IRDM",
-        "price": 40.189998626708984,
-        "change_pct": -0.9854681556422794,
-        "ma20": 39.16649990081787,
-        "ma50": 31.869799995422362,
-        "ma200": 22.95369998931885,
-        "kdj_j": 96.25884532729275,
-        "rs_6m": 1.171894009067266,
-        "dist_52w_high_pct": -9.400365027653974,
-        "dist_52w_low_pct": 156.80510930570438,
-        "volume_ratio": 0.5901130994114333,
-        "fwd_pe": 28.203508,
-        "revenue_growth": 0.019,
-        "earnings_growth": -0.259,
-        "market_cap": 4249197824,
-        "sector": "Communication Services",
+        "symbol": "CF",
+        "price": 118.68000030517578,
+        "change_pct": -0.9018051200651734,
+        "ma20": 121.91849899291992,
+        "ma50": 121.72899993896485,
+        "ma200": 94.86929996490478,
+        "kdj_j": 20.426729521785674,
+        "rs_6m": 0.3202293813337993,
+        "dist_52w_high_pct": -16.398989368614426,
+        "dist_52w_low_pct": 57.358794996687045,
+        "volume_ratio": 1.6123564206209031,
+        "fwd_pe": 12.273911,
+        "revenue_growth": 0.228,
+        "earnings_growth": 0.371,
+        "market_cap": 18231197696,
+        "sector": "Basic Materials",
         "earnings_soon": false,
-        "s_ma50": 20.0,
+        "s_ma50": 5.0,
         "s_ma200": 10.0,
         "s_rs": 20.0,
         "s_pos52w": 10.0,
-        "s_kdj": 0.0,
-        "s_volprice": 5.0,
-        "s_fwdpe": 5.0,
-        "s_growth": 0.0,
-        "total_score": 70.0,
+        "s_kdj": 10.0,
+        "s_volprice": 4.5,
+        "s_fwdpe": 10.0,
+        "s_growth": 10.0,
+        "total_score": 79.5,
         "grade": "B",
         "verdict": "观察（待回踩/待确认）",
         "notes": [],
@@ -1775,63 +1776,59 @@
             "passed_gates": false,
             "reasons": [],
             "warnings": [
-              "距52W高 -7.4% (需 ≥-5%)",
-              "近期无放量 (today=0.59x, 3d=0.61x)"
+              "距52W高 -13.8% (需 ≥-5%)",
+              "价 < MA50"
             ],
             "details": {
-              "price": 40.19,
-              "dist_52w_high_pct": -7.42,
-              "vol_ratio_today": 0.59,
-              "vol_ratio_3d": 0.61,
-              "rs_6m_pct": 117.2
+              "price": 118.68,
+              "dist_52w_high_pct": -13.75,
+              "vol_ratio_today": 1.61,
+              "vol_ratio_3d": 1.35,
+              "rs_6m_pct": 32.0
             }
           },
           "trend": {
             "name": "trend",
             "label": "🎯 趋势",
-            "score": 62.0,
-            "grade": "C",
-            "passed_gates": true,
-            "reasons": [
-              "Minervini模板强度 4/5",
-              "RS +117.2% (强势)"
-            ],
+            "score": 0.0,
+            "grade": "",
+            "passed_gates": false,
+            "reasons": [],
             "warnings": [
-              "均线发散过大 38.8% (过热)"
+              "未形成严格多头排列 价>MA50>MA150>MA200"
             ],
             "details": {
-              "price": 40.19,
-              "ma50": 31.87,
-              "ma150": 23.11,
-              "ma200": 22.95,
-              "dist_52w_high_pct": -7.42,
-              "dist_52w_low_pct": 153.72,
-              "rs_6m_pct": 117.2
+              "price": 118.68,
+              "ma50": 121.73,
+              "ma150": 97.34,
+              "ma200": 94.87,
+              "dist_52w_high_pct": -13.75,
+              "dist_52w_low_pct": 55.97,
+              "rs_6m_pct": 32.0
             }
           },
           "pullback": {
             "name": "pullback",
             "label": "🔄 回踩",
-            "score": 91.0,
+            "score": 90.0,
             "grade": "A",
             "passed_gates": true,
             "reasons": [
-              "回踩-7.4% 至均线附近",
-              "RS 仍强 +117.2%",
-              "缩量 0.74x",
-              "MA50 趋势完好",
-              "长下影见底信号"
+              "回踩-13.8% 至均线附近",
+              "RS 仍强 +32.0%",
+              "显著缩量 0.47x",
+              "MA50 趋势完好"
             ],
             "warnings": [],
             "details": {
-              "price": 40.19,
-              "ma20": 39.17,
-              "ma50": 31.87,
-              "days_since_high": 15,
-              "dist_from_high_pct": -7.42,
-              "rsi_14": 44.4,
-              "vol_shrink_ratio": 0.74,
-              "rs_6m_pct": 117.2
+              "price": 118.68,
+              "ma20": 121.92,
+              "ma50": 121.73,
+              "days_since_high": 27,
+              "dist_from_high_pct": -13.75,
+              "rsi_14": 56.7,
+              "vol_shrink_ratio": 0.47,
+              "rs_6m_pct": 32.0
             }
           },
           "reversal": {
@@ -1842,22 +1839,23 @@
             "passed_gates": false,
             "reasons": [],
             "warnings": [
-              "距52W高仅 -7.4% (未深跌)"
+              "距52W高仅 -13.8% (未深跌)",
+              "价 < MA20"
             ],
             "details": {
-              "price": 40.19,
-              "dist_52w_high_pct": -7.42,
-              "dist_52w_low_pct": 153.72,
-              "max_vol_ratio_20d": 1.79,
-              "rsi_14": 44.4,
-              "rsi_min_30d": 44.4,
+              "price": 118.68,
+              "dist_52w_high_pct": -13.75,
+              "dist_52w_low_pct": 55.97,
+              "max_vol_ratio_20d": 2.03,
+              "rsi_14": 56.7,
+              "rsi_min_30d": 41.4,
               "ma20_cross_ma50_recent": false
             }
           }
         },
         "best_strategy": "pullback",
         "best_strategy_label": "🔄 回踩",
-        "best_strategy_score": 91.0
+        "best_strategy_score": 90.0
       }
     ],
     "reversal": [
@@ -1872,7 +1870,7 @@
         "rs_6m": 0.5305121952450418,
         "dist_52w_high_pct": -40.0181913703012,
         "dist_52w_low_pct": 229.74998950958252,
-        "volume_ratio": 0.8847182238191355,
+        "volume_ratio": 0.9055260680705803,
         "fwd_pe": -19.686565,
         "revenue_growth": null,
         "earnings_growth": null,
@@ -1901,13 +1899,13 @@
             "reasons": [],
             "warnings": [
               "距52W高 -31.8% (需 ≥-5%)",
-              "近期无放量 (today=0.88x, 3d=1.00x)"
+              "近期无放量 (today=0.91x, 3d=1.01x)"
             ],
             "details": {
               "price": 26.38,
               "dist_52w_high_pct": -31.8,
-              "vol_ratio_today": 0.88,
-              "vol_ratio_3d": 1.0,
+              "vol_ratio_today": 0.91,
+              "vol_ratio_3d": 1.01,
               "rs_6m_pct": 53.1
             }
           },
@@ -1948,7 +1946,7 @@
               "days_since_high": 1,
               "dist_from_high_pct": -7.76,
               "rsi_14": 64.3,
-              "vol_shrink_ratio": 0.88,
+              "vol_shrink_ratio": 0.91,
               "rs_6m_pct": 53.1
             }
           },
@@ -1987,15 +1985,15 @@
         "ma20": 38.85424995422363,
         "ma50": 38.84219993591309,
         "ma200": 21.473374935388566,
-        "kdj_j": 76.84450540274888,
+        "kdj_j": 76.84406686938406,
         "rs_6m": 3.992281215059035,
         "dist_52w_high_pct": -33.79873766190948,
         "dist_52w_low_pct": 1334.6863660821334,
-        "volume_ratio": 1.289008544608558,
-        "fwd_pe": -55.222218,
+        "volume_ratio": 1.4920532592794624,
+        "fwd_pe": -54.0,
         "revenue_growth": null,
         "earnings_growth": null,
-        "market_cap": 3632497408,
+        "market_cap": 3552100352,
         "sector": "Basic Materials",
         "earnings_soon": false,
         "s_ma50": 10.0,
@@ -2019,14 +2017,13 @@
             "passed_gates": false,
             "reasons": [],
             "warnings": [
-              "距52W高 -30.2% (需 ≥-5%)",
-              "近期无放量 (today=1.29x, 3d=1.01x)"
+              "距52W高 -30.2% (需 ≥-5%)"
             ],
             "details": {
               "price": 38.88,
               "dist_52w_high_pct": -30.25,
-              "vol_ratio_today": 1.29,
-              "vol_ratio_3d": 1.01,
+              "vol_ratio_today": 1.49,
+              "vol_ratio_3d": 1.08,
               "rs_6m_pct": 399.2
             }
           },
@@ -2089,7 +2086,7 @@
               "price": 38.88,
               "dist_52w_high_pct": -30.25,
               "dist_52w_low_pct": 1308.7,
-              "max_vol_ratio_20d": 1.81,
+              "max_vol_ratio_20d": 1.79,
               "rsi_14": 39.8,
               "rsi_min_30d": 39.8,
               "ma20_cross_ma50_recent": true
@@ -2107,11 +2104,11 @@
         "ma20": 9.522999954223632,
         "ma50": 10.000600032806396,
         "ma200": 8.884850003719329,
-        "kdj_j": 61.46362997262087,
+        "kdj_j": 61.40230429714299,
         "rs_6m": 0.26989624131454604,
         "dist_52w_high_pct": -33.003301161040284,
         "dist_52w_low_pct": 223.24838469519815,
-        "volume_ratio": 2.7217253681248055,
+        "volume_ratio": 2.753468853286635,
         "fwd_pe": 7.7480917,
         "revenue_growth": 3.092,
         "earnings_growth": null,
@@ -2144,8 +2141,8 @@
             "details": {
               "price": 10.15,
               "dist_52w_high_pct": -28.12,
-              "vol_ratio_today": 2.72,
-              "vol_ratio_3d": 1.81,
+              "vol_ratio_today": 2.75,
+              "vol_ratio_3d": 1.82,
               "rs_6m_pct": 27.0
             }
           },
@@ -2199,7 +2196,7 @@
             "grade": "C",
             "passed_gates": true,
             "reasons": [
-              "强放量 2.72x",
+              "强放量 2.75x",
               "FwdPE 7.7 便宜"
             ],
             "warnings": [
@@ -2209,7 +2206,7 @@
               "price": 10.15,
               "dist_52w_high_pct": -28.12,
               "dist_52w_low_pct": 215.22,
-              "max_vol_ratio_20d": 2.72,
+              "max_vol_ratio_20d": 2.75,
               "rsi_14": 49.7,
               "rsi_min_30d": 40.5,
               "ma20_cross_ma50_recent": false

@@ -1,0 +1,353 @@
+>>> Chip Screener v3.0 Signal Backtest
+    2026-04-21 01:52:25
+    Mode: Top 3/day × Sniper Rules
+
+================================================================================
+  🔬 Chip Screener v3.0 — Signal Backtest (Independent Trades)
+  Strategy: 狙击手铁律 v2 (Let Winners Run)
+  Picks/day: ≤3 (≥6🟢 only) | Min score: 60
+  Per-position: ¥40,000
+  Rules: 突破确认入场(+1%阳线+1.3x量比) | +10%卖1/3→MA10/21追踪 | -7%硬止损 | 25天横盘 | 35天上限
+================================================================================
+[1/5] Loading cached data...
+  Loaded 2664 stocks in 0.2s
+  Trade dates: 20230109 ~ 20260420 (792 days)
+  Preprocessing stock data (with fast index)...
+  Preprocessed 2664 stocks (indexed)
+
+[1.5/5] Loading CSI 300 for market stage filter...
+  Loaded CSI 300 cache: 553 rows (20240102~20260417)
+
+[2/5] Signal window: 20230711 ~ 20260420 (672 days)
+  Data ends at: 20260420 (trades near end force-closed at last price)
+  Stocks need ≥90 rows of history to be screened
+
+[2.5/5] Pre-computing market profit ratios (vectorized dual-window 20d+10d)...
+  Building close matrix (2664 stocks × 792 dates)...
+  Matrix built in 0.2s
+  ✅ Profit ratios cached for 672 days in 0.3s
+
+[3/5] Running daily screening...
+  672 days × 2664 stocks
+  Picking ≤3/day, only ≥6🟢 (score≥60)
+  YELLOW mode: score≥125 only
+  🚀 Chip distribution caching: ENABLED
+
+  Day   1/672: 20230711 🟢GREEN max3 PR:32%(20d:32%/10d:22%) | picks:0 L1avg:0 cache:0 | 0s ETA 0.0min
+  Day   6/672: 20230718 🟢GREEN max3 PR:20%(20d:20%/10d:11%) | picks:1 L1avg:207 cache:1036 | 2s ETA 4.3min
+  Day  11/672: 20230725 🟢GREEN max3 PR:29%(20d:29%/10d:12%) | picks:7 L1avg:230 cache:2305 | 8s ETA 7.7min
+  Day  16/672: 20230801 🟢GREEN max3 PR:26%(20d:26%/10d:23%) | picks:10 L1avg:272 cache:3757 | 14s ETA 9.3min
+  Day  21/672: 20230808 🟢GREEN max3 PR:20%(20d:20%/10d:12%) | picks:18 L1avg:296 cache:5267 | 20s ETA 10.4min
+  Day  26/672: 20230815 🟢GREEN max3 PR:13%(20d:13%/10d:5%) | picks:21 L1avg:307 cache:6825 | 27s ETA 11.1min
+  Day  31/672: 20230822 🟢GREEN max3 PR:7%(20d:7%/10d:4%) | picks:31 L1avg:330 cache:8564 | 34s ETA 11.9min
+  Day  36/672: 20230829 🟢GREEN max3 PR:9%(20d:7%/10d:9%) | picks:34 L1avg:383 cache:10657 | 43s ETA 12.7min
+  Day  41/672: 20230905 🟢GREEN max3 PR:22%(20d:9%/10d:22%) | picks:41 L1avg:462 cache:13182 | 53s ETA 13.6min
+  Day  46/672: 20230912 🟢GREEN max3 PR:20%(20d:19%/10d:20%) | picks:47 L1avg:445 cache:15104 | 61s ETA 13.9min
+  Day  51/672: 20230919 🟢GREEN max3 PR:18%(20d:18%/10d:8%) | picks:53 L1avg:353 cache:16716 | 69s ETA 13.9min
+  Day  56/672: 20230926 🟢GREEN max3 PR:14%(20d:14%/10d:6%) | picks:60 L1avg:281 cache:17917 | 75s ETA 13.7min
+  Day  61/672: 20231011 🟢GREEN max3 PR:18%(20d:14%/10d:18%) | picks:65 L1avg:229 cache:19004 | 80s ETA 13.4min
+  Day  66/672: 20231018 🟢GREEN max3 PR:13%(20d:11%/10d:13%) | picks:74 L1avg:226 cache:20181 | 86s ETA 13.2min
+  Day  71/672: 20231025 🟢GREEN max3 PR:12%(20d:12%/10d:7%) | picks:76 L1avg:239 cache:21394 | 92s ETA 13.0min
+  Day  76/672: 20231101 🟢GREEN max3 PR:22%(20d:22%/10d:22%) | picks:80 L1avg:258 cache:22765 | 99s ETA 12.9min
+  Day  81/672: 20231108 🟢GREEN max3 PR:47%(20d:24%/10d:47%) | picks:87 L1avg:265 cache:24043 | 105s ETA 12.8min
+  Day  86/672: 20231115 🟢GREEN max3 PR:46%(20d:46%/10d:33%) | picks:91 L1avg:244 cache:25205 | 111s ETA 12.7min
+  Day  91/672: 20231122 🟢GREEN max3 PR:47%(20d:47%/10d:12%) | picks:92 L1avg:215 cache:26196 | 117s ETA 12.4min
+  Day  96/672: 20231129 🟢GREEN max3 PR:29%(20d:29%/10d:10%) | picks:100 L1avg:187 cache:27075 | 122s ETA 12.2min
+  Day 101/672: 20231206 🟢GREEN max3 PR:15%(20d:15%/10d:9%) | picks:104 L1avg:144 cache:27639 | 126s ETA 11.9min
+  Day 106/672: 20231213 🟢GREEN max3 PR:15%(20d:15%/10d:12%) | picks:108 L1avg:112 cache:28200 | 130s ETA 11.5min
+  Day 111/672: 20231220 🟢GREEN max3 PR:9%(20d:9%/10d:6%) | picks:112 L1avg:116 cache:28801 | 134s ETA 11.3min
+  Day 116/672: 20231227 🟢GREEN max3 PR:7%(20d:7%/10d:5%) | picks:118 L1avg:137 cache:29569 | 139s ETA 11.1min
+  Day 121/672: 20240104 🟢GREEN max3 PR:18%(20d:12%/10d:18%) | picks:132 L1avg:184 cache:30638 | 145s ETA 11.0min
+  Day 126/672: 20240111 🟢GREEN max3 PR:11%(20d:9%/10d:11%) | picks:137 L1avg:236 cache:31929 | 152s ETA 11.0min
+  Day 131/672: 20240118 🟢GREEN max3 PR:11%(20d:11%/10d:5%) | picks:141 L1avg:236 cache:32994 | 158s ETA 10.9min
+  Day 136/672: 20240125 🟢GREEN max3 PR:12%(20d:12%/10d:7%) | picks:141 L1avg:262 cache:34553 | 166s ETA 10.9min
+  Day 141/672: 20240201 🟢GREEN max3 PR:3%(20d:3%/10d:3%) | picks:143 L1avg:329 cache:36283 | 175s ETA 11.0min
+  Day 146/672: 20240208 🟢GREEN max3 PR:9%(20d:9%/10d:9%) | picks:143 L1avg:319 cache:37746 | 183s ETA 11.0min
+  Day 151/672: 20240223 🟢GREEN max3 PR:76%(20d:21%/10d:76%) | picks:143 L1avg:280 cache:39080 | 190s ETA 10.9min
+  Day 156/672: 20240301 🟢GREEN max3 PR:64%(20d:29%/10d:64%) | picks:144 L1avg:249 cache:40232 | 196s ETA 10.8min
+  Day 161/672: 20240308 🟢GREEN max3 PR:73%(20d:73%/10d:29%) | picks:144 L1avg:164 cache:40724 | 200s ETA 10.6min
+  Day 166/672: 20240315 🟢GREEN max3 PR:72%(20d:72%/10d:26%) | picks:144 L1avg:76 cache:40992 | 203s ETA 10.3min
+  Day 171/672: 20240322 🟢GREEN max3 PR:48%(20d:48%/10d:35%) | picks:144 L1avg:48 cache:41207 | 205s ETA 10.0min
+  Day 176/672: 20240329 🟢GREEN max3 PR:26%(20d:26%/10d:12%) | picks:144 L1avg:39 cache:41378 | 208s ETA 9.8min
+  Day 181/672: 20240409 🟢GREEN max3 PR:32%(20d:32%/10d:18%) | picks:146 L1avg:44 cache:41646 | 211s ETA 9.5min
+  Day 186/672: 20240416 🟢GREEN max3 PR:13%(20d:13%/10d:11%) | picks:151 L1avg:66 cache:42035 | 214s ETA 9.3min
+  Day 191/672: 20240423 🟢GREEN max3 PR:17%(20d:17%/10d:10%) | picks:157 L1avg:126 cache:42906 | 219s ETA 9.2min
+  Day 196/672: 20240430 🟢GREEN max3 PR:66%(20d:29%/10d:66%) | picks:161 L1avg:179 cache:43827 | 225s ETA 9.1min
+  Day 201/672: 20240510 🟢GREEN max3 PR:58%(20d:32%/10d:58%) | picks:171 L1avg:265 cache:45559 | 234s ETA 9.1min
+  Day 206/672: 20240517 🟢GREEN max3 PR:68%(20d:68%/10d:22%) | picks:176 L1avg:302 cache:46851 | 242s ETA 9.1min
+  Day 211/672: 20240524 🟢GREEN max3 PR:35%(20d:35%/10d:8%) | picks:181 L1avg:227 cache:47828 | 248s ETA 9.0min
+  Day 216/672: 20240531 🟢GREEN max3 PR:16%(20d:16%/10d:7%) | picks:182 L1avg:196 cache:48816 | 254s ETA 8.9min
+  Day 221/672: 20240607 🟢GREEN max3 PR:8%(20d:7%/10d:8%) | picks:186 L1avg:222 cache:50053 | 261s ETA 8.9min
+  Day 226/672: 20240617 🟢GREEN max3 PR:10%(20d:10%/10d:9%) | picks:193 L1avg:273 cache:51545 | 269s ETA 8.9min
+  Day 231/672: 20240624 🟢GREEN max3 PR:8%(20d:8%/10d:8%) | picks:199 L1avg:273 cache:52780 | 277s ETA 8.8min
+  Day 236/672: 20240701 🟢GREEN max3 PR:7%(20d:7%/10d:6%) | picks:204 L1avg:267 cache:54214 | 285s ETA 8.8min
+  Day 241/672: 20240708 🟢GREEN max3 PR:7%(20d:6%/10d:7%) | picks:207 L1avg:268 cache:55459 | 292s ETA 8.7min
+  Day 246/672: 20240715 🟢GREEN max3 PR:9%(20d:8%/10d:9%) | picks:212 L1avg:246 cache:56675 | 299s ETA 8.6min
+  Day 251/672: 20240722 🟢GREEN max3 PR:30%(20d:16%/10d:30%) | picks:215 L1avg:233 cache:57793 | 305s ETA 8.5min
+  Day 256/672: 20240729 🟢GREEN max3 PR:11%(20d:10%/10d:11%) | picks:216 L1avg:227 cache:58948 | 312s ETA 8.5min
+  Day 261/672: 20240805 🟢GREEN max3 PR:24%(20d:24%/10d:9%) | picks:219 L1avg:218 cache:59972 | 318s ETA 8.4min
+  Day 266/672: 20240812 🟢GREEN max3 PR:16%(20d:15%/10d:16%) | picks:220 L1avg:238 cache:61323 | 326s ETA 8.3min
+  Day 271/672: 20240819 🟢GREEN max3 PR:13%(20d:13%/10d:12%) | picks:222 L1avg:226 cache:62233 | 331s ETA 8.2min
+  Day 276/672: 20240826 🟢GREEN max3 PR:10%(20d:10%/10d:8%) | picks:224 L1avg:220 cache:63521 | 339s ETA 8.1min
+  Day 281/672: 20240902 🟢GREEN max3 PR:14%(20d:14%/10d:9%) | picks:229 L1avg:268 cache:64915 | 347s ETA 8.1min
+  Day 286/672: 20240909 🟢GREEN max3 PR:13%(20d:12%/10d:13%) | picks:235 L1avg:333 cache:66848 | 357s ETA 8.0min
+  Day 291/672: 20240918 🟢GREEN max3 PR:10%(20d:10%/10d:9%) | picks:245 L1avg:345 cache:68361 | 366s ETA 8.0min
+  Day 296/672: 20240925 🟢GREEN max3 PR:45%(20d:40%/10d:45%) | picks:251 L1avg:323 cache:70080 | 376s ETA 8.0min
+  Day 301/672: 20241009 🟢GREEN max3 PR:98%(20d:95%/10d:98%) | picks:252 L1avg:302 cache:71379 | 383s ETA 7.9min
+  Day 306/672: 20241016 🟢GREEN max3 PR:95%(20d:95%/10d:90%) | picks:252 L1avg:164 cache:71719 | 386s ETA 7.7min
+  Day 311/672: 20241023 🟢GREEN max3 PR:98%(20d:98%/10d:27%) | picks:252 L1avg:280 cache:74181 | 398s ETA 7.7min
+  Day 316/672: 20241030 🟢GREEN max3 PR:93%(20d:93%/10d:53%) | picks:252 L1avg:505 cache:76766 | 411s ETA 7.7min
+  Day 321/672: 20241106 🟢GREEN max3 PR:55%(20d:55%/10d:46%) | picks:253 L1avg:490 cache:79086 | 423s ETA 7.7min
+  Day 326/672: 20241113 🟢GREEN max3 PR:81%(20d:81%/10d:58%) | picks:255 L1avg:264 cache:79402 | 426s ETA 7.5min
+  Day 331/672: 20241120 🟢GREEN max3 PR:48%(20d:48%/10d:19%) | picks:255 L1avg:44 cache:79529 | 428s ETA 7.3min
+  Day 336/672: 20241127 🟢GREEN max3 PR:32%(20d:32%/10d:9%) | picks:255 L1avg:36 cache:79763 | 430s ETA 7.2min
+  Day 346/672: 20241211 🟢GREEN max3 PR:46%(20d:26%/10d:46%) | picks:262 L1avg:68 cache:80441 | 436s ETA 6.8min
+  Day 381/672: 20250207 🟢GREEN max3 PR:40%(20d:40%/10d:37%) | picks:283 L1avg:201 cache:84136 | 456s ETA 5.8min
+  Day 386/672: 20250214 🟢GREEN max3 PR:54%(20d:54%/10d:41%) | picks:289 L1avg:431 cache:87140 | 472s ETA 5.8min
+  Day 391/672: 20250221 🟢GREEN max3 PR:52%(20d:52%/10d:34%) | picks:295 L1avg:514 cache:89274 | 484s ETA 5.8min
+  Day 396/672: 20250228 🟢GREEN max3 PR:45%(20d:45%/10d:22%) | picks:301 L1avg:400 cache:91137 | 494s ETA 5.7min
+  Day 401/672: 20250307 🟢GREEN max3 PR:40%(20d:40%/10d:22%) | picks:308 L1avg:361 cache:92888 | 504s ETA 5.7min
+  Day 406/672: 20250314 🟢GREEN max3 PR:41%(20d:41%/10d:38%) | picks:309 L1avg:286 cache:93993 | 510s ETA 5.6min
+  Day 431/672: 20250421 🟢GREEN max3 PR:63%(20d:13%/10d:63%) | picks:315 L1avg:0 cache:94469 | 514s ETA 4.8min
+  Day 441/672: 20250508 🟢GREEN max3 PR:76%(20d:76%/10d:35%) | picks:323 L1avg:227 cache:96739 | 526s ETA 4.6min
+  Day 446/672: 20250515 🟡YELLOW max1 PR:33%(20d:33%/10d:33%) | picks:333 L1avg:542 cache:100712 | 545s ETA 4.6min
+  Day 451/672: 20250522 🟡YELLOW max1 PR:31%(20d:31%/10d:11%) | picks:338 L1avg:636 cache:103104 | 558s ETA 4.6min
+  Day 456/672: 20250529 🟢GREEN max3 PR:37%(20d:37%/10d:15%) | picks:339 L1avg:276 cache:103471 | 560s ETA 4.4min
+  Day 481/672: 20250704 🟢GREEN max3 PR:40%(20d:26%/10d:40%) | picks:351 L1avg:206 cache:106269 | 575s ETA 3.8min
+  Day 486/672: 20250711 🟢GREEN max3 PR:43%(20d:43%/10d:23%) | picks:357 L1avg:261 cache:107639 | 583s ETA 3.7min
+  Day 491/672: 20250718 🟢GREEN max3 PR:63%(20d:63%/10d:27%) | picks:369 L1avg:268 cache:108947 | 591s ETA 3.6min
+  Day 496/672: 20250725 🟢GREEN max3 PR:50%(20d:50%/10d:30%) | picks:382 L1avg:273 cache:110368 | 599s ETA 3.5min
+  Day 501/672: 20250801 🟢GREEN max3 PR:38%(20d:38%/10d:20%) | picks:395 L1avg:266 cache:111605 | 607s ETA 3.5min
+  Day 506/672: 20250808 🟢GREEN max3 PR:40%(20d:40%/10d:18%) | picks:405 L1avg:210 cache:112473 | 612s ETA 3.3min
+  Day 511/672: 20250815 🟢GREEN max3 PR:45%(20d:45%/10d:39%) | picks:420 L1avg:181 cache:113415 | 618s ETA 3.2min
+  Day 516/672: 20250822 🟢GREEN max3 PR:49%(20d:49%/10d:46%) | picks:435 L1avg:217 cache:114645 | 626s ETA 3.2min
+  Day 521/672: 20250829 🟢GREEN max3 PR:56%(20d:56%/10d:33%) | picks:450 L1avg:237 cache:115781 | 632s ETA 3.1min
+  Day 526/672: 20250905 🟢GREEN max3 PR:39%(20d:39%/10d:18%) | picks:459 L1avg:198 cache:116622 | 637s ETA 2.9min
+  Day 531/672: 20250912 🟢GREEN max3 PR:38%(20d:38%/10d:19%) | picks:464 L1avg:173 cache:117509 | 643s ETA 2.8min
+  Day 546/672: 20251013 🟡YELLOW max1 PR:32%(20d:32%/10d:23%) | picks:475 L1avg:18 cache:118328 | 649s ETA 2.5min
+  Day 561/672: 20251103 🟡YELLOW max1 PR:33%(20d:30%/10d:33%) | picks:478 L1avg:100 cache:119496 | 655s ETA 2.2min
+  Day 571/672: 20251117 🟢GREEN max3 PR:36%(20d:36%/10d:18%) | picks:484 L1avg:199 cache:121486 | 666s ETA 2.0min
+  Day 596/672: 20251222 🟡YELLOW max1 PR:32%(20d:32%/10d:16%) | picks:488 L1avg:45 cache:122740 | 673s ETA 1.4min
+  Day 606/672: 20260107 🟢GREEN max3 PR:41%(20d:38%/10d:41%) | picks:497 L1avg:359 cache:126329 | 692s ETA 1.3min
+  Day 611/672: 20260114 🟢GREEN max3 PR:60%(20d:60%/10d:47%) | picks:505 L1avg:421 cache:128583 | 704s ETA 1.2min
+  Day 616/672: 20260121 🟢GREEN max3 PR:58%(20d:58%/10d:35%) | picks:517 L1avg:393 cache:130263 | 713s ETA 1.1min
+  Day 621/672: 20260128 🟢GREEN max3 PR:53%(20d:53%/10d:29%) | picks:527 L1avg:356 cache:132141 | 724s ETA 1.0min
+  Day 626/672: 20260204 🟡YELLOW max1 PR:34%(20d:34%/10d:18%) | picks:529 L1avg:308 cache:133344 | 731s ETA 0.9min
+  Day 666/672: 20260410 🟡YELLOW max1 PR:32%(20d:11%/10d:32%) | picks:533 L1avg:23 cache:134560 | 738s ETA 0.1min
+  Day 671/672: 20260417 🟢GREEN max3 PR:43%(20d:28%/10d:43%) | picks:534 L1avg:137 cache:135697 | 744s ETA 0.0min
+
+  ✅ Screening done in 749s (12.5min)
+  Total signals (score≥60): 2998
+  Total picks (≥6🟢, ≤3/day): 534
+  📦 Chip cache entries: 136560 (reused across 672 days)
+
+  📊 Market Stage Filter Summary:
+    🟢 GREEN: 470 days
+    🟡 YELLOW: 40 days
+    🟠 ORANGE: 0 days
+    🔴 RED: 162 days
+    Skipped (RED): 162 days
+    Reduced picks: 40 days
+
+[4/5] Simulating 534 trades...
+  Simulated 20/534 trades...
+  Simulated 40/534 trades...
+  Simulated 60/534 trades...
+  Simulated 80/534 trades...
+  Simulated 100/534 trades...
+  Simulated 120/534 trades...
+  Simulated 140/534 trades...
+  Simulated 160/534 trades...
+  Simulated 180/534 trades...
+  Simulated 200/534 trades...
+  Simulated 220/534 trades...
+  Simulated 240/534 trades...
+  Simulated 260/534 trades...
+  Simulated 280/534 trades...
+  Simulated 300/534 trades...
+  Simulated 320/534 trades...
+  Simulated 340/534 trades...
+  Simulated 360/534 trades...
+  Simulated 380/534 trades...
+  Simulated 400/534 trades...
+  Simulated 420/534 trades...
+  Simulated 440/534 trades...
+  Simulated 460/534 trades...
+  Simulated 480/534 trades...
+  Simulated 500/534 trades...
+  Simulated 520/534 trades...
+  ✅ Simulation done in 0.1s — 187 valid trades
+
+================================================================================
+  📊 BACKTEST RESULTS — Signal Mode (Independent Trades)
+================================================================================
+
+────────────────────────────────────────────────────────────
+  📡 Signal Statistics
+────────────────────────────────────────────────────────────
+  Signal period: 20230711 ~ 20260420 (672 days)
+  Total signals (score≥60): 2998
+  Strong signals (score≥75): 2678
+  Unique stocks signaled: 845
+  Average signal score: 93.4
+  Signals by month:
+    2023-07: 81 signals
+    2023-08: 180 signals
+    2023-09: 131 signals
+    2023-10: 109 signals
+    2023-11: 106 signals
+    2023-12: 134 signals
+    2024-01: 96 signals
+    2024-02: 7 signals
+    2024-03: 7 signals
+    2024-04: 92 signals
+    2024-05: 102 signals
+    2024-06: 83 signals
+    2024-07: 69 signals
+    2024-08: 54 signals
+    2024-09: 80 signals
+    2024-11: 8 signals
+    2024-12: 86 signals
+    2025-01: 22 signals
+    2025-02: 120 signals
+    2025-03: 62 signals
+    2025-04: 7 signals
+    2025-05: 132 signals
+    2025-06: 46 signals
+    2025-07: 295 signals
+    2025-08: 335 signals
+    2025-09: 98 signals
+    2025-10: 63 signals
+    2025-11: 96 signals
+    2025-12: 59 signals
+    2026-01: 182 signals
+    2026-02: 20 signals
+    2026-03: 13 signals
+    2026-04: 23 signals
+
+────────────────────────────────────────────────────────────
+  💰 Trade Statistics
+────────────────────────────────────────────────────────────
+  Total trades: 187
+
+  ┌──────────────────────────────────────────────────┐
+  │  Trades:            187                          │
+  │  Win rate:         46.0% (86W / 101L)        │
+  │  Avg win:        ¥   4,023 (+10.22%)       │
+  │  Avg loss:       ¥  -2,459 (-6.29%)       │
+  │  Win/Loss ratio:     1.64:1                     │
+  │  Profit factor:      1.39                       │
+  │  Avg P&L/trade:  ¥     522 (+1.31%)       │
+  │  Total P&L:      ¥  97,679                       │
+  └──────────────────────────────────────────────────┘
+
+  Holding period: avg=11.6d median=12d max=34d min=1d
+
+────────────────────────────────────────────────────────────
+  🚪 Exit Reason Breakdown
+────────────────────────────────────────────────────────────
+  硬止损-9%              :  83笔 胜率   0% 平均¥  -2,843 合计¥  -236,000
+  MA追踪出场              :  60笔 胜率 100% 平均¥  +5,506 合计¥  +330,374
+  横盘出场                :  35笔 胜率  49% 平均¥     -82 合计¥    -2,856
+  成本止损(回成本)           :   9笔 胜率 100% 平均¥    +685 合计¥    +6,161
+
+────────────────────────────────────────────────────────────
+  📈 Partial Sell Analysis (+10% triggered)
+────────────────────────────────────────────────────────────
+  Reached +10%: 69 (37%) avg P&L ¥4,877
+  Never +10%:   118 (63%) avg P&L ¥-2,024
+
+────────────────────────────────────────────────────────────
+  📊 Performance by Score Band
+────────────────────────────────────────────────────────────
+  Score 75-80:   2笔 胜率  50% 平均¥    +158 (+0.40%)
+  Score 80-100:  38笔 胜率  47% 平均¥    +331 (+0.85%)
+
+────────────────────────────────────────────────────────────
+  🟢 Performance by Green Dimension Count (全绿优先选股)
+────────────────────────────────────────────────────────────
+   7绿:  58笔 胜率  45% 平均¥    +537 (+1.37%) 合计¥   +31,123
+   6绿: 129笔 胜率  47% 平均¥    +516 (+1.28%) 合计¥   +66,556
+
+────────────────────────────────────────────────────────────
+  🏆 Top 10 Best Trades
+────────────────────────────────────────────────────────────
+   1. 300348.SZ score=106 6🟢 20240905→20241024 ¥ +32,261(+82.0%) 28d MA10追踪出场
+   2. 300348.SZ score=106 6🟢 20240912→20241024 ¥ +31,853(+80.1%) 23d MA10追踪出场
+   3. 002276.SZ score=119 7🟢 20250217→20250317 ¥ +22,002(+55.9%) 20d MA10追踪出场
+   4. 600111.SH score=106 7🟢 20250708→20250801 ¥ +13,527(+33.9%) 18d MA10追踪出场
+   5. 600111.SH score=123 7🟢 20250630→20250801 ¥ +13,516(+33.8%) 24d MA10追踪出场
+   6. 603009.SH score=102 6🟢 20230928→20231109 ¥ +11,052(+27.7%) 24d MA10追踪出场
+   7. 600216.SH score=109 6🟢 20240711→20240813 ¥  +9,594(+24.2%) 23d MA10追踪出场
+   8. 600895.SH score=92 6🟢 20250716→20250814 ¥  +8,646(+22.4%) 21d MA10追踪出场
+   9. 300222.SZ score=104 6🟢 20240910→20241016 ¥  +8,501(+21.4%) 19d MA10追踪出场
+  10. 688222.SH score=96 6🟢 20260105→20260119 ¥  +8,063(+20.5%) 10d MA10追踪出场
+
+────────────────────────────────────────────────────────────
+  💀 Top 10 Worst Trades
+────────────────────────────────────────────────────────────
+   1. 002521.SZ score=98 6🟢 20240118→20240122 ¥  -2,906( -7.3%) 2d 硬止损-9%
+   2. 301571.SZ score=106 6🟢 20250818→20250904 ¥  -2,906( -7.3%) 13d 硬止损-9%
+   3. 002093.SZ score=114 7🟢 20250826→20250902 ¥  -2,906( -7.3%) 5d 硬止损-9%
+   4. 600019.SH score=118 7🟢 20241223→20250113 ¥  -2,906( -7.3%) 14d 硬止损-9%
+   5. 603738.SH score=126 7🟢 20250818→20250903 ¥  -2,906( -7.3%) 12d 硬止损-9%
+   6. 300541.SZ score=100 7🟢 20250815→20250904 ¥  -2,907( -7.3%) 14d 硬止损-9%
+   7. 300355.SZ score=98 6🟢 20230817→20230824 ¥  -2,910( -7.3%) 5d 硬止损-9%
+   8. 300488.SZ score=118 6🟢 20240104→20240108 ¥  -2,910( -7.3%) 2d 硬止损-9%
+   9. 601528.SH score=89 6🟢 20240516→20240611 ¥  -2,910( -7.3%) 17d 硬止损-9%
+  10. 002907.SZ score=80 6🟢 20241107→20241118 ¥  -2,910( -7.3%) 7d 硬止损-9%
+
+────────────────────────────────────────────────────────────
+  📅 Monthly P&L
+────────────────────────────────────────────────────────────
+  2023-07: ¥    -1,747 |   2笔 | 胜率50%
+  2023-08: ¥   -13,838 |   6笔 | 胜率17%
+  2023-09: ¥    +5,679 |   4笔 | 胜率75%
+  2023-10: ¥    -7,917 |   4笔 | 胜率25%
+  2023-11: ¥    +9,248 |   4笔 | 胜率50%
+  2023-12: ¥    -6,082 |   7笔 | 胜率43%
+  2024-01: ¥   -22,708 |  14笔 | 胜率29%
+  2024-02: ¥    +2,454 |   2笔 | 胜率50%
+  2024-05: ¥    -3,073 |   7笔 | 胜率29%
+  2024-06: ¥   -13,310 |   6笔 | 胜率17%
+  2024-07: ¥    -3,437 |   5笔 | 胜率40%
+  2024-08: ¥    -2,697 |   6笔 | 胜率17%
+  2024-09: ¥    -4,662 |   3笔 | 胜率33%
+  2024-10: ¥  +118,030 |  13笔 | 胜率100%
+  2024-11: ¥    -5,391 |   3笔 | 胜率33%
+  2024-12: ¥    -4,656 |   3笔 | 胜率33%
+  2025-01: ¥    -2,906 |   1笔 | 胜率0%
+  2025-02: ¥       -64 |   3笔 | 胜率33%
+  2025-03: ¥   +10,151 |  10笔 | 胜率30%
+  2025-04: ¥    -2,888 |   1笔 | 胜率0%
+  2025-05: ¥    -3,739 |   4笔 | 胜率50%
+  2025-06: ¥    -4,443 |   5笔 | 胜率20%
+  2025-07: ¥    -4,877 |   7笔 | 胜率43%
+  2025-08: ¥   +54,987 |  21笔 | 胜率67%
+  2025-09: ¥   -10,823 |  25笔 | 胜率48%
+  2025-10: ¥    -6,072 |   3笔 | 胜率0%
+  2025-11: ¥    +3,953 |   3笔 | 胜率67%
+  2026-01: ¥    +7,627 |  10笔 | 胜率60%
+  2026-02: ¥   +13,710 |   4笔 | 胜率100%
+  2026-03: ¥    -2,831 |   1笔 | 胜率0%
+
+────────────────────────────────────────────────────────────
+  📏 Sample Size Assessment
+────────────────────────────────────────────────────────────
+  ✅ 187 trades — statistically significant (≥100)
+
+================================================================================
+  🎯 VERDICT
+================================================================================
+  Trades:             187
+  Win rate:           46.0%
+  Win/Loss ratio:     1.64:1
+  Expectancy/trade:   ¥522 (+1.31%)
+  Profit factor:      1.39
+
+  ✅ POSITIVE EDGE DETECTED
+     🤏 Weak edge: 46% WR × 1.6:1 R/R
+================================================================================
+
+  💾 Trades: /Users/yuting/trading/results/bt_trades_20260421_020456.csv
+  💾 Signals: /Users/yuting/trading/results/bt_signals_20260421_020456.csv
